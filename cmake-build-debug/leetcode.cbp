@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="leetcode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\benchmark-src\;CMake Files\cmake-build-debug\_deps\benchmark-src\cmake\;CMake Files\cmake-build-debug\_deps\benchmark-src\src\;CMake Files\cmake-build-debug\_deps\googletest-src\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="seat-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/seat-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 seat-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="seat-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/seat-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 seat-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addTwoNumbers-2-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/addTwoNumbers-2-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 addTwoNumbers-2-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addTwoNumbers-2-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/addTwoNumbers-2-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 addTwoNumbers-2-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="countAndSay-38-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/countAndSay-38-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 countAndSay-38-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="countAndSay-38-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/countAndSay-38-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 countAndSay-38-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="numberComplement-476-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/numberComplement-476-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 numberComplement-476-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="numberComplement-476-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/numberComplement-476-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 numberComplement-476-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="expressionAddOperators-282-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/expressionAddOperators-282-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 expressionAddOperators-282-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="expressionAddOperators-282-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/expressionAddOperators-282-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 expressionAddOperators-282-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twoSum-1-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/twoSum-1-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 twoSum-1-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twoSum-1-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/twoSum-1-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 twoSum-1-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="designAddAndSearchWordsDataStructure-211-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/designAddAndSearchWordsDataStructure-211-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 designAddAndSearchWordsDataStructure-211-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="designAddAndSearchWordsDataStructure-211-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/designAddAndSearchWordsDataStructure-211-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 designAddAndSearchWordsDataStructure-211-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kthSmallestElementInABst-230-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/kthSmallestElementInABst-230-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 kthSmallestElementInABst-230-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kthSmallestElementInABst-230-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/kthSmallestElementInABst-230-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 kthSmallestElementInABst-230-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reorderedPowerOf2-869-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/reorderedPowerOf2-869-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 reorderedPowerOf2-869-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reorderedPowerOf2-869-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/reorderedPowerOf2-869-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 reorderedPowerOf2-869-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="majorityElementIi-229-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/majorityElementIi-229-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 majorityElementIi-229-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="majorityElementIi-229-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/majorityElementIi-229-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 majorityElementIi-229-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimumMovesToEqualArrayElements-453-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/minimumMovesToEqualArrayElements-453-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 minimumMovesToEqualArrayElements-453-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimumMovesToEqualArrayElements-453-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/minimumMovesToEqualArrayElements-453-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 minimumMovesToEqualArrayElements-453-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nextGreaterElementI-496-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/nextGreaterElementI-496-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 nextGreaterElementI-496-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nextGreaterElementI-496-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/nextGreaterElementI-496-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 nextGreaterElementI-496-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plusOne-66-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/plusOne-66-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 plusOne-66-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plusOne-66-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/plusOne-66-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 plusOne-66-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nextGreaterElementIi-503-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/nextGreaterElementIi-503-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 nextGreaterElementIi-503-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nextGreaterElementIi-503-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/nextGreaterElementIi-503-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 nextGreaterElementIi-503-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="removeInvalidParentheses-301-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/removeInvalidParentheses-301-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 removeInvalidParentheses-301-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="removeInvalidParentheses-301-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/removeInvalidParentheses-301-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 removeInvalidParentheses-301-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_main">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/libbenchmark_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/../include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 benchmark_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_main/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/libbenchmark_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/../include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 benchmark_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/libbenchmark.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/../include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 benchmark"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/libbenchmark.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/include"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src"/>
+					<Add directory="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/../include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 benchmark/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/include/benchmark/benchmark.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/arraysize.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/benchmark.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/benchmark_api_internal.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/benchmark_api_internal.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/benchmark_main.cc">
+			<Option target="benchmark_main"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/benchmark_name.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/benchmark_register.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/benchmark_register.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/benchmark_runner.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/benchmark_runner.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/check.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/colorprint.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/colorprint.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/commandlineflags.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/commandlineflags.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/complexity.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/complexity.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/console_reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/counter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/counter.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/csv_reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/cycleclock.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/internal_macros.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/json_reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/log.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/mutex.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/perf_counters.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/perf_counters.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/re.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/sleep.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/sleep.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/statistics.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/statistics.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/string_util.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/string_util.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/sysinfo.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/thread_manager.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/thread_timer.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/timers.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/timers.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/addTwoNumbers-2-test.cpp">
+			<Option target="addTwoNumbers-2-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/countAndSay-38-test.cpp">
+			<Option target="countAndSay-38-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/designAddAndSearchWordsDataStructure-211-test.cpp">
+			<Option target="designAddAndSearchWordsDataStructure-211-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/expressionAddOperators-282-test.cpp">
+			<Option target="expressionAddOperators-282-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/kthSmallestElementInABst-230-test.cpp">
+			<Option target="kthSmallestElementInABst-230-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/majorityElementIi-229-test.cpp">
+			<Option target="majorityElementIi-229-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/minimumMovesToEqualArrayElements-453-test.cpp">
+			<Option target="minimumMovesToEqualArrayElements-453-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp">
+			<Option target="minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/nextGreaterElementI-496-test.cpp">
+			<Option target="nextGreaterElementI-496-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/nextGreaterElementIi-503-test.cpp">
+			<Option target="nextGreaterElementIi-503-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/numberComplement-476-test.cpp">
+			<Option target="numberComplement-476-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/plusOne-66-test.cpp">
+			<Option target="plusOne-66-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/removeInvalidParentheses-301-test.cpp">
+			<Option target="removeInvalidParentheses-301-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/reorderedPowerOf2-869-test.cpp">
+			<Option target="reorderedPowerOf2-869-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/seat-test.cpp">
+			<Option target="seat-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/twoSum-1-test.cpp">
+			<Option target="twoSum-1-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\benchmark-src\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\benchmark-src\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\benchmark-src\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\benchmark-src\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/cmake/GetGitVersion.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\benchmark-src\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/cmake/benchmark.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\benchmark-src\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/benchmark-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\benchmark-src\src\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

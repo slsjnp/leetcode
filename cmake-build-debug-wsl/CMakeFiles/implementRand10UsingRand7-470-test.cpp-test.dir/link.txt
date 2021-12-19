@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/implementRand10UsingRand7-470-test.cpp-test.dir/editor/cn/implementRand10UsingRand7-470-test.cpp.o  -o implementRand10UsingRand7-470-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

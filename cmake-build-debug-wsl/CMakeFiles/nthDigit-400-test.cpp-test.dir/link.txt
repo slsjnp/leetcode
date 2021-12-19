@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/nthDigit-400-test.cpp-test.dir/editor/cn/nthDigit-400-test.cpp.o  -o nthDigit-400-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

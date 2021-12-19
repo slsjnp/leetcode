@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/battleshipsInABoard-419-test.cpp-test.dir/editor/cn/battleshipsInABoard-419-test.cpp.o  -o battleshipsInABoard-419-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

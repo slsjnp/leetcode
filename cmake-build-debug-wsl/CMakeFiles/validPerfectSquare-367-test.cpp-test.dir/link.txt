@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/validPerfectSquare-367-test.cpp-test.dir/editor/cn/validPerfectSquare-367-test.cpp.o  -o validPerfectSquare-367-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/WGki4K004-test.cpp-test.dir/editor/cn/WGki4K004-test.cpp.o  -o WGki4K004-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

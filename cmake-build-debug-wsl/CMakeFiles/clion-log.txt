@@ -1,0 +1,63 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' /mnt/d/code/c-code/leetcode"
+-- CMAKE_CXX_COMPILER_ID: GNU
+-- 3rd-party: start fetch GoogleTest...
+-- 3rd-party: fetch GoogleTest success!
+-- 3rd-party: start fetch Google benchmark...
+-- 3rd-party: fetch Google benchmark success!
+-- found target: JFETK5002-test.cpp
+-- found target: WGki4K004-test.cpp
+-- found target: addTwoNumbers-2-test.cpp
+-- found target: battleshipsInABoard-419-test.cpp
+-- found target: biweek64-test.cpp
+-- found target: biweek65-test.cpp
+-- found target: buddyStrings-859-test.cpp
+-- found target: bullsAndCows-299-test.cpp
+-- found target: countAndSay-38-test.cpp
+-- found target: deleteNodeInALinkedList-237-test.cpp
+-- found target: designAddAndSearchWordsDataStructure-211-test.cpp
+-- found target: distributeCandies-575-test.cpp
+-- found target: expressionAddOperators-282-test.cpp
+-- found target: guessNumberHigherOrLowerIi-375-test.cpp
+-- found target: implementRand10UsingRand7-470-test.cpp
+-- found target: kthSmallestElementInABst-230-test.cpp
+-- found target: longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp
+-- found target: majorityElementIi-229-test.cpp
+-- found target: maximizeSumOfArrayAfterKNegations-1005-test.cpp
+-- found target: maximumProductOfWordLengths-318-test.cpp
+-- found target: minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp
+-- found target: minimumMovesToEqualArrayElements-453-test.cpp
+-- found target: minimumOperationsToMakeAUniValueGrid-2033-test.cpp
+-- found target: minimumSizeSubarraySum-209-test.cpp
+-- found target: missingNumber-268-test.cpp
+-- found target: nextGreaterElementI-496-test.cpp
+-- found target: nextGreaterElementIi-503-test.cpp
+-- found target: nthDigit-400-test.cpp
+-- found target: numberComplement-476-test.cpp
+-- found target: plusOne-66-test.cpp
+-- found target: rangeAdditionIi-598-test.cpp
+-- found target: reconstructOriginalDigitsFromEnglish-423-test.cpp
+-- found target: removeInvalidParentheses-301-test.cpp
+-- found target: reorderedPowerOf2-869-test.cpp
+-- found target: seat-test.cpp
+-- found target: selfCrossing-335-test.cpp
+-- found target: shoppingOffers-638-test.cpp
+-- found target: singleNumberIii-260-test.cpp
+-- found target: sortAnArray-912-test.cpp
+-- found target: substringWithConcatenationOfAllWords-30-test.cpp
+-- found target: theTimeWhenTheNetworkBecomesIdle-2039-test.cpp
+-- found target: trappingRainWaterIi-407-test.cpp
+-- found target: twoBestNonOverlappingEvents-5899-test.cpp
+-- found target: twoSum-1-test.cpp
+-- found target: validPerfectSquare-367-test.cpp
+-- found target: week262-test.cpp
+-- found target: week266-test.cpp
+-- found target: week268-test.cpp
+-- found target: week269-test.cpp
+-- found target: week270-test.cpp
+-- found target: week65-test.cpp
+-- found target: xoh6Oh-001-test.cpp
+-- found target: xoh6OhOffer001-test.cpp
+-- found target: zumaGame-488-test.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl

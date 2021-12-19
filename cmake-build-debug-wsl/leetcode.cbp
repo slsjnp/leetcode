@@ -1,0 +1,2756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="leetcode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\editor\;CMake Files\editor\cn\;CMake Files\editor\cn\build-in\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zumaGame-488-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/zumaGame-488-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 zumaGame-488-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zumaGame-488-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/zumaGame-488-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 zumaGame-488-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week65-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week65-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week65-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week65-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week65-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week65-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week270-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week270-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week270-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week270-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week270-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week270-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week269-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week269-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week269-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week269-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week269-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week269-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week262-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week262-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week262-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week262-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week262-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week262-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="validPerfectSquare-367-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/validPerfectSquare-367-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 validPerfectSquare-367-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="validPerfectSquare-367-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/validPerfectSquare-367-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 validPerfectSquare-367-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twoBestNonOverlappingEvents-5899-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/twoBestNonOverlappingEvents-5899-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 twoBestNonOverlappingEvents-5899-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twoBestNonOverlappingEvents-5899-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/twoBestNonOverlappingEvents-5899-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 twoBestNonOverlappingEvents-5899-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="substringWithConcatenationOfAllWords-30-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/substringWithConcatenationOfAllWords-30-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 substringWithConcatenationOfAllWords-30-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="substringWithConcatenationOfAllWords-30-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/substringWithConcatenationOfAllWords-30-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 substringWithConcatenationOfAllWords-30-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="seat-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/seat-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 seat-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="seat-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/seat-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 seat-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="removeInvalidParentheses-301-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/removeInvalidParentheses-301-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 removeInvalidParentheses-301-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="removeInvalidParentheses-301-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/removeInvalidParentheses-301-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 removeInvalidParentheses-301-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reconstructOriginalDigitsFromEnglish-423-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/reconstructOriginalDigitsFromEnglish-423-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 reconstructOriginalDigitsFromEnglish-423-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reconstructOriginalDigitsFromEnglish-423-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/reconstructOriginalDigitsFromEnglish-423-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 reconstructOriginalDigitsFromEnglish-423-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="expressionAddOperators-282-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/expressionAddOperators-282-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 expressionAddOperators-282-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="expressionAddOperators-282-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/expressionAddOperators-282-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 expressionAddOperators-282-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plusOne-66-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/plusOne-66-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 plusOne-66-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plusOne-66-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/plusOne-66-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 plusOne-66-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimumSizeSubarraySum-209-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/minimumSizeSubarraySum-209-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 minimumSizeSubarraySum-209-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimumSizeSubarraySum-209-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/minimumSizeSubarraySum-209-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 minimumSizeSubarraySum-209-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="designAddAndSearchWordsDataStructure-211-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/designAddAndSearchWordsDataStructure-211-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 designAddAndSearchWordsDataStructure-211-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="designAddAndSearchWordsDataStructure-211-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/designAddAndSearchWordsDataStructure-211-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 designAddAndSearchWordsDataStructure-211-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xoh6OhOffer001-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/xoh6OhOffer001-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 xoh6OhOffer001-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xoh6OhOffer001-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/xoh6OhOffer001-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 xoh6OhOffer001-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week268-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week268-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week268-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week268-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week268-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week268-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kthSmallestElementInABst-230-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/kthSmallestElementInABst-230-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 kthSmallestElementInABst-230-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kthSmallestElementInABst-230-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/kthSmallestElementInABst-230-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 kthSmallestElementInABst-230-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="deleteNodeInALinkedList-237-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/deleteNodeInALinkedList-237-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 deleteNodeInALinkedList-237-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="deleteNodeInALinkedList-237-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/deleteNodeInALinkedList-237-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 deleteNodeInALinkedList-237-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trappingRainWaterIi-407-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/trappingRainWaterIi-407-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 trappingRainWaterIi-407-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trappingRainWaterIi-407-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/trappingRainWaterIi-407-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 trappingRainWaterIi-407-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="countAndSay-38-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/countAndSay-38-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 countAndSay-38-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="countAndSay-38-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/countAndSay-38-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 countAndSay-38-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xoh6Oh-001-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/xoh6Oh-001-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 xoh6Oh-001-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xoh6Oh-001-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/xoh6Oh-001-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 xoh6Oh-001-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="distributeCandies-575-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/distributeCandies-575-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 distributeCandies-575-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="distributeCandies-575-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/distributeCandies-575-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 distributeCandies-575-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buddyStrings-859-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/buddyStrings-859-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 buddyStrings-859-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buddyStrings-859-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/buddyStrings-859-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 buddyStrings-859-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="biweek65-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/biweek65-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 biweek65-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="biweek65-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/biweek65-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 biweek65-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battleshipsInABoard-419-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/battleshipsInABoard-419-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 battleshipsInABoard-419-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battleshipsInABoard-419-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/battleshipsInABoard-419-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 battleshipsInABoard-419-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WGki4K004-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/WGki4K004-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 WGki4K004-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WGki4K004-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/WGki4K004-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 WGki4K004-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nextGreaterElementIi-503-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/nextGreaterElementIi-503-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 nextGreaterElementIi-503-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nextGreaterElementIi-503-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/nextGreaterElementIi-503-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 nextGreaterElementIi-503-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addTwoNumbers-2-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/addTwoNumbers-2-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 addTwoNumbers-2-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addTwoNumbers-2-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/addTwoNumbers-2-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 addTwoNumbers-2-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sortAnArray-912-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/sortAnArray-912-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 sortAnArray-912-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sortAnArray-912-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/sortAnArray-912-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 sortAnArray-912-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="biweek64-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/biweek64-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 biweek64-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="biweek64-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/biweek64-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 biweek64-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maximizeSumOfArrayAfterKNegations-1005-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/maximizeSumOfArrayAfterKNegations-1005-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 maximizeSumOfArrayAfterKNegations-1005-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maximizeSumOfArrayAfterKNegations-1005-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/maximizeSumOfArrayAfterKNegations-1005-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 maximizeSumOfArrayAfterKNegations-1005-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twoSum-1-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/twoSum-1-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 twoSum-1-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twoSum-1-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/twoSum-1-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 twoSum-1-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="missingNumber-268-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/missingNumber-268-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 missingNumber-268-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="missingNumber-268-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/missingNumber-268-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 missingNumber-268-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bullsAndCows-299-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/bullsAndCows-299-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 bullsAndCows-299-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bullsAndCows-299-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/bullsAndCows-299-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 bullsAndCows-299-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JFETK5002-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/JFETK5002-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 JFETK5002-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JFETK5002-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/JFETK5002-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 JFETK5002-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nextGreaterElementI-496-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/nextGreaterElementI-496-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 nextGreaterElementI-496-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nextGreaterElementI-496-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/nextGreaterElementI-496-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 nextGreaterElementI-496-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimumMovesToEqualArrayElements-453-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/minimumMovesToEqualArrayElements-453-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 minimumMovesToEqualArrayElements-453-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimumMovesToEqualArrayElements-453-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/minimumMovesToEqualArrayElements-453-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 minimumMovesToEqualArrayElements-453-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="guessNumberHigherOrLowerIi-375-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/guessNumberHigherOrLowerIi-375-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 guessNumberHigherOrLowerIi-375-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="guessNumberHigherOrLowerIi-375-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/guessNumberHigherOrLowerIi-375-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 guessNumberHigherOrLowerIi-375-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="implementRand10UsingRand7-470-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/implementRand10UsingRand7-470-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 implementRand10UsingRand7-470-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="implementRand10UsingRand7-470-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/implementRand10UsingRand7-470-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 implementRand10UsingRand7-470-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maximumProductOfWordLengths-318-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/maximumProductOfWordLengths-318-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 maximumProductOfWordLengths-318-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maximumProductOfWordLengths-318-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/maximumProductOfWordLengths-318-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 maximumProductOfWordLengths-318-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="majorityElementIi-229-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/majorityElementIi-229-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 majorityElementIi-229-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="majorityElementIi-229-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/majorityElementIi-229-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 majorityElementIi-229-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shoppingOffers-638-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/shoppingOffers-638-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 shoppingOffers-638-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shoppingOffers-638-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/shoppingOffers-638-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 shoppingOffers-638-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selfCrossing-335-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/selfCrossing-335-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 selfCrossing-335-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selfCrossing-335-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/selfCrossing-335-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 selfCrossing-335-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reorderedPowerOf2-869-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/reorderedPowerOf2-869-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 reorderedPowerOf2-869-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reorderedPowerOf2-869-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/reorderedPowerOf2-869-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 reorderedPowerOf2-869-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="singleNumberIii-260-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/singleNumberIii-260-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 singleNumberIii-260-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="singleNumberIii-260-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/singleNumberIii-260-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 singleNumberIii-260-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rangeAdditionIi-598-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/rangeAdditionIi-598-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 rangeAdditionIi-598-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rangeAdditionIi-598-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/rangeAdditionIi-598-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 rangeAdditionIi-598-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nthDigit-400-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/nthDigit-400-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 nthDigit-400-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nthDigit-400-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/nthDigit-400-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 nthDigit-400-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week266-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week266-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week266-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week266-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/week266-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 week266-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="numberComplement-476-test.cpp-test">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/numberComplement-476-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 numberComplement-476-test.cpp-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="numberComplement-476-test.cpp-test/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/numberComplement-476-test.cpp-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 numberComplement-476-test.cpp-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="built-in">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/libbuilt-in.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/Makefile&quot;  VERBOSE=1 built-in"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="built-in/fast">
+				<Option output="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/libbuilt-in.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/code/c-code/leetcode/editor/cn/build-in"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/Makefile&quot;  VERBOSE=1 built-in/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/JFETK5002-test.cpp">
+			<Option target="JFETK5002-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/WGki4K004-test.cpp">
+			<Option target="WGki4K004-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/addTwoNumbers-2-test.cpp">
+			<Option target="addTwoNumbers-2-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/battleshipsInABoard-419-test.cpp">
+			<Option target="battleshipsInABoard-419-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/biweek64-test.cpp">
+			<Option target="biweek64-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/biweek65-test.cpp">
+			<Option target="biweek65-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/buddyStrings-859-test.cpp">
+			<Option target="buddyStrings-859-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/build-in/ListNode.cpp">
+			<Option target="built-in"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/build-in/ListNode.h">
+			<Option target="built-in"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/bullsAndCows-299-test.cpp">
+			<Option target="bullsAndCows-299-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/countAndSay-38-test.cpp">
+			<Option target="countAndSay-38-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/deleteNodeInALinkedList-237-test.cpp">
+			<Option target="deleteNodeInALinkedList-237-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/designAddAndSearchWordsDataStructure-211-test.cpp">
+			<Option target="designAddAndSearchWordsDataStructure-211-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/distributeCandies-575-test.cpp">
+			<Option target="distributeCandies-575-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/expressionAddOperators-282-test.cpp">
+			<Option target="expressionAddOperators-282-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/guessNumberHigherOrLowerIi-375-test.cpp">
+			<Option target="guessNumberHigherOrLowerIi-375-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/implementRand10UsingRand7-470-test.cpp">
+			<Option target="implementRand10UsingRand7-470-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/kthSmallestElementInABst-230-test.cpp">
+			<Option target="kthSmallestElementInABst-230-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp">
+			<Option target="longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/majorityElementIi-229-test.cpp">
+			<Option target="majorityElementIi-229-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/maximizeSumOfArrayAfterKNegations-1005-test.cpp">
+			<Option target="maximizeSumOfArrayAfterKNegations-1005-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/maximumProductOfWordLengths-318-test.cpp">
+			<Option target="maximumProductOfWordLengths-318-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp">
+			<Option target="minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/minimumMovesToEqualArrayElements-453-test.cpp">
+			<Option target="minimumMovesToEqualArrayElements-453-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp">
+			<Option target="minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/minimumSizeSubarraySum-209-test.cpp">
+			<Option target="minimumSizeSubarraySum-209-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/missingNumber-268-test.cpp">
+			<Option target="missingNumber-268-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/nextGreaterElementI-496-test.cpp">
+			<Option target="nextGreaterElementI-496-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/nextGreaterElementIi-503-test.cpp">
+			<Option target="nextGreaterElementIi-503-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/nthDigit-400-test.cpp">
+			<Option target="nthDigit-400-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/numberComplement-476-test.cpp">
+			<Option target="numberComplement-476-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/plusOne-66-test.cpp">
+			<Option target="plusOne-66-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/rangeAdditionIi-598-test.cpp">
+			<Option target="rangeAdditionIi-598-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/reconstructOriginalDigitsFromEnglish-423-test.cpp">
+			<Option target="reconstructOriginalDigitsFromEnglish-423-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/removeInvalidParentheses-301-test.cpp">
+			<Option target="removeInvalidParentheses-301-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/reorderedPowerOf2-869-test.cpp">
+			<Option target="reorderedPowerOf2-869-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/seat-test.cpp">
+			<Option target="seat-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/selfCrossing-335-test.cpp">
+			<Option target="selfCrossing-335-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/shoppingOffers-638-test.cpp">
+			<Option target="shoppingOffers-638-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/singleNumberIii-260-test.cpp">
+			<Option target="singleNumberIii-260-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/sortAnArray-912-test.cpp">
+			<Option target="sortAnArray-912-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/substringWithConcatenationOfAllWords-30-test.cpp">
+			<Option target="substringWithConcatenationOfAllWords-30-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp">
+			<Option target="theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/trappingRainWaterIi-407-test.cpp">
+			<Option target="trappingRainWaterIi-407-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/twoBestNonOverlappingEvents-5899-test.cpp">
+			<Option target="twoBestNonOverlappingEvents-5899-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/twoSum-1-test.cpp">
+			<Option target="twoSum-1-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/validPerfectSquare-367-test.cpp">
+			<Option target="validPerfectSquare-367-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/week262-test.cpp">
+			<Option target="week262-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/week266-test.cpp">
+			<Option target="week266-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/week268-test.cpp">
+			<Option target="week268-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/week269-test.cpp">
+			<Option target="week269-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/week270-test.cpp">
+			<Option target="week270-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/week65-test.cpp">
+			<Option target="week65-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/xoh6Oh-001-test.cpp">
+			<Option target="xoh6Oh-001-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/xoh6OhOffer001-test.cpp">
+			<Option target="xoh6OhOffer001-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/zumaGame-488-test.cpp">
+			<Option target="zumaGame-488-test.cpp-test"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/code/c-code/leetcode/editor/cn/build-in/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\editor\cn\build-in\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

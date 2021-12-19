@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/maximizeSumOfArrayAfterKNegations-1005-test.cpp-test.dir/editor/cn/maximizeSumOfArrayAfterKNegations-1005-test.cpp.o  -o maximizeSumOfArrayAfterKNegations-1005-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

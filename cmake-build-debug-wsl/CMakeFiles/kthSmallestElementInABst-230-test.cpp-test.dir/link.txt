@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.o  -o kthSmallestElementInABst-230-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 
