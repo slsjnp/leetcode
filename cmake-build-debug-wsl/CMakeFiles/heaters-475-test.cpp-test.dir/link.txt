@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/heaters-475-test.cpp-test.dir/editor/cn/heaters-475-test.cpp.o  -o heaters-475-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

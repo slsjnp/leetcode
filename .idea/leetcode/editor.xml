@@ -84,6 +84,24 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/crackingTheSafe-753-test.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/crackingTheSafe-753-test.md" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/crackingTheSafe-753-test.cpp" />
+              <option name="questionId" value="754" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/dayOfTheYear-1154-test.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/dayOfTheYear-1154-test.md" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/dayOfTheYear-1154-test.cpp" />
+              <option name="questionId" value="1260" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/deleteNodeInALinkedList-237-test.cpp">
           <value>
             <LeetcodeEditor>
@@ -120,6 +138,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/findTheTownJudge-997-test.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/findTheTownJudge-997-test.md" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/findTheTownJudge-997-test.cpp" />
+              <option name="questionId" value="1039" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/generateRandomPointInACircle-478-test.cpp">
           <value>
             <LeetcodeEditor>
@@ -135,6 +162,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/guessNumberHigherOrLowerIi-375-test.md" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/guessNumberHigherOrLowerIi-375-test.cpp" />
               <option name="questionId" value="375" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/heaters-475-test.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/heaters-475-test.md" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/heaters-475-test.cpp" />
+              <option name="questionId" value="475" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -180,6 +216,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/longestCommonPrefix14-test.md" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/longestCommonPrefix14-test.cpp" />
               <option name="questionId" value="14" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/longestIncreasingSubsequence-300-test.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/longestIncreasingSubsequence-300-test.md" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/longestIncreasingSubsequence-300-test.cpp" />
+              <option name="questionId" value="300" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -243,6 +288,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/minimumOperationsToMakeAUniValueGrid-2033-test.md" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp" />
               <option name="questionId" value="2160" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/minimumOperationsToMakeTheArrayKIncreasing-5959-test.md" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp" />
+              <option name="questionId" value="2234" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -345,6 +399,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/reconstructItinerary-332-test.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/reconstructItinerary-332-test.md" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/reconstructItinerary-332-test.cpp" />
+              <option name="questionId" value="332" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/reconstructOriginalDigitsFromEnglish-423-test.cpp">
           <value>
             <LeetcodeEditor>
@@ -369,6 +432,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/reorderedPowerOf2-869-test.md" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/reorderedPowerOf2-869-test.cpp" />
               <option name="questionId" value="900" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/repeatedStringMatch-686-test.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/repeatedStringMatch-686-test.md" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/repeatedStringMatch-686-test.cpp" />
+              <option name="questionId" value="686" />
             </LeetcodeEditor>
           </value>
         </entry>
