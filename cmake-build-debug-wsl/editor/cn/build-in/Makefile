@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/code/c-code/leetcode
+CMAKE_SOURCE_DIR = /mnt/d/code/leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl
+CMAKE_BINARY_DIR = /mnt/d/code/leetcode/cmake-build-debug-wsl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/CMakeFiles/progress.marks
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(MAKE) -f CMakeFiles/Makefile2 editor/cn/build-in/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles 0
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles /mnt/d/code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/CMakeFiles/progress.marks
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(MAKE) -f CMakeFiles/Makefile2 editor/cn/build-in/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(MAKE) -f CMakeFiles/Makefile2 editor/cn/build-in/clean
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(MAKE) -f CMakeFiles/Makefile2 editor/cn/build-in/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(MAKE) -f CMakeFiles/Makefile2 editor/cn/build-in/preinstall
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(MAKE) -f CMakeFiles/Makefile2 editor/cn/build-in/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(MAKE) -f CMakeFiles/Makefile2 editor/cn/build-in/preinstall
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(MAKE) -f CMakeFiles/Makefile2 editor/cn/build-in/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 editor/cn/build-in/CMakeFiles/built-in.dir/rule:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(MAKE) -f CMakeFiles/Makefile2 editor/cn/build-in/CMakeFiles/built-in.dir/rule
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(MAKE) -f CMakeFiles/Makefile2 editor/cn/build-in/CMakeFiles/built-in.dir/rule
 .PHONY : editor/cn/build-in/CMakeFiles/built-in.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ built-in: editor/cn/build-in/CMakeFiles/built-in.dir/rule
 
 # fast build rule for target.
 built-in/fast:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(MAKE) -f editor/cn/build-in/CMakeFiles/built-in.dir/build.make editor/cn/build-in/CMakeFiles/built-in.dir/build
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(MAKE) -f editor/cn/build-in/CMakeFiles/built-in.dir/build.make editor/cn/build-in/CMakeFiles/built-in.dir/build
 .PHONY : built-in/fast
 
 ListNode.o: ListNode.cpp.o
@@ -142,7 +142,7 @@ ListNode.o: ListNode.cpp.o
 
 # target to build an object file
 ListNode.cpp.o:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(MAKE) -f editor/cn/build-in/CMakeFiles/built-in.dir/build.make editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.o
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(MAKE) -f editor/cn/build-in/CMakeFiles/built-in.dir/build.make editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.o
 .PHONY : ListNode.cpp.o
 
 ListNode.i: ListNode.cpp.i
@@ -151,7 +151,7 @@ ListNode.i: ListNode.cpp.i
 
 # target to preprocess a source file
 ListNode.cpp.i:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(MAKE) -f editor/cn/build-in/CMakeFiles/built-in.dir/build.make editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.i
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(MAKE) -f editor/cn/build-in/CMakeFiles/built-in.dir/build.make editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.i
 .PHONY : ListNode.cpp.i
 
 ListNode.s: ListNode.cpp.s
@@ -160,7 +160,7 @@ ListNode.s: ListNode.cpp.s
 
 # target to generate assembly for a file
 ListNode.cpp.s:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(MAKE) -f editor/cn/build-in/CMakeFiles/built-in.dir/build.make editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.s
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(MAKE) -f editor/cn/build-in/CMakeFiles/built-in.dir/build.make editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.s
 .PHONY : ListNode.cpp.s
 
 # Help Target
@@ -187,6 +187,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

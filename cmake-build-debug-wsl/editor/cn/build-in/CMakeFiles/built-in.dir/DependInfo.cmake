@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/d/code/c-code/leetcode/editor/cn/build-in/ListNode.cpp" "/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.o"
+  "/mnt/d/code/leetcode/editor/cn/build-in/ListNode.cpp" "/mnt/d/code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

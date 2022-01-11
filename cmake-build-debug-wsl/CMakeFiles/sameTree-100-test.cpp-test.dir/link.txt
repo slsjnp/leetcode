@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/sameTree-100-test.cpp-test.dir/editor/cn/sameTree-100-test.cpp.o  -o sameTree-100-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

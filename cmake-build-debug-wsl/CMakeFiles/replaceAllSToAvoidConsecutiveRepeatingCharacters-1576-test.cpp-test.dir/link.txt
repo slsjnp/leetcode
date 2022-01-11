@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test.dir/editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.o  -o replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

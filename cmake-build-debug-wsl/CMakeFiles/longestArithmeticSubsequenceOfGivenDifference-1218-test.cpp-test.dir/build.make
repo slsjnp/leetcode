@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/code/c-code/leetcode
+CMAKE_SOURCE_DIR = /mnt/d/code/leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl
+CMAKE_BINARY_DIR = /mnt/d/code/leetcode/cmake-build-debug-wsl
 
 # Include any dependencies generated for this target.
 include CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-t
 
 CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.o: CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/flags.make
 CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.o: ../editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.o -c /mnt/d/code/c-code/leetcode/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp
 
 CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/c-code/leetcode/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp > CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp > CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.i
 
 CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/c-code/leetcode/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp -o CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp -o CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/editor/cn/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp.s
 
 # Object files for target longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test
 longestArithmeticSubsequenceOfGivenDifference__1218__test_cpp__test_OBJECTS = \
@@ -81,7 +81,7 @@ longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test: CMakeFiles/lon
 longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test: CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/build.make
 longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test: editor/cn/build-in/libbuilt-in.a
 longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test: CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/
 .PHONY : CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/clean
 
 CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/depend:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/code/c-code/leetcode /mnt/d/code/c-code/leetcode /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/code/leetcode /mnt/d/code/leetcode /mnt/d/code/leetcode/cmake-build-debug-wsl /mnt/d/code/leetcode/cmake-build-debug-wsl /mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/depend
 

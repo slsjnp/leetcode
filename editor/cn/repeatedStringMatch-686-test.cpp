@@ -7,6 +7,31 @@ using namespace std;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 public:
+    // int repeatedStringMatch(int* a, int n) {
+    //     int low = 0;
+    //     int high = n - 1;
+    //     int tmp = a[0];
+    //     int sum = 0;
+    //     while(low < high){
+    //         while (low < high && a[high] < 0) {
+    //             high--;
+    //             sum++;
+    //         }
+    //         a[low] = a[high];
+    //         low++;
+    //         while (low < high && a[low] >= 0) {
+    //             low++;
+    //             sum++;
+    //         }
+    //         a[high] = a[low];
+    //         high--;
+    //     }
+    //     a[low] = tmp;
+    //     // for (int i = 0; i < n; ++i) {
+    //         printf("%d \n", sum);
+    //     // }
+    //     return 0;
+    // }
     int repeatedStringMatch(string a, string b) {
         int a_size = a.size();
         int b_size = b.size();
@@ -19,56 +44,36 @@ public:
             times = 0;
             l = 0;
             r = i;
+            vector<int> vis(a_size, 0);
             while (l < b_size and flag != 0) {
                 if (a[r] != b[l]) {
                     flag = 0;
                 }
-
                 l++;
-                if (r % a_size == i % a_size) times++;
+                vis[(r + l) % a_size]++;
+                // if (r % a_size == i % a_size) times++;
                 r = (r + 1) % a_size;
 
             }
             if (flag) {
-                break;
-            }
-        }
-        if (flag != 0) {
-            if (a_size > b_size) {
-                for (int i = 0; i < a_size; ++i) {
-                    flag = 1;
-                    times = 0;
-                    l = 0;
-                    r = i;
-                    while (l < b_size and flag != 0) {
-                        if (a[r] != b[l]) {
-                            flag = 0;
-                        }
-
-                        l++;
-                        r = (r + 1) % a_size;
-
+                int max_ = vis[0];
+                int min_ = vis[0];
+                for (auto it: vis) {
+                    if (it > max_){
+                        max_ = it;
                     }
-                    if (flag) {
-                        break;
+                    if (it < min_){
+                        min_ = it;
                     }
                 }
-                if (flag) {
-                    return 1;
-                } else return 2;
+                if (a[0] != b[0]){
+                    if (max_ == min_) return max_ + 1;
+                    if (max_ != min_) return max_;
+                }
+                else {
+                    return max_;
+                }
             }
-            // if (a[0] != b[0] or a_size > b_size){
-            //     return times+1;
-            // }
-
-            //     return 1 + ceil(b_size / (float ) a_size);
-            // }
-            // return ceil(b_size / (float ) a_size);
-            if (ceil(b_size / (float) a_size) > 1) {
-                return times + 1;
-            }
-        } else {
-            return -1;
         }
     }
 };
@@ -77,9 +82,10 @@ public:
 
 namespace {
     TEST(RepeatedStringMatch, Example1) {      // NOLINT
-        std::vector<int> nums = {};
-        auto ans = Solution().repeatedStringMatch(nums);
-        decltype(ans) rightAns =;
+        // std::vector<int> nums = {};
+        int a[10] = {-1,-2,-6,5,3,6,-4,-2,-3,9};
+        auto ans = Solution().repeatedStringMatch(a, 10);
+        decltype(ans) rightAns = 0;
         ASSERT_EQ(ans, rightAns);
     }
 

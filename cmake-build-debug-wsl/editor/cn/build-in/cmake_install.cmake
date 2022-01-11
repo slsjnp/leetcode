@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/code/c-code/leetcode/editor/cn/build-in
+# Install script for directory: /mnt/d/code/leetcode/editor/cn/build-in
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

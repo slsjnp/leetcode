@@ -48,13 +48,24 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/code/c-code/leetcode
+CMAKE_SOURCE_DIR = /mnt/d/code/leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl
+CMAKE_BINARY_DIR = /mnt/d/code/leetcode/cmake-build-debug-wsl
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target test
 test:
@@ -78,22 +89,11 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles /mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -135,43 +135,160 @@ zumaGame-488-test.cpp-test/fast:
 .PHONY : zumaGame-488-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named heaters-475-test.cpp-test
+# Target rules for targets named week65-test.cpp-test
 
 # Build rule for target.
-heaters-475-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 heaters-475-test.cpp-test
-.PHONY : heaters-475-test.cpp-test
+week65-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week65-test.cpp-test
+.PHONY : week65-test.cpp-test
 
 # fast build rule for target.
-heaters-475-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/heaters-475-test.cpp-test.dir/build.make CMakeFiles/heaters-475-test.cpp-test.dir/build
-.PHONY : heaters-475-test.cpp-test/fast
+week65-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week65-test.cpp-test.dir/build.make CMakeFiles/week65-test.cpp-test.dir/build
+.PHONY : week65-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named reorderedPowerOf2-869-test.cpp-test
+# Target rules for targets named week274-test.cpp-test
 
 # Build rule for target.
-reorderedPowerOf2-869-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 reorderedPowerOf2-869-test.cpp-test
-.PHONY : reorderedPowerOf2-869-test.cpp-test
+week274-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week274-test.cpp-test
+.PHONY : week274-test.cpp-test
 
 # fast build rule for target.
-reorderedPowerOf2-869-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/reorderedPowerOf2-869-test.cpp-test.dir/build.make CMakeFiles/reorderedPowerOf2-869-test.cpp-test.dir/build
-.PHONY : reorderedPowerOf2-869-test.cpp-test/fast
+week274-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week274-test.cpp-test.dir/build.make CMakeFiles/week274-test.cpp-test.dir/build
+.PHONY : week274-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named selfCrossing-335-test.cpp-test
+# Target rules for targets named week273-test.cpp-test
 
 # Build rule for target.
-selfCrossing-335-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 selfCrossing-335-test.cpp-test
-.PHONY : selfCrossing-335-test.cpp-test
+week273-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week273-test.cpp-test
+.PHONY : week273-test.cpp-test
 
 # fast build rule for target.
-selfCrossing-335-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/selfCrossing-335-test.cpp-test.dir/build.make CMakeFiles/selfCrossing-335-test.cpp-test.dir/build
-.PHONY : selfCrossing-335-test.cpp-test/fast
+week273-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week273-test.cpp-test.dir/build.make CMakeFiles/week273-test.cpp-test.dir/build
+.PHONY : week273-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named week272-test.cpp-test
+
+# Build rule for target.
+week272-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week272-test.cpp-test
+.PHONY : week272-test.cpp-test
+
+# fast build rule for target.
+week272-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week272-test.cpp-test.dir/build.make CMakeFiles/week272-test.cpp-test.dir/build
+.PHONY : week272-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named week271-test.cpp-test
+
+# Build rule for target.
+week271-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week271-test.cpp-test
+.PHONY : week271-test.cpp-test
+
+# fast build rule for target.
+week271-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week271-test.cpp-test.dir/build.make CMakeFiles/week271-test.cpp-test.dir/build
+.PHONY : week271-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named week269-test.cpp-test
+
+# Build rule for target.
+week269-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week269-test.cpp-test
+.PHONY : week269-test.cpp-test
+
+# fast build rule for target.
+week269-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week269-test.cpp-test.dir/build.make CMakeFiles/week269-test.cpp-test.dir/build
+.PHONY : week269-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named week266-test.cpp-test
+
+# Build rule for target.
+week266-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week266-test.cpp-test
+.PHONY : week266-test.cpp-test
+
+# fast build rule for target.
+week266-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week266-test.cpp-test.dir/build.make CMakeFiles/week266-test.cpp-test.dir/build
+.PHONY : week266-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named twoSum-1-test.cpp-test
+
+# Build rule for target.
+twoSum-1-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twoSum-1-test.cpp-test
+.PHONY : twoSum-1-test.cpp-test
+
+# fast build rule for target.
+twoSum-1-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/twoSum-1-test.cpp-test.dir/build.make CMakeFiles/twoSum-1-test.cpp-test.dir/build
+.PHONY : twoSum-1-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named trappingRainWaterIi-407-test.cpp-test
+
+# Build rule for target.
+trappingRainWaterIi-407-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trappingRainWaterIi-407-test.cpp-test
+.PHONY : trappingRainWaterIi-407-test.cpp-test
+
+# fast build rule for target.
+trappingRainWaterIi-407-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/trappingRainWaterIi-407-test.cpp-test.dir/build.make CMakeFiles/trappingRainWaterIi-407-test.cpp-test.dir/build
+.PHONY : trappingRainWaterIi-407-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named threeSumSmaller-259-test.cpp-test
+
+# Build rule for target.
+threeSumSmaller-259-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 threeSumSmaller-259-test.cpp-test
+.PHONY : threeSumSmaller-259-test.cpp-test
+
+# fast build rule for target.
+threeSumSmaller-259-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/threeSumSmaller-259-test.cpp-test.dir/build.make CMakeFiles/threeSumSmaller-259-test.cpp-test.dir/build
+.PHONY : threeSumSmaller-259-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test
+
+# Build rule for target.
+theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test
+.PHONY : theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test
+
+# fast build rule for target.
+theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test.dir/build.make CMakeFiles/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test.dir/build
+.PHONY : theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named simplifyPath-71-test.cpp-test
+
+# Build rule for target.
+simplifyPath-71-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simplifyPath-71-test.cpp-test
+.PHONY : simplifyPath-71-test.cpp-test
+
+# fast build rule for target.
+simplifyPath-71-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/simplifyPath-71-test.cpp-test.dir/build.make CMakeFiles/simplifyPath-71-test.cpp-test.dir/build
+.PHONY : simplifyPath-71-test.cpp-test/fast
 
 #=============================================================================
 # Target rules for targets named shoppingOffers-638-test.cpp-test
@@ -187,95 +304,134 @@ shoppingOffers-638-test.cpp-test/fast:
 .PHONY : shoppingOffers-638-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named longestIncreasingSubsequence-300-test.cpp-test
+# Target rules for targets named seat-test.cpp-test
 
 # Build rule for target.
-longestIncreasingSubsequence-300-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 longestIncreasingSubsequence-300-test.cpp-test
-.PHONY : longestIncreasingSubsequence-300-test.cpp-test
+seat-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 seat-test.cpp-test
+.PHONY : seat-test.cpp-test
 
 # fast build rule for target.
-longestIncreasingSubsequence-300-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/longestIncreasingSubsequence-300-test.cpp-test.dir/build.make CMakeFiles/longestIncreasingSubsequence-300-test.cpp-test.dir/build
-.PHONY : longestIncreasingSubsequence-300-test.cpp-test/fast
+seat-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/seat-test.cpp-test.dir/build.make CMakeFiles/seat-test.cpp-test.dir/build
+.PHONY : seat-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test
+# Target rules for targets named week267-test.cpp-test
 
 # Build rule for target.
-longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test
-.PHONY : longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test
+week267-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week267-test.cpp-test
+.PHONY : week267-test.cpp-test
 
 # fast build rule for target.
-longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/build.make CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/build
-.PHONY : longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test/fast
+week267-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week267-test.cpp-test.dir/build.make CMakeFiles/week267-test.cpp-test.dir/build
+.PHONY : week267-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test
+# Target rules for targets named searchInsertPosition-35-test.cpp-test
 
 # Build rule for target.
-minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test
-.PHONY : minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test
+searchInsertPosition-35-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 searchInsertPosition-35-test.cpp-test
+.PHONY : searchInsertPosition-35-test.cpp-test
 
 # fast build rule for target.
-minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test.dir/build.make CMakeFiles/minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test.dir/build
-.PHONY : minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test/fast
+searchInsertPosition-35-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/searchInsertPosition-35-test.cpp-test.dir/build.make CMakeFiles/searchInsertPosition-35-test.cpp-test.dir/build
+.PHONY : searchInsertPosition-35-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named maximumProductOfWordLengths-318-test.cpp-test
+# Target rules for targets named xoh6Oh-001-test.cpp-test
 
 # Build rule for target.
-maximumProductOfWordLengths-318-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 maximumProductOfWordLengths-318-test.cpp-test
-.PHONY : maximumProductOfWordLengths-318-test.cpp-test
+xoh6Oh-001-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xoh6Oh-001-test.cpp-test
+.PHONY : xoh6Oh-001-test.cpp-test
 
 # fast build rule for target.
-maximumProductOfWordLengths-318-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/maximumProductOfWordLengths-318-test.cpp-test.dir/build.make CMakeFiles/maximumProductOfWordLengths-318-test.cpp-test.dir/build
-.PHONY : maximumProductOfWordLengths-318-test.cpp-test/fast
+xoh6Oh-001-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/xoh6Oh-001-test.cpp-test.dir/build.make CMakeFiles/xoh6Oh-001-test.cpp-test.dir/build
+.PHONY : xoh6Oh-001-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named implementRand10UsingRand7-470-test.cpp-test
+# Target rules for targets named searchInRotatedSortedArrayIi-81-test.cpp-test
 
 # Build rule for target.
-implementRand10UsingRand7-470-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 implementRand10UsingRand7-470-test.cpp-test
-.PHONY : implementRand10UsingRand7-470-test.cpp-test
+searchInRotatedSortedArrayIi-81-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 searchInRotatedSortedArrayIi-81-test.cpp-test
+.PHONY : searchInRotatedSortedArrayIi-81-test.cpp-test
 
 # fast build rule for target.
-implementRand10UsingRand7-470-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/implementRand10UsingRand7-470-test.cpp-test.dir/build.make CMakeFiles/implementRand10UsingRand7-470-test.cpp-test.dir/build
-.PHONY : implementRand10UsingRand7-470-test.cpp-test/fast
+searchInRotatedSortedArrayIi-81-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/searchInRotatedSortedArrayIi-81-test.cpp-test.dir/build.make CMakeFiles/searchInRotatedSortedArrayIi-81-test.cpp-test.dir/build
+.PHONY : searchInRotatedSortedArrayIi-81-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named majorityElementIi-229-test.cpp-test
+# Target rules for targets named searchInRotatedSortedArray-33-test.cpp-test
 
 # Build rule for target.
-majorityElementIi-229-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 majorityElementIi-229-test.cpp-test
-.PHONY : majorityElementIi-229-test.cpp-test
+searchInRotatedSortedArray-33-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 searchInRotatedSortedArray-33-test.cpp-test
+.PHONY : searchInRotatedSortedArray-33-test.cpp-test
 
 # fast build rule for target.
-majorityElementIi-229-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/majorityElementIi-229-test.cpp-test.dir/build.make CMakeFiles/majorityElementIi-229-test.cpp-test.dir/build
-.PHONY : majorityElementIi-229-test.cpp-test/fast
+searchInRotatedSortedArray-33-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/searchInRotatedSortedArray-33-test.cpp-test.dir/build.make CMakeFiles/searchInRotatedSortedArray-33-test.cpp-test.dir/build
+.PHONY : searchInRotatedSortedArray-33-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named guessNumberHigherOrLowerIi-375-test.cpp-test
+# Target rules for targets named searchA2dMatrixIi-240-test.cpp-test
 
 # Build rule for target.
-guessNumberHigherOrLowerIi-375-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 guessNumberHigherOrLowerIi-375-test.cpp-test
-.PHONY : guessNumberHigherOrLowerIi-375-test.cpp-test
+searchA2dMatrixIi-240-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 searchA2dMatrixIi-240-test.cpp-test
+.PHONY : searchA2dMatrixIi-240-test.cpp-test
 
 # fast build rule for target.
-guessNumberHigherOrLowerIi-375-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/guessNumberHigherOrLowerIi-375-test.cpp-test.dir/build.make CMakeFiles/guessNumberHigherOrLowerIi-375-test.cpp-test.dir/build
-.PHONY : guessNumberHigherOrLowerIi-375-test.cpp-test/fast
+searchA2dMatrixIi-240-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/searchA2dMatrixIi-240-test.cpp-test.dir/build.make CMakeFiles/searchA2dMatrixIi-240-test.cpp-test.dir/build
+.PHONY : searchA2dMatrixIi-240-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named searchA2dMatrix-74-test.cpp-test
+
+# Build rule for target.
+searchA2dMatrix-74-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 searchA2dMatrix-74-test.cpp-test
+.PHONY : searchA2dMatrix-74-test.cpp-test
+
+# fast build rule for target.
+searchA2dMatrix-74-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/searchA2dMatrix-74-test.cpp-test.dir/build.make CMakeFiles/searchA2dMatrix-74-test.cpp-test.dir/build
+.PHONY : searchA2dMatrix-74-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named sameTree-100-test.cpp-test
+
+# Build rule for target.
+sameTree-100-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sameTree-100-test.cpp-test
+.PHONY : sameTree-100-test.cpp-test
+
+# fast build rule for target.
+sameTree-100-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/sameTree-100-test.cpp-test.dir/build.make CMakeFiles/sameTree-100-test.cpp-test.dir/build
+.PHONY : sameTree-100-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named repeatedStringMatch-686-test.cpp-test
+
+# Build rule for target.
+repeatedStringMatch-686-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 repeatedStringMatch-686-test.cpp-test
+.PHONY : repeatedStringMatch-686-test.cpp-test
+
+# fast build rule for target.
+repeatedStringMatch-686-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/repeatedStringMatch-686-test.cpp-test.dir/build.make CMakeFiles/repeatedStringMatch-686-test.cpp-test.dir/build
+.PHONY : repeatedStringMatch-686-test.cpp-test/fast
 
 #=============================================================================
 # Target rules for targets named findTheTownJudge-997-test.cpp-test
@@ -289,6 +445,175 @@ findTheTownJudge-997-test.cpp-test: cmake_check_build_system
 findTheTownJudge-997-test.cpp-test/fast:
 	$(MAKE) -f CMakeFiles/findTheTownJudge-997-test.cpp-test.dir/build.make CMakeFiles/findTheTownJudge-997-test.cpp-test.dir/build
 .PHONY : findTheTownJudge-997-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named week270-test.cpp-test
+
+# Build rule for target.
+week270-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week270-test.cpp-test
+.PHONY : week270-test.cpp-test
+
+# fast build rule for target.
+week270-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week270-test.cpp-test.dir/build.make CMakeFiles/week270-test.cpp-test.dir/build
+.PHONY : week270-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named WGki4K004-test.cpp-test
+
+# Build rule for target.
+WGki4K004-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WGki4K004-test.cpp-test
+.PHONY : WGki4K004-test.cpp-test
+
+# fast build rule for target.
+WGki4K004-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/WGki4K004-test.cpp-test.dir/build.make CMakeFiles/WGki4K004-test.cpp-test.dir/build
+.PHONY : WGki4K004-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named findRightInterval-436-test.cpp-test
+
+# Build rule for target.
+findRightInterval-436-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findRightInterval-436-test.cpp-test
+.PHONY : findRightInterval-436-test.cpp-test
+
+# fast build rule for target.
+findRightInterval-436-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/findRightInterval-436-test.cpp-test.dir/build.make CMakeFiles/findRightInterval-436-test.cpp-test.dir/build
+.PHONY : findRightInterval-436-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named biweek64-test.cpp-test
+
+# Build rule for target.
+biweek64-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 biweek64-test.cpp-test
+.PHONY : biweek64-test.cpp-test
+
+# fast build rule for target.
+biweek64-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/biweek64-test.cpp-test.dir/build.make CMakeFiles/biweek64-test.cpp-test.dir/build
+.PHONY : biweek64-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named findMinimumInRotatedSortedArrayIi-154-test.cpp-test
+
+# Build rule for target.
+findMinimumInRotatedSortedArrayIi-154-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findMinimumInRotatedSortedArrayIi-154-test.cpp-test
+.PHONY : findMinimumInRotatedSortedArrayIi-154-test.cpp-test
+
+# fast build rule for target.
+findMinimumInRotatedSortedArrayIi-154-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/findMinimumInRotatedSortedArrayIi-154-test.cpp-test.dir/build.make CMakeFiles/findMinimumInRotatedSortedArrayIi-154-test.cpp-test.dir/build
+.PHONY : findMinimumInRotatedSortedArrayIi-154-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named findTheDuplicateNumber-287-test.cpp-test
+
+# Build rule for target.
+findTheDuplicateNumber-287-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findTheDuplicateNumber-287-test.cpp-test
+.PHONY : findTheDuplicateNumber-287-test.cpp-test
+
+# fast build rule for target.
+findTheDuplicateNumber-287-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/findTheDuplicateNumber-287-test.cpp-test.dir/build.make CMakeFiles/findTheDuplicateNumber-287-test.cpp-test.dir/build
+.PHONY : findTheDuplicateNumber-287-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named longestIncreasingSubsequence-300-test.cpp-test
+
+# Build rule for target.
+longestIncreasingSubsequence-300-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 longestIncreasingSubsequence-300-test.cpp-test
+.PHONY : longestIncreasingSubsequence-300-test.cpp-test
+
+# fast build rule for target.
+longestIncreasingSubsequence-300-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/longestIncreasingSubsequence-300-test.cpp-test.dir/build.make CMakeFiles/longestIncreasingSubsequence-300-test.cpp-test.dir/build
+.PHONY : longestIncreasingSubsequence-300-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named selfCrossing-335-test.cpp-test
+
+# Build rule for target.
+selfCrossing-335-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 selfCrossing-335-test.cpp-test
+.PHONY : selfCrossing-335-test.cpp-test
+
+# fast build rule for target.
+selfCrossing-335-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/selfCrossing-335-test.cpp-test.dir/build.make CMakeFiles/selfCrossing-335-test.cpp-test.dir/build
+.PHONY : selfCrossing-335-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named findMinimumInRotatedSortedArray-153-test.cpp-test
+
+# Build rule for target.
+findMinimumInRotatedSortedArray-153-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findMinimumInRotatedSortedArray-153-test.cpp-test
+.PHONY : findMinimumInRotatedSortedArray-153-test.cpp-test
+
+# fast build rule for target.
+findMinimumInRotatedSortedArray-153-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/findMinimumInRotatedSortedArray-153-test.cpp-test.dir/build.make CMakeFiles/findMinimumInRotatedSortedArray-153-test.cpp-test.dir/build
+.PHONY : findMinimumInRotatedSortedArray-153-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named distributeCandies-575-test.cpp-test
+
+# Build rule for target.
+distributeCandies-575-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 distributeCandies-575-test.cpp-test
+.PHONY : distributeCandies-575-test.cpp-test
+
+# fast build rule for target.
+distributeCandies-575-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/distributeCandies-575-test.cpp-test.dir/build.make CMakeFiles/distributeCandies-575-test.cpp-test.dir/build
+.PHONY : distributeCandies-575-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named week264-test.cpp-test
+
+# Build rule for target.
+week264-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week264-test.cpp-test
+.PHONY : week264-test.cpp-test
+
+# fast build rule for target.
+week264-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week264-test.cpp-test.dir/build.make CMakeFiles/week264-test.cpp-test.dir/build
+.PHONY : week264-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test
+
+# Build rule for target.
+minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test
+.PHONY : minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test
+
+# fast build rule for target.
+minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test.dir/build.make CMakeFiles/minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test.dir/build
+.PHONY : minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named guessNumberHigherOrLowerIi-375-test.cpp-test
+
+# Build rule for target.
+guessNumberHigherOrLowerIi-375-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 guessNumberHigherOrLowerIi-375-test.cpp-test
+.PHONY : guessNumberHigherOrLowerIi-375-test.cpp-test
+
+# fast build rule for target.
+guessNumberHigherOrLowerIi-375-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/guessNumberHigherOrLowerIi-375-test.cpp-test.dir/build.make CMakeFiles/guessNumberHigherOrLowerIi-375-test.cpp-test.dir/build
+.PHONY : guessNumberHigherOrLowerIi-375-test.cpp-test/fast
 
 #=============================================================================
 # Target rules for targets named minimumMovesToEqualArrayElements-453-test.cpp-test
@@ -317,108 +642,69 @@ nextGreaterElementI-496-test.cpp-test/fast:
 .PHONY : nextGreaterElementI-496-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named JFETK5002-test.cpp-test
+# Target rules for targets named replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test
 
 # Build rule for target.
-JFETK5002-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 JFETK5002-test.cpp-test
-.PHONY : JFETK5002-test.cpp-test
+replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test
+.PHONY : replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test
 
 # fast build rule for target.
-JFETK5002-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/JFETK5002-test.cpp-test.dir/build.make CMakeFiles/JFETK5002-test.cpp-test.dir/build
-.PHONY : JFETK5002-test.cpp-test/fast
+replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test.dir/build.make CMakeFiles/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test.dir/build
+.PHONY : replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named bullsAndCows-299-test.cpp-test
+# Target rules for targets named findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test
 
 # Build rule for target.
-bullsAndCows-299-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bullsAndCows-299-test.cpp-test
-.PHONY : bullsAndCows-299-test.cpp-test
+findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test
+.PHONY : findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test
 
 # fast build rule for target.
-bullsAndCows-299-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/bullsAndCows-299-test.cpp-test.dir/build.make CMakeFiles/bullsAndCows-299-test.cpp-test.dir/build
-.PHONY : bullsAndCows-299-test.cpp-test/fast
+findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/build.make CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/build
+.PHONY : findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test
+# Target rules for targets named week268-test.cpp-test
 
 # Build rule for target.
-minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test
-.PHONY : minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test
+week268-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week268-test.cpp-test
+.PHONY : week268-test.cpp-test
 
 # fast build rule for target.
-minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test.dir/build.make CMakeFiles/minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test.dir/build
-.PHONY : minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test/fast
+week268-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week268-test.cpp-test.dir/build.make CMakeFiles/week268-test.cpp-test.dir/build
+.PHONY : week268-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named biweek64-test.cpp-test
+# Target rules for targets named dayOfTheWeek-1185-test.cpp-test
 
 # Build rule for target.
-biweek64-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 biweek64-test.cpp-test
-.PHONY : biweek64-test.cpp-test
+dayOfTheWeek-1185-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dayOfTheWeek-1185-test.cpp-test
+.PHONY : dayOfTheWeek-1185-test.cpp-test
 
 # fast build rule for target.
-biweek64-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/biweek64-test.cpp-test.dir/build.make CMakeFiles/biweek64-test.cpp-test.dir/build
-.PHONY : biweek64-test.cpp-test/fast
+dayOfTheWeek-1185-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/dayOfTheWeek-1185-test.cpp-test.dir/build.make CMakeFiles/dayOfTheWeek-1185-test.cpp-test.dir/build
+.PHONY : dayOfTheWeek-1185-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named addTwoNumbers-2-test.cpp-test
+# Target rules for targets named buddyStrings-859-test.cpp-test
 
 # Build rule for target.
-addTwoNumbers-2-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 addTwoNumbers-2-test.cpp-test
-.PHONY : addTwoNumbers-2-test.cpp-test
+buddyStrings-859-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 buddyStrings-859-test.cpp-test
+.PHONY : buddyStrings-859-test.cpp-test
 
 # fast build rule for target.
-addTwoNumbers-2-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/addTwoNumbers-2-test.cpp-test.dir/build.make CMakeFiles/addTwoNumbers-2-test.cpp-test.dir/build
-.PHONY : addTwoNumbers-2-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test
-
-# Build rule for target.
-minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test
-.PHONY : minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test
-
-# fast build rule for target.
-minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/build.make CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/build
-.PHONY : minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named battleshipsInABoard-419-test.cpp-test
-
-# Build rule for target.
-battleshipsInABoard-419-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 battleshipsInABoard-419-test.cpp-test
-.PHONY : battleshipsInABoard-419-test.cpp-test
-
-# fast build rule for target.
-battleshipsInABoard-419-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/battleshipsInABoard-419-test.cpp-test.dir/build.make CMakeFiles/battleshipsInABoard-419-test.cpp-test.dir/build
-.PHONY : battleshipsInABoard-419-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named minimumSizeSubarraySum-209-test.cpp-test
-
-# Build rule for target.
-minimumSizeSubarraySum-209-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 minimumSizeSubarraySum-209-test.cpp-test
-.PHONY : minimumSizeSubarraySum-209-test.cpp-test
-
-# fast build rule for target.
-minimumSizeSubarraySum-209-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/minimumSizeSubarraySum-209-test.cpp-test.dir/build.make CMakeFiles/minimumSizeSubarraySum-209-test.cpp-test.dir/build
-.PHONY : minimumSizeSubarraySum-209-test.cpp-test/fast
+buddyStrings-859-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/buddyStrings-859-test.cpp-test.dir/build.make CMakeFiles/buddyStrings-859-test.cpp-test.dir/build
+.PHONY : buddyStrings-859-test.cpp-test/fast
 
 #=============================================================================
 # Target rules for targets named expressionAddOperators-282-test.cpp-test
@@ -447,173 +733,17 @@ crackingTheSafe-753-test.cpp-test/fast:
 .PHONY : crackingTheSafe-753-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named WGki4K004-test.cpp-test
+# Target rules for targets named bullsAndCows-299-test.cpp-test
 
 # Build rule for target.
-WGki4K004-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 WGki4K004-test.cpp-test
-.PHONY : WGki4K004-test.cpp-test
+bullsAndCows-299-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bullsAndCows-299-test.cpp-test
+.PHONY : bullsAndCows-299-test.cpp-test
 
 # fast build rule for target.
-WGki4K004-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/WGki4K004-test.cpp-test.dir/build.make CMakeFiles/WGki4K004-test.cpp-test.dir/build
-.PHONY : WGki4K004-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named week270-test.cpp-test
-
-# Build rule for target.
-week270-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 week270-test.cpp-test
-.PHONY : week270-test.cpp-test
-
-# fast build rule for target.
-week270-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/week270-test.cpp-test.dir/build.make CMakeFiles/week270-test.cpp-test.dir/build
-.PHONY : week270-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named substringWithConcatenationOfAllWords-30-test.cpp-test
-
-# Build rule for target.
-substringWithConcatenationOfAllWords-30-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 substringWithConcatenationOfAllWords-30-test.cpp-test
-.PHONY : substringWithConcatenationOfAllWords-30-test.cpp-test
-
-# fast build rule for target.
-substringWithConcatenationOfAllWords-30-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/substringWithConcatenationOfAllWords-30-test.cpp-test.dir/build.make CMakeFiles/substringWithConcatenationOfAllWords-30-test.cpp-test.dir/build
-.PHONY : substringWithConcatenationOfAllWords-30-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named sortAnArray-912-test.cpp-test
-
-# Build rule for target.
-sortAnArray-912-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sortAnArray-912-test.cpp-test
-.PHONY : sortAnArray-912-test.cpp-test
-
-# fast build rule for target.
-sortAnArray-912-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/sortAnArray-912-test.cpp-test.dir/build.make CMakeFiles/sortAnArray-912-test.cpp-test.dir/build
-.PHONY : sortAnArray-912-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named biweek65-test.cpp-test
-
-# Build rule for target.
-biweek65-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 biweek65-test.cpp-test
-.PHONY : biweek65-test.cpp-test
-
-# fast build rule for target.
-biweek65-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/biweek65-test.cpp-test.dir/build.make CMakeFiles/biweek65-test.cpp-test.dir/build
-.PHONY : biweek65-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test
-
-# Build rule for target.
-theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test
-.PHONY : theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test
-
-# fast build rule for target.
-theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test.dir/build.make CMakeFiles/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test.dir/build
-.PHONY : theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named distributeCandies-575-test.cpp-test
-
-# Build rule for target.
-distributeCandies-575-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 distributeCandies-575-test.cpp-test
-.PHONY : distributeCandies-575-test.cpp-test
-
-# fast build rule for target.
-distributeCandies-575-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/distributeCandies-575-test.cpp-test.dir/build.make CMakeFiles/distributeCandies-575-test.cpp-test.dir/build
-.PHONY : distributeCandies-575-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named xoh6Oh-001-test.cpp-test
-
-# Build rule for target.
-xoh6Oh-001-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 xoh6Oh-001-test.cpp-test
-.PHONY : xoh6Oh-001-test.cpp-test
-
-# fast build rule for target.
-xoh6Oh-001-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/xoh6Oh-001-test.cpp-test.dir/build.make CMakeFiles/xoh6Oh-001-test.cpp-test.dir/build
-.PHONY : xoh6Oh-001-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named countAndSay-38-test.cpp-test
-
-# Build rule for target.
-countAndSay-38-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 countAndSay-38-test.cpp-test
-.PHONY : countAndSay-38-test.cpp-test
-
-# fast build rule for target.
-countAndSay-38-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/countAndSay-38-test.cpp-test.dir/build.make CMakeFiles/countAndSay-38-test.cpp-test.dir/build
-.PHONY : countAndSay-38-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named trappingRainWaterIi-407-test.cpp-test
-
-# Build rule for target.
-trappingRainWaterIi-407-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trappingRainWaterIi-407-test.cpp-test
-.PHONY : trappingRainWaterIi-407-test.cpp-test
-
-# fast build rule for target.
-trappingRainWaterIi-407-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/trappingRainWaterIi-407-test.cpp-test.dir/build.make CMakeFiles/trappingRainWaterIi-407-test.cpp-test.dir/build
-.PHONY : trappingRainWaterIi-407-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named kthSmallestElementInABst-230-test.cpp-test
-
-# Build rule for target.
-kthSmallestElementInABst-230-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kthSmallestElementInABst-230-test.cpp-test
-.PHONY : kthSmallestElementInABst-230-test.cpp-test
-
-# fast build rule for target.
-kthSmallestElementInABst-230-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/build.make CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/build
-.PHONY : kthSmallestElementInABst-230-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named buddyStrings-859-test.cpp-test
-
-# Build rule for target.
-buddyStrings-859-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 buddyStrings-859-test.cpp-test
-.PHONY : buddyStrings-859-test.cpp-test
-
-# fast build rule for target.
-buddyStrings-859-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/buddyStrings-859-test.cpp-test.dir/build.make CMakeFiles/buddyStrings-859-test.cpp-test.dir/build
-.PHONY : buddyStrings-859-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named week268-test.cpp-test
-
-# Build rule for target.
-week268-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 week268-test.cpp-test
-.PHONY : week268-test.cpp-test
-
-# fast build rule for target.
-week268-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/week268-test.cpp-test.dir/build.make CMakeFiles/week268-test.cpp-test.dir/build
-.PHONY : week268-test.cpp-test/fast
+bullsAndCows-299-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/bullsAndCows-299-test.cpp-test.dir/build.make CMakeFiles/bullsAndCows-299-test.cpp-test.dir/build
+.PHONY : bullsAndCows-299-test.cpp-test/fast
 
 #=============================================================================
 # Target rules for targets named xoh6OhOffer001-test.cpp-test
@@ -629,69 +759,17 @@ xoh6OhOffer001-test.cpp-test/fast:
 .PHONY : xoh6OhOffer001-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named plusOne-66-test.cpp-test
+# Target rules for targets named eliminationGame-390-test.cpp-test
 
 # Build rule for target.
-plusOne-66-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 plusOne-66-test.cpp-test
-.PHONY : plusOne-66-test.cpp-test
+eliminationGame-390-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eliminationGame-390-test.cpp-test
+.PHONY : eliminationGame-390-test.cpp-test
 
 # fast build rule for target.
-plusOne-66-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/plusOne-66-test.cpp-test.dir/build.make CMakeFiles/plusOne-66-test.cpp-test.dir/build
-.PHONY : plusOne-66-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named designAddAndSearchWordsDataStructure-211-test.cpp-test
-
-# Build rule for target.
-designAddAndSearchWordsDataStructure-211-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 designAddAndSearchWordsDataStructure-211-test.cpp-test
-.PHONY : designAddAndSearchWordsDataStructure-211-test.cpp-test
-
-# fast build rule for target.
-designAddAndSearchWordsDataStructure-211-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/designAddAndSearchWordsDataStructure-211-test.cpp-test.dir/build.make CMakeFiles/designAddAndSearchWordsDataStructure-211-test.cpp-test.dir/build
-.PHONY : designAddAndSearchWordsDataStructure-211-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named missingNumber-268-test.cpp-test
-
-# Build rule for target.
-missingNumber-268-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 missingNumber-268-test.cpp-test
-.PHONY : missingNumber-268-test.cpp-test
-
-# fast build rule for target.
-missingNumber-268-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/missingNumber-268-test.cpp-test.dir/build.make CMakeFiles/missingNumber-268-test.cpp-test.dir/build
-.PHONY : missingNumber-268-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named twoSum-1-test.cpp-test
-
-# Build rule for target.
-twoSum-1-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 twoSum-1-test.cpp-test
-.PHONY : twoSum-1-test.cpp-test
-
-# fast build rule for target.
-twoSum-1-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/twoSum-1-test.cpp-test.dir/build.make CMakeFiles/twoSum-1-test.cpp-test.dir/build
-.PHONY : twoSum-1-test.cpp-test/fast
-
-#=============================================================================
-# Target rules for targets named nextGreaterElementIi-503-test.cpp-test
-
-# Build rule for target.
-nextGreaterElementIi-503-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nextGreaterElementIi-503-test.cpp-test
-.PHONY : nextGreaterElementIi-503-test.cpp-test
-
-# fast build rule for target.
-nextGreaterElementIi-503-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/nextGreaterElementIi-503-test.cpp-test.dir/build.make CMakeFiles/nextGreaterElementIi-503-test.cpp-test.dir/build
-.PHONY : nextGreaterElementIi-503-test.cpp-test/fast
+eliminationGame-390-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/eliminationGame-390-test.cpp-test.dir/build.make CMakeFiles/eliminationGame-390-test.cpp-test.dir/build
+.PHONY : eliminationGame-390-test.cpp-test/fast
 
 #=============================================================================
 # Target rules for targets named deleteNodeInALinkedList-237-test.cpp-test
@@ -733,6 +811,162 @@ rangeAdditionIi-598-test.cpp-test/fast:
 .PHONY : rangeAdditionIi-598-test.cpp-test/fast
 
 #=============================================================================
+# Target rules for targets named addTwoNumbers-2-test.cpp-test
+
+# Build rule for target.
+addTwoNumbers-2-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 addTwoNumbers-2-test.cpp-test
+.PHONY : addTwoNumbers-2-test.cpp-test
+
+# fast build rule for target.
+addTwoNumbers-2-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/addTwoNumbers-2-test.cpp-test.dir/build.make CMakeFiles/addTwoNumbers-2-test.cpp-test.dir/build
+.PHONY : addTwoNumbers-2-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named handOfStraights-846-test.cpp-test
+
+# Build rule for target.
+handOfStraights-846-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 handOfStraights-846-test.cpp-test
+.PHONY : handOfStraights-846-test.cpp-test
+
+# fast build rule for target.
+handOfStraights-846-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/handOfStraights-846-test.cpp-test.dir/build.make CMakeFiles/handOfStraights-846-test.cpp-test.dir/build
+.PHONY : handOfStraights-846-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named substringWithConcatenationOfAllWords-30-test.cpp-test
+
+# Build rule for target.
+substringWithConcatenationOfAllWords-30-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 substringWithConcatenationOfAllWords-30-test.cpp-test
+.PHONY : substringWithConcatenationOfAllWords-30-test.cpp-test
+
+# fast build rule for target.
+substringWithConcatenationOfAllWords-30-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/substringWithConcatenationOfAllWords-30-test.cpp-test.dir/build.make CMakeFiles/substringWithConcatenationOfAllWords-30-test.cpp-test.dir/build
+.PHONY : substringWithConcatenationOfAllWords-30-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named sortAnArray-912-test.cpp-test
+
+# Build rule for target.
+sortAnArray-912-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sortAnArray-912-test.cpp-test
+.PHONY : sortAnArray-912-test.cpp-test
+
+# fast build rule for target.
+sortAnArray-912-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/sortAnArray-912-test.cpp-test.dir/build.make CMakeFiles/sortAnArray-912-test.cpp-test.dir/build
+.PHONY : sortAnArray-912-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named biweek65-test.cpp-test
+
+# Build rule for target.
+biweek65-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 biweek65-test.cpp-test
+.PHONY : biweek65-test.cpp-test
+
+# fast build rule for target.
+biweek65-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/biweek65-test.cpp-test.dir/build.make CMakeFiles/biweek65-test.cpp-test.dir/build
+.PHONY : biweek65-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test
+
+# Build rule for target.
+longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test
+.PHONY : longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test
+
+# fast build rule for target.
+longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/build.make CMakeFiles/longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test.dir/build
+.PHONY : longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named grayCode-89-test.cpp-test
+
+# Build rule for target.
+grayCode-89-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 grayCode-89-test.cpp-test
+.PHONY : grayCode-89-test.cpp-test
+
+# fast build rule for target.
+grayCode-89-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/grayCode-89-test.cpp-test.dir/build.make CMakeFiles/grayCode-89-test.cpp-test.dir/build
+.PHONY : grayCode-89-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named biweek69-test.cpp-test
+
+# Build rule for target.
+biweek69-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 biweek69-test.cpp-test
+.PHONY : biweek69-test.cpp-test
+
+# fast build rule for target.
+biweek69-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/biweek69-test.cpp-test.dir/build.make CMakeFiles/biweek69-test.cpp-test.dir/build
+.PHONY : biweek69-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named biweek67-test.cpp-test
+
+# Build rule for target.
+biweek67-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 biweek67-test.cpp-test
+.PHONY : biweek67-test.cpp-test
+
+# fast build rule for target.
+biweek67-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/biweek67-test.cpp-test.dir/build.make CMakeFiles/biweek67-test.cpp-test.dir/build
+.PHONY : biweek67-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named maximumNumberOfVisiblePoints-1610-test.cpp-test
+
+# Build rule for target.
+maximumNumberOfVisiblePoints-1610-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maximumNumberOfVisiblePoints-1610-test.cpp-test
+.PHONY : maximumNumberOfVisiblePoints-1610-test.cpp-test
+
+# fast build rule for target.
+maximumNumberOfVisiblePoints-1610-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/maximumNumberOfVisiblePoints-1610-test.cpp-test.dir/build.make CMakeFiles/maximumNumberOfVisiblePoints-1610-test.cpp-test.dir/build
+.PHONY : maximumNumberOfVisiblePoints-1610-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named JFETK5002-test.cpp-test
+
+# Build rule for target.
+JFETK5002-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 JFETK5002-test.cpp-test
+.PHONY : JFETK5002-test.cpp-test
+
+# fast build rule for target.
+JFETK5002-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/JFETK5002-test.cpp-test.dir/build.make CMakeFiles/JFETK5002-test.cpp-test.dir/build
+.PHONY : JFETK5002-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named convert1dArrayInto2dArray-2022-test.cpp-test
+
+# Build rule for target.
+convert1dArrayInto2dArray-2022-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 convert1dArrayInto2dArray-2022-test.cpp-test
+.PHONY : convert1dArrayInto2dArray-2022-test.cpp-test
+
+# fast build rule for target.
+convert1dArrayInto2dArray-2022-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/convert1dArrayInto2dArray-2022-test.cpp-test.dir/build.make CMakeFiles/convert1dArrayInto2dArray-2022-test.cpp-test.dir/build
+.PHONY : convert1dArrayInto2dArray-2022-test.cpp-test/fast
+
+#=============================================================================
 # Target rules for targets named singleNumberIii-260-test.cpp-test
 
 # Build rule for target.
@@ -759,108 +993,160 @@ numberComplement-476-test.cpp-test/fast:
 .PHONY : numberComplement-476-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named week266-test.cpp-test
+# Target rules for targets named countAndSay-38-test.cpp-test
 
 # Build rule for target.
-week266-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 week266-test.cpp-test
-.PHONY : week266-test.cpp-test
+countAndSay-38-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countAndSay-38-test.cpp-test
+.PHONY : countAndSay-38-test.cpp-test
 
 # fast build rule for target.
-week266-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/week266-test.cpp-test.dir/build.make CMakeFiles/week266-test.cpp-test.dir/build
-.PHONY : week266-test.cpp-test/fast
+countAndSay-38-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/countAndSay-38-test.cpp-test.dir/build.make CMakeFiles/countAndSay-38-test.cpp-test.dir/build
+.PHONY : countAndSay-38-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named reconstructItinerary-332-test.cpp-test
+# Target rules for targets named divideTwoIntegers-29-test.cpp-test
 
 # Build rule for target.
-reconstructItinerary-332-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 reconstructItinerary-332-test.cpp-test
-.PHONY : reconstructItinerary-332-test.cpp-test
+divideTwoIntegers-29-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 divideTwoIntegers-29-test.cpp-test
+.PHONY : divideTwoIntegers-29-test.cpp-test
 
 # fast build rule for target.
-reconstructItinerary-332-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/reconstructItinerary-332-test.cpp-test.dir/build.make CMakeFiles/reconstructItinerary-332-test.cpp-test.dir/build
-.PHONY : reconstructItinerary-332-test.cpp-test/fast
+divideTwoIntegers-29-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/divideTwoIntegers-29-test.cpp-test.dir/build.make CMakeFiles/divideTwoIntegers-29-test.cpp-test.dir/build
+.PHONY : divideTwoIntegers-29-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named reconstructOriginalDigitsFromEnglish-423-test.cpp-test
+# Target rules for targets named findPeakElement-162-test.cpp-test
 
 # Build rule for target.
-reconstructOriginalDigitsFromEnglish-423-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 reconstructOriginalDigitsFromEnglish-423-test.cpp-test
-.PHONY : reconstructOriginalDigitsFromEnglish-423-test.cpp-test
+findPeakElement-162-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findPeakElement-162-test.cpp-test
+.PHONY : findPeakElement-162-test.cpp-test
 
 # fast build rule for target.
-reconstructOriginalDigitsFromEnglish-423-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/reconstructOriginalDigitsFromEnglish-423-test.cpp-test.dir/build.make CMakeFiles/reconstructOriginalDigitsFromEnglish-423-test.cpp-test.dir/build
-.PHONY : reconstructOriginalDigitsFromEnglish-423-test.cpp-test/fast
+findPeakElement-162-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/findPeakElement-162-test.cpp-test.dir/build.make CMakeFiles/findPeakElement-162-test.cpp-test.dir/build
+.PHONY : findPeakElement-162-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named seat-test.cpp-test
+# Target rules for targets named countSpecialQuadruplets-1995-test.cpp-test
 
 # Build rule for target.
-seat-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 seat-test.cpp-test
-.PHONY : seat-test.cpp-test
+countSpecialQuadruplets-1995-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countSpecialQuadruplets-1995-test.cpp-test
+.PHONY : countSpecialQuadruplets-1995-test.cpp-test
 
 # fast build rule for target.
-seat-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/seat-test.cpp-test.dir/build.make CMakeFiles/seat-test.cpp-test.dir/build
-.PHONY : seat-test.cpp-test/fast
+countSpecialQuadruplets-1995-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/countSpecialQuadruplets-1995-test.cpp-test.dir/build.make CMakeFiles/countSpecialQuadruplets-1995-test.cpp-test.dir/build
+.PHONY : countSpecialQuadruplets-1995-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named removeInvalidParentheses-301-test.cpp-test
+# Target rules for targets named majorityElementIi-229-test.cpp-test
 
 # Build rule for target.
-removeInvalidParentheses-301-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 removeInvalidParentheses-301-test.cpp-test
-.PHONY : removeInvalidParentheses-301-test.cpp-test
+majorityElementIi-229-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 majorityElementIi-229-test.cpp-test
+.PHONY : majorityElementIi-229-test.cpp-test
 
 # fast build rule for target.
-removeInvalidParentheses-301-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/removeInvalidParentheses-301-test.cpp-test.dir/build.make CMakeFiles/removeInvalidParentheses-301-test.cpp-test.dir/build
-.PHONY : removeInvalidParentheses-301-test.cpp-test/fast
+majorityElementIi-229-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/majorityElementIi-229-test.cpp-test.dir/build.make CMakeFiles/majorityElementIi-229-test.cpp-test.dir/build
+.PHONY : majorityElementIi-229-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named validPerfectSquare-367-test.cpp-test
+# Target rules for targets named heaters-475-test.cpp-test
 
 # Build rule for target.
-validPerfectSquare-367-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 validPerfectSquare-367-test.cpp-test
-.PHONY : validPerfectSquare-367-test.cpp-test
+heaters-475-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 heaters-475-test.cpp-test
+.PHONY : heaters-475-test.cpp-test
 
 # fast build rule for target.
-validPerfectSquare-367-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/validPerfectSquare-367-test.cpp-test.dir/build.make CMakeFiles/validPerfectSquare-367-test.cpp-test.dir/build
-.PHONY : validPerfectSquare-367-test.cpp-test/fast
+heaters-475-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/heaters-475-test.cpp-test.dir/build.make CMakeFiles/heaters-475-test.cpp-test.dir/build
+.PHONY : heaters-475-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named maximizeSumOfArrayAfterKNegations-1005-test.cpp-test
+# Target rules for targets named battleshipsInABoard-419-test.cpp-test
 
 # Build rule for target.
-maximizeSumOfArrayAfterKNegations-1005-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 maximizeSumOfArrayAfterKNegations-1005-test.cpp-test
-.PHONY : maximizeSumOfArrayAfterKNegations-1005-test.cpp-test
+battleshipsInABoard-419-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 battleshipsInABoard-419-test.cpp-test
+.PHONY : battleshipsInABoard-419-test.cpp-test
 
 # fast build rule for target.
-maximizeSumOfArrayAfterKNegations-1005-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/maximizeSumOfArrayAfterKNegations-1005-test.cpp-test.dir/build.make CMakeFiles/maximizeSumOfArrayAfterKNegations-1005-test.cpp-test.dir/build
-.PHONY : maximizeSumOfArrayAfterKNegations-1005-test.cpp-test/fast
+battleshipsInABoard-419-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/battleshipsInABoard-419-test.cpp-test.dir/build.make CMakeFiles/battleshipsInABoard-419-test.cpp-test.dir/build
+.PHONY : battleshipsInABoard-419-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named twoBestNonOverlappingEvents-5899-test.cpp-test
+# Target rules for targets named minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test
 
 # Build rule for target.
-twoBestNonOverlappingEvents-5899-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 twoBestNonOverlappingEvents-5899-test.cpp-test
-.PHONY : twoBestNonOverlappingEvents-5899-test.cpp-test
+minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test
+.PHONY : minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test
 
 # fast build rule for target.
-twoBestNonOverlappingEvents-5899-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/twoBestNonOverlappingEvents-5899-test.cpp-test.dir/build.make CMakeFiles/twoBestNonOverlappingEvents-5899-test.cpp-test.dir/build
-.PHONY : twoBestNonOverlappingEvents-5899-test.cpp-test/fast
+minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/build.make CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/build
+.PHONY : minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named reorderedPowerOf2-869-test.cpp-test
+
+# Build rule for target.
+reorderedPowerOf2-869-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reorderedPowerOf2-869-test.cpp-test
+.PHONY : reorderedPowerOf2-869-test.cpp-test
+
+# fast build rule for target.
+reorderedPowerOf2-869-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/reorderedPowerOf2-869-test.cpp-test.dir/build.make CMakeFiles/reorderedPowerOf2-869-test.cpp-test.dir/build
+.PHONY : reorderedPowerOf2-869-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named implementRand10UsingRand7-470-test.cpp-test
+
+# Build rule for target.
+implementRand10UsingRand7-470-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 implementRand10UsingRand7-470-test.cpp-test
+.PHONY : implementRand10UsingRand7-470-test.cpp-test
+
+# fast build rule for target.
+implementRand10UsingRand7-470-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/implementRand10UsingRand7-470-test.cpp-test.dir/build.make CMakeFiles/implementRand10UsingRand7-470-test.cpp-test.dir/build
+.PHONY : implementRand10UsingRand7-470-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named perfectNumber-507-test.cpp-test
+
+# Build rule for target.
+perfectNumber-507-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 perfectNumber-507-test.cpp-test
+.PHONY : perfectNumber-507-test.cpp-test
+
+# fast build rule for target.
+perfectNumber-507-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/perfectNumber-507-test.cpp-test.dir/build.make CMakeFiles/perfectNumber-507-test.cpp-test.dir/build
+.PHONY : perfectNumber-507-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named kthSmallestElementInABst-230-test.cpp-test
+
+# Build rule for target.
+kthSmallestElementInABst-230-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kthSmallestElementInABst-230-test.cpp-test
+.PHONY : kthSmallestElementInABst-230-test.cpp-test
+
+# fast build rule for target.
+kthSmallestElementInABst-230-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/build.make CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/build
+.PHONY : kthSmallestElementInABst-230-test.cpp-test/fast
 
 #=============================================================================
 # Target rules for targets named week262-test.cpp-test
@@ -876,30 +1162,225 @@ week262-test.cpp-test/fast:
 .PHONY : week262-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named week269-test.cpp-test
+# Target rules for targets named twoBestNonOverlappingEvents-5899-test.cpp-test
 
 # Build rule for target.
-week269-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 week269-test.cpp-test
-.PHONY : week269-test.cpp-test
+twoBestNonOverlappingEvents-5899-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twoBestNonOverlappingEvents-5899-test.cpp-test
+.PHONY : twoBestNonOverlappingEvents-5899-test.cpp-test
 
 # fast build rule for target.
-week269-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/week269-test.cpp-test.dir/build.make CMakeFiles/week269-test.cpp-test.dir/build
-.PHONY : week269-test.cpp-test/fast
+twoBestNonOverlappingEvents-5899-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/twoBestNonOverlappingEvents-5899-test.cpp-test.dir/build.make CMakeFiles/twoBestNonOverlappingEvents-5899-test.cpp-test.dir/build
+.PHONY : twoBestNonOverlappingEvents-5899-test.cpp-test/fast
 
 #=============================================================================
-# Target rules for targets named week65-test.cpp-test
+# Target rules for targets named maximizeSumOfArrayAfterKNegations-1005-test.cpp-test
 
 # Build rule for target.
-week65-test.cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 week65-test.cpp-test
-.PHONY : week65-test.cpp-test
+maximizeSumOfArrayAfterKNegations-1005-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maximizeSumOfArrayAfterKNegations-1005-test.cpp-test
+.PHONY : maximizeSumOfArrayAfterKNegations-1005-test.cpp-test
 
 # fast build rule for target.
-week65-test.cpp-test/fast:
-	$(MAKE) -f CMakeFiles/week65-test.cpp-test.dir/build.make CMakeFiles/week65-test.cpp-test.dir/build
-.PHONY : week65-test.cpp-test/fast
+maximizeSumOfArrayAfterKNegations-1005-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/maximizeSumOfArrayAfterKNegations-1005-test.cpp-test.dir/build.make CMakeFiles/maximizeSumOfArrayAfterKNegations-1005-test.cpp-test.dir/build
+.PHONY : maximizeSumOfArrayAfterKNegations-1005-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named dayOfTheYear-1154-test.cpp-test
+
+# Build rule for target.
+dayOfTheYear-1154-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dayOfTheYear-1154-test.cpp-test
+.PHONY : dayOfTheYear-1154-test.cpp-test
+
+# fast build rule for target.
+dayOfTheYear-1154-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/dayOfTheYear-1154-test.cpp-test.dir/build.make CMakeFiles/dayOfTheYear-1154-test.cpp-test.dir/build
+.PHONY : dayOfTheYear-1154-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named maximumProductOfWordLengths-318-test.cpp-test
+
+# Build rule for target.
+maximumProductOfWordLengths-318-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maximumProductOfWordLengths-318-test.cpp-test
+.PHONY : maximumProductOfWordLengths-318-test.cpp-test
+
+# fast build rule for target.
+maximumProductOfWordLengths-318-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/maximumProductOfWordLengths-318-test.cpp-test.dir/build.make CMakeFiles/maximumProductOfWordLengths-318-test.cpp-test.dir/build
+.PHONY : maximumProductOfWordLengths-318-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test
+
+# Build rule for target.
+minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test
+.PHONY : minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test
+
+# fast build rule for target.
+minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test.dir/build.make CMakeFiles/minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test.dir/build
+.PHONY : minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named sqrtx-69-test.cpp-test
+
+# Build rule for target.
+sqrtx-69-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sqrtx-69-test.cpp-test
+.PHONY : sqrtx-69-test.cpp-test
+
+# fast build rule for target.
+sqrtx-69-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/sqrtx-69-test.cpp-test.dir/build.make CMakeFiles/sqrtx-69-test.cpp-test.dir/build
+.PHONY : sqrtx-69-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named minimumSizeSubarraySum-209-test.cpp-test
+
+# Build rule for target.
+minimumSizeSubarraySum-209-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 minimumSizeSubarraySum-209-test.cpp-test
+.PHONY : minimumSizeSubarraySum-209-test.cpp-test
+
+# fast build rule for target.
+minimumSizeSubarraySum-209-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/minimumSizeSubarraySum-209-test.cpp-test.dir/build.make CMakeFiles/minimumSizeSubarraySum-209-test.cpp-test.dir/build
+.PHONY : minimumSizeSubarraySum-209-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named designAddAndSearchWordsDataStructure-211-test.cpp-test
+
+# Build rule for target.
+designAddAndSearchWordsDataStructure-211-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 designAddAndSearchWordsDataStructure-211-test.cpp-test
+.PHONY : designAddAndSearchWordsDataStructure-211-test.cpp-test
+
+# fast build rule for target.
+designAddAndSearchWordsDataStructure-211-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/designAddAndSearchWordsDataStructure-211-test.cpp-test.dir/build.make CMakeFiles/designAddAndSearchWordsDataStructure-211-test.cpp-test.dir/build
+.PHONY : designAddAndSearchWordsDataStructure-211-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named plusOne-66-test.cpp-test
+
+# Build rule for target.
+plusOne-66-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plusOne-66-test.cpp-test
+.PHONY : plusOne-66-test.cpp-test
+
+# fast build rule for target.
+plusOne-66-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/plusOne-66-test.cpp-test.dir/build.make CMakeFiles/plusOne-66-test.cpp-test.dir/build
+.PHONY : plusOne-66-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named missingNumber-268-test.cpp-test
+
+# Build rule for target.
+missingNumber-268-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 missingNumber-268-test.cpp-test
+.PHONY : missingNumber-268-test.cpp-test
+
+# fast build rule for target.
+missingNumber-268-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/missingNumber-268-test.cpp-test.dir/build.make CMakeFiles/missingNumber-268-test.cpp-test.dir/build
+.PHONY : missingNumber-268-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named nextGreaterElementIi-503-test.cpp-test
+
+# Build rule for target.
+nextGreaterElementIi-503-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nextGreaterElementIi-503-test.cpp-test
+.PHONY : nextGreaterElementIi-503-test.cpp-test
+
+# fast build rule for target.
+nextGreaterElementIi-503-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/nextGreaterElementIi-503-test.cpp-test.dir/build.make CMakeFiles/nextGreaterElementIi-503-test.cpp-test.dir/build
+.PHONY : nextGreaterElementIi-503-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named reconstructItinerary-332-test.cpp-test
+
+# Build rule for target.
+reconstructItinerary-332-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reconstructItinerary-332-test.cpp-test
+.PHONY : reconstructItinerary-332-test.cpp-test
+
+# fast build rule for target.
+reconstructItinerary-332-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/reconstructItinerary-332-test.cpp-test.dir/build.make CMakeFiles/reconstructItinerary-332-test.cpp-test.dir/build
+.PHONY : reconstructItinerary-332-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named week275-test.cpp-test
+
+# Build rule for target.
+week275-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 week275-test.cpp-test
+.PHONY : week275-test.cpp-test
+
+# fast build rule for target.
+week275-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/week275-test.cpp-test.dir/build.make CMakeFiles/week275-test.cpp-test.dir/build
+.PHONY : week275-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named firstBadVersion-278-test.cpp-test
+
+# Build rule for target.
+firstBadVersion-278-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 firstBadVersion-278-test.cpp-test
+.PHONY : firstBadVersion-278-test.cpp-test
+
+# fast build rule for target.
+firstBadVersion-278-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/firstBadVersion-278-test.cpp-test.dir/build.make CMakeFiles/firstBadVersion-278-test.cpp-test.dir/build
+.PHONY : firstBadVersion-278-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named reconstructOriginalDigitsFromEnglish-423-test.cpp-test
+
+# Build rule for target.
+reconstructOriginalDigitsFromEnglish-423-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reconstructOriginalDigitsFromEnglish-423-test.cpp-test
+.PHONY : reconstructOriginalDigitsFromEnglish-423-test.cpp-test
+
+# fast build rule for target.
+reconstructOriginalDigitsFromEnglish-423-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/reconstructOriginalDigitsFromEnglish-423-test.cpp-test.dir/build.make CMakeFiles/reconstructOriginalDigitsFromEnglish-423-test.cpp-test.dir/build
+.PHONY : reconstructOriginalDigitsFromEnglish-423-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named validPerfectSquare-367-test.cpp-test
+
+# Build rule for target.
+validPerfectSquare-367-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 validPerfectSquare-367-test.cpp-test
+.PHONY : validPerfectSquare-367-test.cpp-test
+
+# fast build rule for target.
+validPerfectSquare-367-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/validPerfectSquare-367-test.cpp-test.dir/build.make CMakeFiles/validPerfectSquare-367-test.cpp-test.dir/build
+.PHONY : validPerfectSquare-367-test.cpp-test/fast
+
+#=============================================================================
+# Target rules for targets named removeInvalidParentheses-301-test.cpp-test
+
+# Build rule for target.
+removeInvalidParentheses-301-test.cpp-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 removeInvalidParentheses-301-test.cpp-test
+.PHONY : removeInvalidParentheses-301-test.cpp-test
+
+# fast build rule for target.
+removeInvalidParentheses-301-test.cpp-test/fast:
+	$(MAKE) -f CMakeFiles/removeInvalidParentheses-301-test.cpp-test.dir/build.make CMakeFiles/removeInvalidParentheses-301-test.cpp-test.dir/build
+.PHONY : removeInvalidParentheses-301-test.cpp-test/fast
 
 #=============================================================================
 # Target rules for targets named built-in
@@ -1076,6 +1557,60 @@ editor/cn/biweek65-test.cpp.s:
 	$(MAKE) -f CMakeFiles/biweek65-test.cpp-test.dir/build.make CMakeFiles/biweek65-test.cpp-test.dir/editor/cn/biweek65-test.cpp.s
 .PHONY : editor/cn/biweek65-test.cpp.s
 
+editor/cn/biweek67-test.o: editor/cn/biweek67-test.cpp.o
+
+.PHONY : editor/cn/biweek67-test.o
+
+# target to build an object file
+editor/cn/biweek67-test.cpp.o:
+	$(MAKE) -f CMakeFiles/biweek67-test.cpp-test.dir/build.make CMakeFiles/biweek67-test.cpp-test.dir/editor/cn/biweek67-test.cpp.o
+.PHONY : editor/cn/biweek67-test.cpp.o
+
+editor/cn/biweek67-test.i: editor/cn/biweek67-test.cpp.i
+
+.PHONY : editor/cn/biweek67-test.i
+
+# target to preprocess a source file
+editor/cn/biweek67-test.cpp.i:
+	$(MAKE) -f CMakeFiles/biweek67-test.cpp-test.dir/build.make CMakeFiles/biweek67-test.cpp-test.dir/editor/cn/biweek67-test.cpp.i
+.PHONY : editor/cn/biweek67-test.cpp.i
+
+editor/cn/biweek67-test.s: editor/cn/biweek67-test.cpp.s
+
+.PHONY : editor/cn/biweek67-test.s
+
+# target to generate assembly for a file
+editor/cn/biweek67-test.cpp.s:
+	$(MAKE) -f CMakeFiles/biweek67-test.cpp-test.dir/build.make CMakeFiles/biweek67-test.cpp-test.dir/editor/cn/biweek67-test.cpp.s
+.PHONY : editor/cn/biweek67-test.cpp.s
+
+editor/cn/biweek69-test.o: editor/cn/biweek69-test.cpp.o
+
+.PHONY : editor/cn/biweek69-test.o
+
+# target to build an object file
+editor/cn/biweek69-test.cpp.o:
+	$(MAKE) -f CMakeFiles/biweek69-test.cpp-test.dir/build.make CMakeFiles/biweek69-test.cpp-test.dir/editor/cn/biweek69-test.cpp.o
+.PHONY : editor/cn/biweek69-test.cpp.o
+
+editor/cn/biweek69-test.i: editor/cn/biweek69-test.cpp.i
+
+.PHONY : editor/cn/biweek69-test.i
+
+# target to preprocess a source file
+editor/cn/biweek69-test.cpp.i:
+	$(MAKE) -f CMakeFiles/biweek69-test.cpp-test.dir/build.make CMakeFiles/biweek69-test.cpp-test.dir/editor/cn/biweek69-test.cpp.i
+.PHONY : editor/cn/biweek69-test.cpp.i
+
+editor/cn/biweek69-test.s: editor/cn/biweek69-test.cpp.s
+
+.PHONY : editor/cn/biweek69-test.s
+
+# target to generate assembly for a file
+editor/cn/biweek69-test.cpp.s:
+	$(MAKE) -f CMakeFiles/biweek69-test.cpp-test.dir/build.make CMakeFiles/biweek69-test.cpp-test.dir/editor/cn/biweek69-test.cpp.s
+.PHONY : editor/cn/biweek69-test.cpp.s
+
 editor/cn/buddyStrings-859-test.o: editor/cn/buddyStrings-859-test.cpp.o
 
 .PHONY : editor/cn/buddyStrings-859-test.o
@@ -1130,6 +1665,33 @@ editor/cn/bullsAndCows-299-test.cpp.s:
 	$(MAKE) -f CMakeFiles/bullsAndCows-299-test.cpp-test.dir/build.make CMakeFiles/bullsAndCows-299-test.cpp-test.dir/editor/cn/bullsAndCows-299-test.cpp.s
 .PHONY : editor/cn/bullsAndCows-299-test.cpp.s
 
+editor/cn/convert1dArrayInto2dArray-2022-test.o: editor/cn/convert1dArrayInto2dArray-2022-test.cpp.o
+
+.PHONY : editor/cn/convert1dArrayInto2dArray-2022-test.o
+
+# target to build an object file
+editor/cn/convert1dArrayInto2dArray-2022-test.cpp.o:
+	$(MAKE) -f CMakeFiles/convert1dArrayInto2dArray-2022-test.cpp-test.dir/build.make CMakeFiles/convert1dArrayInto2dArray-2022-test.cpp-test.dir/editor/cn/convert1dArrayInto2dArray-2022-test.cpp.o
+.PHONY : editor/cn/convert1dArrayInto2dArray-2022-test.cpp.o
+
+editor/cn/convert1dArrayInto2dArray-2022-test.i: editor/cn/convert1dArrayInto2dArray-2022-test.cpp.i
+
+.PHONY : editor/cn/convert1dArrayInto2dArray-2022-test.i
+
+# target to preprocess a source file
+editor/cn/convert1dArrayInto2dArray-2022-test.cpp.i:
+	$(MAKE) -f CMakeFiles/convert1dArrayInto2dArray-2022-test.cpp-test.dir/build.make CMakeFiles/convert1dArrayInto2dArray-2022-test.cpp-test.dir/editor/cn/convert1dArrayInto2dArray-2022-test.cpp.i
+.PHONY : editor/cn/convert1dArrayInto2dArray-2022-test.cpp.i
+
+editor/cn/convert1dArrayInto2dArray-2022-test.s: editor/cn/convert1dArrayInto2dArray-2022-test.cpp.s
+
+.PHONY : editor/cn/convert1dArrayInto2dArray-2022-test.s
+
+# target to generate assembly for a file
+editor/cn/convert1dArrayInto2dArray-2022-test.cpp.s:
+	$(MAKE) -f CMakeFiles/convert1dArrayInto2dArray-2022-test.cpp-test.dir/build.make CMakeFiles/convert1dArrayInto2dArray-2022-test.cpp-test.dir/editor/cn/convert1dArrayInto2dArray-2022-test.cpp.s
+.PHONY : editor/cn/convert1dArrayInto2dArray-2022-test.cpp.s
+
 editor/cn/countAndSay-38-test.o: editor/cn/countAndSay-38-test.cpp.o
 
 .PHONY : editor/cn/countAndSay-38-test.o
@@ -1157,6 +1719,33 @@ editor/cn/countAndSay-38-test.cpp.s:
 	$(MAKE) -f CMakeFiles/countAndSay-38-test.cpp-test.dir/build.make CMakeFiles/countAndSay-38-test.cpp-test.dir/editor/cn/countAndSay-38-test.cpp.s
 .PHONY : editor/cn/countAndSay-38-test.cpp.s
 
+editor/cn/countSpecialQuadruplets-1995-test.o: editor/cn/countSpecialQuadruplets-1995-test.cpp.o
+
+.PHONY : editor/cn/countSpecialQuadruplets-1995-test.o
+
+# target to build an object file
+editor/cn/countSpecialQuadruplets-1995-test.cpp.o:
+	$(MAKE) -f CMakeFiles/countSpecialQuadruplets-1995-test.cpp-test.dir/build.make CMakeFiles/countSpecialQuadruplets-1995-test.cpp-test.dir/editor/cn/countSpecialQuadruplets-1995-test.cpp.o
+.PHONY : editor/cn/countSpecialQuadruplets-1995-test.cpp.o
+
+editor/cn/countSpecialQuadruplets-1995-test.i: editor/cn/countSpecialQuadruplets-1995-test.cpp.i
+
+.PHONY : editor/cn/countSpecialQuadruplets-1995-test.i
+
+# target to preprocess a source file
+editor/cn/countSpecialQuadruplets-1995-test.cpp.i:
+	$(MAKE) -f CMakeFiles/countSpecialQuadruplets-1995-test.cpp-test.dir/build.make CMakeFiles/countSpecialQuadruplets-1995-test.cpp-test.dir/editor/cn/countSpecialQuadruplets-1995-test.cpp.i
+.PHONY : editor/cn/countSpecialQuadruplets-1995-test.cpp.i
+
+editor/cn/countSpecialQuadruplets-1995-test.s: editor/cn/countSpecialQuadruplets-1995-test.cpp.s
+
+.PHONY : editor/cn/countSpecialQuadruplets-1995-test.s
+
+# target to generate assembly for a file
+editor/cn/countSpecialQuadruplets-1995-test.cpp.s:
+	$(MAKE) -f CMakeFiles/countSpecialQuadruplets-1995-test.cpp-test.dir/build.make CMakeFiles/countSpecialQuadruplets-1995-test.cpp-test.dir/editor/cn/countSpecialQuadruplets-1995-test.cpp.s
+.PHONY : editor/cn/countSpecialQuadruplets-1995-test.cpp.s
+
 editor/cn/crackingTheSafe-753-test.o: editor/cn/crackingTheSafe-753-test.cpp.o
 
 .PHONY : editor/cn/crackingTheSafe-753-test.o
@@ -1183,6 +1772,60 @@ editor/cn/crackingTheSafe-753-test.s: editor/cn/crackingTheSafe-753-test.cpp.s
 editor/cn/crackingTheSafe-753-test.cpp.s:
 	$(MAKE) -f CMakeFiles/crackingTheSafe-753-test.cpp-test.dir/build.make CMakeFiles/crackingTheSafe-753-test.cpp-test.dir/editor/cn/crackingTheSafe-753-test.cpp.s
 .PHONY : editor/cn/crackingTheSafe-753-test.cpp.s
+
+editor/cn/dayOfTheWeek-1185-test.o: editor/cn/dayOfTheWeek-1185-test.cpp.o
+
+.PHONY : editor/cn/dayOfTheWeek-1185-test.o
+
+# target to build an object file
+editor/cn/dayOfTheWeek-1185-test.cpp.o:
+	$(MAKE) -f CMakeFiles/dayOfTheWeek-1185-test.cpp-test.dir/build.make CMakeFiles/dayOfTheWeek-1185-test.cpp-test.dir/editor/cn/dayOfTheWeek-1185-test.cpp.o
+.PHONY : editor/cn/dayOfTheWeek-1185-test.cpp.o
+
+editor/cn/dayOfTheWeek-1185-test.i: editor/cn/dayOfTheWeek-1185-test.cpp.i
+
+.PHONY : editor/cn/dayOfTheWeek-1185-test.i
+
+# target to preprocess a source file
+editor/cn/dayOfTheWeek-1185-test.cpp.i:
+	$(MAKE) -f CMakeFiles/dayOfTheWeek-1185-test.cpp-test.dir/build.make CMakeFiles/dayOfTheWeek-1185-test.cpp-test.dir/editor/cn/dayOfTheWeek-1185-test.cpp.i
+.PHONY : editor/cn/dayOfTheWeek-1185-test.cpp.i
+
+editor/cn/dayOfTheWeek-1185-test.s: editor/cn/dayOfTheWeek-1185-test.cpp.s
+
+.PHONY : editor/cn/dayOfTheWeek-1185-test.s
+
+# target to generate assembly for a file
+editor/cn/dayOfTheWeek-1185-test.cpp.s:
+	$(MAKE) -f CMakeFiles/dayOfTheWeek-1185-test.cpp-test.dir/build.make CMakeFiles/dayOfTheWeek-1185-test.cpp-test.dir/editor/cn/dayOfTheWeek-1185-test.cpp.s
+.PHONY : editor/cn/dayOfTheWeek-1185-test.cpp.s
+
+editor/cn/dayOfTheYear-1154-test.o: editor/cn/dayOfTheYear-1154-test.cpp.o
+
+.PHONY : editor/cn/dayOfTheYear-1154-test.o
+
+# target to build an object file
+editor/cn/dayOfTheYear-1154-test.cpp.o:
+	$(MAKE) -f CMakeFiles/dayOfTheYear-1154-test.cpp-test.dir/build.make CMakeFiles/dayOfTheYear-1154-test.cpp-test.dir/editor/cn/dayOfTheYear-1154-test.cpp.o
+.PHONY : editor/cn/dayOfTheYear-1154-test.cpp.o
+
+editor/cn/dayOfTheYear-1154-test.i: editor/cn/dayOfTheYear-1154-test.cpp.i
+
+.PHONY : editor/cn/dayOfTheYear-1154-test.i
+
+# target to preprocess a source file
+editor/cn/dayOfTheYear-1154-test.cpp.i:
+	$(MAKE) -f CMakeFiles/dayOfTheYear-1154-test.cpp-test.dir/build.make CMakeFiles/dayOfTheYear-1154-test.cpp-test.dir/editor/cn/dayOfTheYear-1154-test.cpp.i
+.PHONY : editor/cn/dayOfTheYear-1154-test.cpp.i
+
+editor/cn/dayOfTheYear-1154-test.s: editor/cn/dayOfTheYear-1154-test.cpp.s
+
+.PHONY : editor/cn/dayOfTheYear-1154-test.s
+
+# target to generate assembly for a file
+editor/cn/dayOfTheYear-1154-test.cpp.s:
+	$(MAKE) -f CMakeFiles/dayOfTheYear-1154-test.cpp-test.dir/build.make CMakeFiles/dayOfTheYear-1154-test.cpp-test.dir/editor/cn/dayOfTheYear-1154-test.cpp.s
+.PHONY : editor/cn/dayOfTheYear-1154-test.cpp.s
 
 editor/cn/deleteNodeInALinkedList-237-test.o: editor/cn/deleteNodeInALinkedList-237-test.cpp.o
 
@@ -1265,6 +1908,60 @@ editor/cn/distributeCandies-575-test.cpp.s:
 	$(MAKE) -f CMakeFiles/distributeCandies-575-test.cpp-test.dir/build.make CMakeFiles/distributeCandies-575-test.cpp-test.dir/editor/cn/distributeCandies-575-test.cpp.s
 .PHONY : editor/cn/distributeCandies-575-test.cpp.s
 
+editor/cn/divideTwoIntegers-29-test.o: editor/cn/divideTwoIntegers-29-test.cpp.o
+
+.PHONY : editor/cn/divideTwoIntegers-29-test.o
+
+# target to build an object file
+editor/cn/divideTwoIntegers-29-test.cpp.o:
+	$(MAKE) -f CMakeFiles/divideTwoIntegers-29-test.cpp-test.dir/build.make CMakeFiles/divideTwoIntegers-29-test.cpp-test.dir/editor/cn/divideTwoIntegers-29-test.cpp.o
+.PHONY : editor/cn/divideTwoIntegers-29-test.cpp.o
+
+editor/cn/divideTwoIntegers-29-test.i: editor/cn/divideTwoIntegers-29-test.cpp.i
+
+.PHONY : editor/cn/divideTwoIntegers-29-test.i
+
+# target to preprocess a source file
+editor/cn/divideTwoIntegers-29-test.cpp.i:
+	$(MAKE) -f CMakeFiles/divideTwoIntegers-29-test.cpp-test.dir/build.make CMakeFiles/divideTwoIntegers-29-test.cpp-test.dir/editor/cn/divideTwoIntegers-29-test.cpp.i
+.PHONY : editor/cn/divideTwoIntegers-29-test.cpp.i
+
+editor/cn/divideTwoIntegers-29-test.s: editor/cn/divideTwoIntegers-29-test.cpp.s
+
+.PHONY : editor/cn/divideTwoIntegers-29-test.s
+
+# target to generate assembly for a file
+editor/cn/divideTwoIntegers-29-test.cpp.s:
+	$(MAKE) -f CMakeFiles/divideTwoIntegers-29-test.cpp-test.dir/build.make CMakeFiles/divideTwoIntegers-29-test.cpp-test.dir/editor/cn/divideTwoIntegers-29-test.cpp.s
+.PHONY : editor/cn/divideTwoIntegers-29-test.cpp.s
+
+editor/cn/eliminationGame-390-test.o: editor/cn/eliminationGame-390-test.cpp.o
+
+.PHONY : editor/cn/eliminationGame-390-test.o
+
+# target to build an object file
+editor/cn/eliminationGame-390-test.cpp.o:
+	$(MAKE) -f CMakeFiles/eliminationGame-390-test.cpp-test.dir/build.make CMakeFiles/eliminationGame-390-test.cpp-test.dir/editor/cn/eliminationGame-390-test.cpp.o
+.PHONY : editor/cn/eliminationGame-390-test.cpp.o
+
+editor/cn/eliminationGame-390-test.i: editor/cn/eliminationGame-390-test.cpp.i
+
+.PHONY : editor/cn/eliminationGame-390-test.i
+
+# target to preprocess a source file
+editor/cn/eliminationGame-390-test.cpp.i:
+	$(MAKE) -f CMakeFiles/eliminationGame-390-test.cpp-test.dir/build.make CMakeFiles/eliminationGame-390-test.cpp-test.dir/editor/cn/eliminationGame-390-test.cpp.i
+.PHONY : editor/cn/eliminationGame-390-test.cpp.i
+
+editor/cn/eliminationGame-390-test.s: editor/cn/eliminationGame-390-test.cpp.s
+
+.PHONY : editor/cn/eliminationGame-390-test.s
+
+# target to generate assembly for a file
+editor/cn/eliminationGame-390-test.cpp.s:
+	$(MAKE) -f CMakeFiles/eliminationGame-390-test.cpp-test.dir/build.make CMakeFiles/eliminationGame-390-test.cpp-test.dir/editor/cn/eliminationGame-390-test.cpp.s
+.PHONY : editor/cn/eliminationGame-390-test.cpp.s
+
 editor/cn/expressionAddOperators-282-test.o: editor/cn/expressionAddOperators-282-test.cpp.o
 
 .PHONY : editor/cn/expressionAddOperators-282-test.o
@@ -1291,6 +1988,168 @@ editor/cn/expressionAddOperators-282-test.s: editor/cn/expressionAddOperators-28
 editor/cn/expressionAddOperators-282-test.cpp.s:
 	$(MAKE) -f CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/build.make CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.s
 .PHONY : editor/cn/expressionAddOperators-282-test.cpp.s
+
+editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.o: editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.o
+
+.PHONY : editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.o
+
+# target to build an object file
+editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.o:
+	$(MAKE) -f CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/build.make CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.o
+.PHONY : editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.o
+
+editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.i: editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.i
+
+.PHONY : editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.i
+
+# target to preprocess a source file
+editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.i:
+	$(MAKE) -f CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/build.make CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.i
+.PHONY : editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.i
+
+editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.s: editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.s
+
+.PHONY : editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.s
+
+# target to generate assembly for a file
+editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.s:
+	$(MAKE) -f CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/build.make CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.s
+.PHONY : editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.s
+
+editor/cn/findMinimumInRotatedSortedArray-153-test.o: editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.o
+
+.PHONY : editor/cn/findMinimumInRotatedSortedArray-153-test.o
+
+# target to build an object file
+editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.o:
+	$(MAKE) -f CMakeFiles/findMinimumInRotatedSortedArray-153-test.cpp-test.dir/build.make CMakeFiles/findMinimumInRotatedSortedArray-153-test.cpp-test.dir/editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.o
+.PHONY : editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.o
+
+editor/cn/findMinimumInRotatedSortedArray-153-test.i: editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.i
+
+.PHONY : editor/cn/findMinimumInRotatedSortedArray-153-test.i
+
+# target to preprocess a source file
+editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.i:
+	$(MAKE) -f CMakeFiles/findMinimumInRotatedSortedArray-153-test.cpp-test.dir/build.make CMakeFiles/findMinimumInRotatedSortedArray-153-test.cpp-test.dir/editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.i
+.PHONY : editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.i
+
+editor/cn/findMinimumInRotatedSortedArray-153-test.s: editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.s
+
+.PHONY : editor/cn/findMinimumInRotatedSortedArray-153-test.s
+
+# target to generate assembly for a file
+editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.s:
+	$(MAKE) -f CMakeFiles/findMinimumInRotatedSortedArray-153-test.cpp-test.dir/build.make CMakeFiles/findMinimumInRotatedSortedArray-153-test.cpp-test.dir/editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.s
+.PHONY : editor/cn/findMinimumInRotatedSortedArray-153-test.cpp.s
+
+editor/cn/findMinimumInRotatedSortedArrayIi-154-test.o: editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.o
+
+.PHONY : editor/cn/findMinimumInRotatedSortedArrayIi-154-test.o
+
+# target to build an object file
+editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.o:
+	$(MAKE) -f CMakeFiles/findMinimumInRotatedSortedArrayIi-154-test.cpp-test.dir/build.make CMakeFiles/findMinimumInRotatedSortedArrayIi-154-test.cpp-test.dir/editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.o
+.PHONY : editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.o
+
+editor/cn/findMinimumInRotatedSortedArrayIi-154-test.i: editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.i
+
+.PHONY : editor/cn/findMinimumInRotatedSortedArrayIi-154-test.i
+
+# target to preprocess a source file
+editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.i:
+	$(MAKE) -f CMakeFiles/findMinimumInRotatedSortedArrayIi-154-test.cpp-test.dir/build.make CMakeFiles/findMinimumInRotatedSortedArrayIi-154-test.cpp-test.dir/editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.i
+.PHONY : editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.i
+
+editor/cn/findMinimumInRotatedSortedArrayIi-154-test.s: editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.s
+
+.PHONY : editor/cn/findMinimumInRotatedSortedArrayIi-154-test.s
+
+# target to generate assembly for a file
+editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.s:
+	$(MAKE) -f CMakeFiles/findMinimumInRotatedSortedArrayIi-154-test.cpp-test.dir/build.make CMakeFiles/findMinimumInRotatedSortedArrayIi-154-test.cpp-test.dir/editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.s
+.PHONY : editor/cn/findMinimumInRotatedSortedArrayIi-154-test.cpp.s
+
+editor/cn/findPeakElement-162-test.o: editor/cn/findPeakElement-162-test.cpp.o
+
+.PHONY : editor/cn/findPeakElement-162-test.o
+
+# target to build an object file
+editor/cn/findPeakElement-162-test.cpp.o:
+	$(MAKE) -f CMakeFiles/findPeakElement-162-test.cpp-test.dir/build.make CMakeFiles/findPeakElement-162-test.cpp-test.dir/editor/cn/findPeakElement-162-test.cpp.o
+.PHONY : editor/cn/findPeakElement-162-test.cpp.o
+
+editor/cn/findPeakElement-162-test.i: editor/cn/findPeakElement-162-test.cpp.i
+
+.PHONY : editor/cn/findPeakElement-162-test.i
+
+# target to preprocess a source file
+editor/cn/findPeakElement-162-test.cpp.i:
+	$(MAKE) -f CMakeFiles/findPeakElement-162-test.cpp-test.dir/build.make CMakeFiles/findPeakElement-162-test.cpp-test.dir/editor/cn/findPeakElement-162-test.cpp.i
+.PHONY : editor/cn/findPeakElement-162-test.cpp.i
+
+editor/cn/findPeakElement-162-test.s: editor/cn/findPeakElement-162-test.cpp.s
+
+.PHONY : editor/cn/findPeakElement-162-test.s
+
+# target to generate assembly for a file
+editor/cn/findPeakElement-162-test.cpp.s:
+	$(MAKE) -f CMakeFiles/findPeakElement-162-test.cpp-test.dir/build.make CMakeFiles/findPeakElement-162-test.cpp-test.dir/editor/cn/findPeakElement-162-test.cpp.s
+.PHONY : editor/cn/findPeakElement-162-test.cpp.s
+
+editor/cn/findRightInterval-436-test.o: editor/cn/findRightInterval-436-test.cpp.o
+
+.PHONY : editor/cn/findRightInterval-436-test.o
+
+# target to build an object file
+editor/cn/findRightInterval-436-test.cpp.o:
+	$(MAKE) -f CMakeFiles/findRightInterval-436-test.cpp-test.dir/build.make CMakeFiles/findRightInterval-436-test.cpp-test.dir/editor/cn/findRightInterval-436-test.cpp.o
+.PHONY : editor/cn/findRightInterval-436-test.cpp.o
+
+editor/cn/findRightInterval-436-test.i: editor/cn/findRightInterval-436-test.cpp.i
+
+.PHONY : editor/cn/findRightInterval-436-test.i
+
+# target to preprocess a source file
+editor/cn/findRightInterval-436-test.cpp.i:
+	$(MAKE) -f CMakeFiles/findRightInterval-436-test.cpp-test.dir/build.make CMakeFiles/findRightInterval-436-test.cpp-test.dir/editor/cn/findRightInterval-436-test.cpp.i
+.PHONY : editor/cn/findRightInterval-436-test.cpp.i
+
+editor/cn/findRightInterval-436-test.s: editor/cn/findRightInterval-436-test.cpp.s
+
+.PHONY : editor/cn/findRightInterval-436-test.s
+
+# target to generate assembly for a file
+editor/cn/findRightInterval-436-test.cpp.s:
+	$(MAKE) -f CMakeFiles/findRightInterval-436-test.cpp-test.dir/build.make CMakeFiles/findRightInterval-436-test.cpp-test.dir/editor/cn/findRightInterval-436-test.cpp.s
+.PHONY : editor/cn/findRightInterval-436-test.cpp.s
+
+editor/cn/findTheDuplicateNumber-287-test.o: editor/cn/findTheDuplicateNumber-287-test.cpp.o
+
+.PHONY : editor/cn/findTheDuplicateNumber-287-test.o
+
+# target to build an object file
+editor/cn/findTheDuplicateNumber-287-test.cpp.o:
+	$(MAKE) -f CMakeFiles/findTheDuplicateNumber-287-test.cpp-test.dir/build.make CMakeFiles/findTheDuplicateNumber-287-test.cpp-test.dir/editor/cn/findTheDuplicateNumber-287-test.cpp.o
+.PHONY : editor/cn/findTheDuplicateNumber-287-test.cpp.o
+
+editor/cn/findTheDuplicateNumber-287-test.i: editor/cn/findTheDuplicateNumber-287-test.cpp.i
+
+.PHONY : editor/cn/findTheDuplicateNumber-287-test.i
+
+# target to preprocess a source file
+editor/cn/findTheDuplicateNumber-287-test.cpp.i:
+	$(MAKE) -f CMakeFiles/findTheDuplicateNumber-287-test.cpp-test.dir/build.make CMakeFiles/findTheDuplicateNumber-287-test.cpp-test.dir/editor/cn/findTheDuplicateNumber-287-test.cpp.i
+.PHONY : editor/cn/findTheDuplicateNumber-287-test.cpp.i
+
+editor/cn/findTheDuplicateNumber-287-test.s: editor/cn/findTheDuplicateNumber-287-test.cpp.s
+
+.PHONY : editor/cn/findTheDuplicateNumber-287-test.s
+
+# target to generate assembly for a file
+editor/cn/findTheDuplicateNumber-287-test.cpp.s:
+	$(MAKE) -f CMakeFiles/findTheDuplicateNumber-287-test.cpp-test.dir/build.make CMakeFiles/findTheDuplicateNumber-287-test.cpp-test.dir/editor/cn/findTheDuplicateNumber-287-test.cpp.s
+.PHONY : editor/cn/findTheDuplicateNumber-287-test.cpp.s
 
 editor/cn/findTheTownJudge-997-test.o: editor/cn/findTheTownJudge-997-test.cpp.o
 
@@ -1319,6 +2178,60 @@ editor/cn/findTheTownJudge-997-test.cpp.s:
 	$(MAKE) -f CMakeFiles/findTheTownJudge-997-test.cpp-test.dir/build.make CMakeFiles/findTheTownJudge-997-test.cpp-test.dir/editor/cn/findTheTownJudge-997-test.cpp.s
 .PHONY : editor/cn/findTheTownJudge-997-test.cpp.s
 
+editor/cn/firstBadVersion-278-test.o: editor/cn/firstBadVersion-278-test.cpp.o
+
+.PHONY : editor/cn/firstBadVersion-278-test.o
+
+# target to build an object file
+editor/cn/firstBadVersion-278-test.cpp.o:
+	$(MAKE) -f CMakeFiles/firstBadVersion-278-test.cpp-test.dir/build.make CMakeFiles/firstBadVersion-278-test.cpp-test.dir/editor/cn/firstBadVersion-278-test.cpp.o
+.PHONY : editor/cn/firstBadVersion-278-test.cpp.o
+
+editor/cn/firstBadVersion-278-test.i: editor/cn/firstBadVersion-278-test.cpp.i
+
+.PHONY : editor/cn/firstBadVersion-278-test.i
+
+# target to preprocess a source file
+editor/cn/firstBadVersion-278-test.cpp.i:
+	$(MAKE) -f CMakeFiles/firstBadVersion-278-test.cpp-test.dir/build.make CMakeFiles/firstBadVersion-278-test.cpp-test.dir/editor/cn/firstBadVersion-278-test.cpp.i
+.PHONY : editor/cn/firstBadVersion-278-test.cpp.i
+
+editor/cn/firstBadVersion-278-test.s: editor/cn/firstBadVersion-278-test.cpp.s
+
+.PHONY : editor/cn/firstBadVersion-278-test.s
+
+# target to generate assembly for a file
+editor/cn/firstBadVersion-278-test.cpp.s:
+	$(MAKE) -f CMakeFiles/firstBadVersion-278-test.cpp-test.dir/build.make CMakeFiles/firstBadVersion-278-test.cpp-test.dir/editor/cn/firstBadVersion-278-test.cpp.s
+.PHONY : editor/cn/firstBadVersion-278-test.cpp.s
+
+editor/cn/grayCode-89-test.o: editor/cn/grayCode-89-test.cpp.o
+
+.PHONY : editor/cn/grayCode-89-test.o
+
+# target to build an object file
+editor/cn/grayCode-89-test.cpp.o:
+	$(MAKE) -f CMakeFiles/grayCode-89-test.cpp-test.dir/build.make CMakeFiles/grayCode-89-test.cpp-test.dir/editor/cn/grayCode-89-test.cpp.o
+.PHONY : editor/cn/grayCode-89-test.cpp.o
+
+editor/cn/grayCode-89-test.i: editor/cn/grayCode-89-test.cpp.i
+
+.PHONY : editor/cn/grayCode-89-test.i
+
+# target to preprocess a source file
+editor/cn/grayCode-89-test.cpp.i:
+	$(MAKE) -f CMakeFiles/grayCode-89-test.cpp-test.dir/build.make CMakeFiles/grayCode-89-test.cpp-test.dir/editor/cn/grayCode-89-test.cpp.i
+.PHONY : editor/cn/grayCode-89-test.cpp.i
+
+editor/cn/grayCode-89-test.s: editor/cn/grayCode-89-test.cpp.s
+
+.PHONY : editor/cn/grayCode-89-test.s
+
+# target to generate assembly for a file
+editor/cn/grayCode-89-test.cpp.s:
+	$(MAKE) -f CMakeFiles/grayCode-89-test.cpp-test.dir/build.make CMakeFiles/grayCode-89-test.cpp-test.dir/editor/cn/grayCode-89-test.cpp.s
+.PHONY : editor/cn/grayCode-89-test.cpp.s
+
 editor/cn/guessNumberHigherOrLowerIi-375-test.o: editor/cn/guessNumberHigherOrLowerIi-375-test.cpp.o
 
 .PHONY : editor/cn/guessNumberHigherOrLowerIi-375-test.o
@@ -1345,6 +2258,33 @@ editor/cn/guessNumberHigherOrLowerIi-375-test.s: editor/cn/guessNumberHigherOrLo
 editor/cn/guessNumberHigherOrLowerIi-375-test.cpp.s:
 	$(MAKE) -f CMakeFiles/guessNumberHigherOrLowerIi-375-test.cpp-test.dir/build.make CMakeFiles/guessNumberHigherOrLowerIi-375-test.cpp-test.dir/editor/cn/guessNumberHigherOrLowerIi-375-test.cpp.s
 .PHONY : editor/cn/guessNumberHigherOrLowerIi-375-test.cpp.s
+
+editor/cn/handOfStraights-846-test.o: editor/cn/handOfStraights-846-test.cpp.o
+
+.PHONY : editor/cn/handOfStraights-846-test.o
+
+# target to build an object file
+editor/cn/handOfStraights-846-test.cpp.o:
+	$(MAKE) -f CMakeFiles/handOfStraights-846-test.cpp-test.dir/build.make CMakeFiles/handOfStraights-846-test.cpp-test.dir/editor/cn/handOfStraights-846-test.cpp.o
+.PHONY : editor/cn/handOfStraights-846-test.cpp.o
+
+editor/cn/handOfStraights-846-test.i: editor/cn/handOfStraights-846-test.cpp.i
+
+.PHONY : editor/cn/handOfStraights-846-test.i
+
+# target to preprocess a source file
+editor/cn/handOfStraights-846-test.cpp.i:
+	$(MAKE) -f CMakeFiles/handOfStraights-846-test.cpp-test.dir/build.make CMakeFiles/handOfStraights-846-test.cpp-test.dir/editor/cn/handOfStraights-846-test.cpp.i
+.PHONY : editor/cn/handOfStraights-846-test.cpp.i
+
+editor/cn/handOfStraights-846-test.s: editor/cn/handOfStraights-846-test.cpp.s
+
+.PHONY : editor/cn/handOfStraights-846-test.s
+
+# target to generate assembly for a file
+editor/cn/handOfStraights-846-test.cpp.s:
+	$(MAKE) -f CMakeFiles/handOfStraights-846-test.cpp-test.dir/build.make CMakeFiles/handOfStraights-846-test.cpp-test.dir/editor/cn/handOfStraights-846-test.cpp.s
+.PHONY : editor/cn/handOfStraights-846-test.cpp.s
 
 editor/cn/heaters-475-test.o: editor/cn/heaters-475-test.cpp.o
 
@@ -1534,6 +2474,33 @@ editor/cn/maximizeSumOfArrayAfterKNegations-1005-test.s: editor/cn/maximizeSumOf
 editor/cn/maximizeSumOfArrayAfterKNegations-1005-test.cpp.s:
 	$(MAKE) -f CMakeFiles/maximizeSumOfArrayAfterKNegations-1005-test.cpp-test.dir/build.make CMakeFiles/maximizeSumOfArrayAfterKNegations-1005-test.cpp-test.dir/editor/cn/maximizeSumOfArrayAfterKNegations-1005-test.cpp.s
 .PHONY : editor/cn/maximizeSumOfArrayAfterKNegations-1005-test.cpp.s
+
+editor/cn/maximumNumberOfVisiblePoints-1610-test.o: editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.o
+
+.PHONY : editor/cn/maximumNumberOfVisiblePoints-1610-test.o
+
+# target to build an object file
+editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.o:
+	$(MAKE) -f CMakeFiles/maximumNumberOfVisiblePoints-1610-test.cpp-test.dir/build.make CMakeFiles/maximumNumberOfVisiblePoints-1610-test.cpp-test.dir/editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.o
+.PHONY : editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.o
+
+editor/cn/maximumNumberOfVisiblePoints-1610-test.i: editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.i
+
+.PHONY : editor/cn/maximumNumberOfVisiblePoints-1610-test.i
+
+# target to preprocess a source file
+editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.i:
+	$(MAKE) -f CMakeFiles/maximumNumberOfVisiblePoints-1610-test.cpp-test.dir/build.make CMakeFiles/maximumNumberOfVisiblePoints-1610-test.cpp-test.dir/editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.i
+.PHONY : editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.i
+
+editor/cn/maximumNumberOfVisiblePoints-1610-test.s: editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.s
+
+.PHONY : editor/cn/maximumNumberOfVisiblePoints-1610-test.s
+
+# target to generate assembly for a file
+editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.s:
+	$(MAKE) -f CMakeFiles/maximumNumberOfVisiblePoints-1610-test.cpp-test.dir/build.make CMakeFiles/maximumNumberOfVisiblePoints-1610-test.cpp-test.dir/editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.s
+.PHONY : editor/cn/maximumNumberOfVisiblePoints-1610-test.cpp.s
 
 editor/cn/maximumProductOfWordLengths-318-test.o: editor/cn/maximumProductOfWordLengths-318-test.cpp.o
 
@@ -1832,6 +2799,33 @@ editor/cn/numberComplement-476-test.cpp.s:
 	$(MAKE) -f CMakeFiles/numberComplement-476-test.cpp-test.dir/build.make CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.s
 .PHONY : editor/cn/numberComplement-476-test.cpp.s
 
+editor/cn/perfectNumber-507-test.o: editor/cn/perfectNumber-507-test.cpp.o
+
+.PHONY : editor/cn/perfectNumber-507-test.o
+
+# target to build an object file
+editor/cn/perfectNumber-507-test.cpp.o:
+	$(MAKE) -f CMakeFiles/perfectNumber-507-test.cpp-test.dir/build.make CMakeFiles/perfectNumber-507-test.cpp-test.dir/editor/cn/perfectNumber-507-test.cpp.o
+.PHONY : editor/cn/perfectNumber-507-test.cpp.o
+
+editor/cn/perfectNumber-507-test.i: editor/cn/perfectNumber-507-test.cpp.i
+
+.PHONY : editor/cn/perfectNumber-507-test.i
+
+# target to preprocess a source file
+editor/cn/perfectNumber-507-test.cpp.i:
+	$(MAKE) -f CMakeFiles/perfectNumber-507-test.cpp-test.dir/build.make CMakeFiles/perfectNumber-507-test.cpp-test.dir/editor/cn/perfectNumber-507-test.cpp.i
+.PHONY : editor/cn/perfectNumber-507-test.cpp.i
+
+editor/cn/perfectNumber-507-test.s: editor/cn/perfectNumber-507-test.cpp.s
+
+.PHONY : editor/cn/perfectNumber-507-test.s
+
+# target to generate assembly for a file
+editor/cn/perfectNumber-507-test.cpp.s:
+	$(MAKE) -f CMakeFiles/perfectNumber-507-test.cpp-test.dir/build.make CMakeFiles/perfectNumber-507-test.cpp-test.dir/editor/cn/perfectNumber-507-test.cpp.s
+.PHONY : editor/cn/perfectNumber-507-test.cpp.s
+
 editor/cn/plusOne-66-test.o: editor/cn/plusOne-66-test.cpp.o
 
 .PHONY : editor/cn/plusOne-66-test.o
@@ -1994,6 +2988,222 @@ editor/cn/reorderedPowerOf2-869-test.cpp.s:
 	$(MAKE) -f CMakeFiles/reorderedPowerOf2-869-test.cpp-test.dir/build.make CMakeFiles/reorderedPowerOf2-869-test.cpp-test.dir/editor/cn/reorderedPowerOf2-869-test.cpp.s
 .PHONY : editor/cn/reorderedPowerOf2-869-test.cpp.s
 
+editor/cn/repeatedStringMatch-686-test.o: editor/cn/repeatedStringMatch-686-test.cpp.o
+
+.PHONY : editor/cn/repeatedStringMatch-686-test.o
+
+# target to build an object file
+editor/cn/repeatedStringMatch-686-test.cpp.o:
+	$(MAKE) -f CMakeFiles/repeatedStringMatch-686-test.cpp-test.dir/build.make CMakeFiles/repeatedStringMatch-686-test.cpp-test.dir/editor/cn/repeatedStringMatch-686-test.cpp.o
+.PHONY : editor/cn/repeatedStringMatch-686-test.cpp.o
+
+editor/cn/repeatedStringMatch-686-test.i: editor/cn/repeatedStringMatch-686-test.cpp.i
+
+.PHONY : editor/cn/repeatedStringMatch-686-test.i
+
+# target to preprocess a source file
+editor/cn/repeatedStringMatch-686-test.cpp.i:
+	$(MAKE) -f CMakeFiles/repeatedStringMatch-686-test.cpp-test.dir/build.make CMakeFiles/repeatedStringMatch-686-test.cpp-test.dir/editor/cn/repeatedStringMatch-686-test.cpp.i
+.PHONY : editor/cn/repeatedStringMatch-686-test.cpp.i
+
+editor/cn/repeatedStringMatch-686-test.s: editor/cn/repeatedStringMatch-686-test.cpp.s
+
+.PHONY : editor/cn/repeatedStringMatch-686-test.s
+
+# target to generate assembly for a file
+editor/cn/repeatedStringMatch-686-test.cpp.s:
+	$(MAKE) -f CMakeFiles/repeatedStringMatch-686-test.cpp-test.dir/build.make CMakeFiles/repeatedStringMatch-686-test.cpp-test.dir/editor/cn/repeatedStringMatch-686-test.cpp.s
+.PHONY : editor/cn/repeatedStringMatch-686-test.cpp.s
+
+editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.o: editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.o
+
+.PHONY : editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.o
+
+# target to build an object file
+editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.o:
+	$(MAKE) -f CMakeFiles/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test.dir/build.make CMakeFiles/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test.dir/editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.o
+.PHONY : editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.o
+
+editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.i: editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.i
+
+.PHONY : editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.i
+
+# target to preprocess a source file
+editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.i:
+	$(MAKE) -f CMakeFiles/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test.dir/build.make CMakeFiles/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test.dir/editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.i
+.PHONY : editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.i
+
+editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.s: editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.s
+
+.PHONY : editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.s
+
+# target to generate assembly for a file
+editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.s:
+	$(MAKE) -f CMakeFiles/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test.dir/build.make CMakeFiles/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test.dir/editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.s
+.PHONY : editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp.s
+
+editor/cn/sameTree-100-test.o: editor/cn/sameTree-100-test.cpp.o
+
+.PHONY : editor/cn/sameTree-100-test.o
+
+# target to build an object file
+editor/cn/sameTree-100-test.cpp.o:
+	$(MAKE) -f CMakeFiles/sameTree-100-test.cpp-test.dir/build.make CMakeFiles/sameTree-100-test.cpp-test.dir/editor/cn/sameTree-100-test.cpp.o
+.PHONY : editor/cn/sameTree-100-test.cpp.o
+
+editor/cn/sameTree-100-test.i: editor/cn/sameTree-100-test.cpp.i
+
+.PHONY : editor/cn/sameTree-100-test.i
+
+# target to preprocess a source file
+editor/cn/sameTree-100-test.cpp.i:
+	$(MAKE) -f CMakeFiles/sameTree-100-test.cpp-test.dir/build.make CMakeFiles/sameTree-100-test.cpp-test.dir/editor/cn/sameTree-100-test.cpp.i
+.PHONY : editor/cn/sameTree-100-test.cpp.i
+
+editor/cn/sameTree-100-test.s: editor/cn/sameTree-100-test.cpp.s
+
+.PHONY : editor/cn/sameTree-100-test.s
+
+# target to generate assembly for a file
+editor/cn/sameTree-100-test.cpp.s:
+	$(MAKE) -f CMakeFiles/sameTree-100-test.cpp-test.dir/build.make CMakeFiles/sameTree-100-test.cpp-test.dir/editor/cn/sameTree-100-test.cpp.s
+.PHONY : editor/cn/sameTree-100-test.cpp.s
+
+editor/cn/searchA2dMatrix-74-test.o: editor/cn/searchA2dMatrix-74-test.cpp.o
+
+.PHONY : editor/cn/searchA2dMatrix-74-test.o
+
+# target to build an object file
+editor/cn/searchA2dMatrix-74-test.cpp.o:
+	$(MAKE) -f CMakeFiles/searchA2dMatrix-74-test.cpp-test.dir/build.make CMakeFiles/searchA2dMatrix-74-test.cpp-test.dir/editor/cn/searchA2dMatrix-74-test.cpp.o
+.PHONY : editor/cn/searchA2dMatrix-74-test.cpp.o
+
+editor/cn/searchA2dMatrix-74-test.i: editor/cn/searchA2dMatrix-74-test.cpp.i
+
+.PHONY : editor/cn/searchA2dMatrix-74-test.i
+
+# target to preprocess a source file
+editor/cn/searchA2dMatrix-74-test.cpp.i:
+	$(MAKE) -f CMakeFiles/searchA2dMatrix-74-test.cpp-test.dir/build.make CMakeFiles/searchA2dMatrix-74-test.cpp-test.dir/editor/cn/searchA2dMatrix-74-test.cpp.i
+.PHONY : editor/cn/searchA2dMatrix-74-test.cpp.i
+
+editor/cn/searchA2dMatrix-74-test.s: editor/cn/searchA2dMatrix-74-test.cpp.s
+
+.PHONY : editor/cn/searchA2dMatrix-74-test.s
+
+# target to generate assembly for a file
+editor/cn/searchA2dMatrix-74-test.cpp.s:
+	$(MAKE) -f CMakeFiles/searchA2dMatrix-74-test.cpp-test.dir/build.make CMakeFiles/searchA2dMatrix-74-test.cpp-test.dir/editor/cn/searchA2dMatrix-74-test.cpp.s
+.PHONY : editor/cn/searchA2dMatrix-74-test.cpp.s
+
+editor/cn/searchA2dMatrixIi-240-test.o: editor/cn/searchA2dMatrixIi-240-test.cpp.o
+
+.PHONY : editor/cn/searchA2dMatrixIi-240-test.o
+
+# target to build an object file
+editor/cn/searchA2dMatrixIi-240-test.cpp.o:
+	$(MAKE) -f CMakeFiles/searchA2dMatrixIi-240-test.cpp-test.dir/build.make CMakeFiles/searchA2dMatrixIi-240-test.cpp-test.dir/editor/cn/searchA2dMatrixIi-240-test.cpp.o
+.PHONY : editor/cn/searchA2dMatrixIi-240-test.cpp.o
+
+editor/cn/searchA2dMatrixIi-240-test.i: editor/cn/searchA2dMatrixIi-240-test.cpp.i
+
+.PHONY : editor/cn/searchA2dMatrixIi-240-test.i
+
+# target to preprocess a source file
+editor/cn/searchA2dMatrixIi-240-test.cpp.i:
+	$(MAKE) -f CMakeFiles/searchA2dMatrixIi-240-test.cpp-test.dir/build.make CMakeFiles/searchA2dMatrixIi-240-test.cpp-test.dir/editor/cn/searchA2dMatrixIi-240-test.cpp.i
+.PHONY : editor/cn/searchA2dMatrixIi-240-test.cpp.i
+
+editor/cn/searchA2dMatrixIi-240-test.s: editor/cn/searchA2dMatrixIi-240-test.cpp.s
+
+.PHONY : editor/cn/searchA2dMatrixIi-240-test.s
+
+# target to generate assembly for a file
+editor/cn/searchA2dMatrixIi-240-test.cpp.s:
+	$(MAKE) -f CMakeFiles/searchA2dMatrixIi-240-test.cpp-test.dir/build.make CMakeFiles/searchA2dMatrixIi-240-test.cpp-test.dir/editor/cn/searchA2dMatrixIi-240-test.cpp.s
+.PHONY : editor/cn/searchA2dMatrixIi-240-test.cpp.s
+
+editor/cn/searchInRotatedSortedArray-33-test.o: editor/cn/searchInRotatedSortedArray-33-test.cpp.o
+
+.PHONY : editor/cn/searchInRotatedSortedArray-33-test.o
+
+# target to build an object file
+editor/cn/searchInRotatedSortedArray-33-test.cpp.o:
+	$(MAKE) -f CMakeFiles/searchInRotatedSortedArray-33-test.cpp-test.dir/build.make CMakeFiles/searchInRotatedSortedArray-33-test.cpp-test.dir/editor/cn/searchInRotatedSortedArray-33-test.cpp.o
+.PHONY : editor/cn/searchInRotatedSortedArray-33-test.cpp.o
+
+editor/cn/searchInRotatedSortedArray-33-test.i: editor/cn/searchInRotatedSortedArray-33-test.cpp.i
+
+.PHONY : editor/cn/searchInRotatedSortedArray-33-test.i
+
+# target to preprocess a source file
+editor/cn/searchInRotatedSortedArray-33-test.cpp.i:
+	$(MAKE) -f CMakeFiles/searchInRotatedSortedArray-33-test.cpp-test.dir/build.make CMakeFiles/searchInRotatedSortedArray-33-test.cpp-test.dir/editor/cn/searchInRotatedSortedArray-33-test.cpp.i
+.PHONY : editor/cn/searchInRotatedSortedArray-33-test.cpp.i
+
+editor/cn/searchInRotatedSortedArray-33-test.s: editor/cn/searchInRotatedSortedArray-33-test.cpp.s
+
+.PHONY : editor/cn/searchInRotatedSortedArray-33-test.s
+
+# target to generate assembly for a file
+editor/cn/searchInRotatedSortedArray-33-test.cpp.s:
+	$(MAKE) -f CMakeFiles/searchInRotatedSortedArray-33-test.cpp-test.dir/build.make CMakeFiles/searchInRotatedSortedArray-33-test.cpp-test.dir/editor/cn/searchInRotatedSortedArray-33-test.cpp.s
+.PHONY : editor/cn/searchInRotatedSortedArray-33-test.cpp.s
+
+editor/cn/searchInRotatedSortedArrayIi-81-test.o: editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.o
+
+.PHONY : editor/cn/searchInRotatedSortedArrayIi-81-test.o
+
+# target to build an object file
+editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.o:
+	$(MAKE) -f CMakeFiles/searchInRotatedSortedArrayIi-81-test.cpp-test.dir/build.make CMakeFiles/searchInRotatedSortedArrayIi-81-test.cpp-test.dir/editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.o
+.PHONY : editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.o
+
+editor/cn/searchInRotatedSortedArrayIi-81-test.i: editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.i
+
+.PHONY : editor/cn/searchInRotatedSortedArrayIi-81-test.i
+
+# target to preprocess a source file
+editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.i:
+	$(MAKE) -f CMakeFiles/searchInRotatedSortedArrayIi-81-test.cpp-test.dir/build.make CMakeFiles/searchInRotatedSortedArrayIi-81-test.cpp-test.dir/editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.i
+.PHONY : editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.i
+
+editor/cn/searchInRotatedSortedArrayIi-81-test.s: editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.s
+
+.PHONY : editor/cn/searchInRotatedSortedArrayIi-81-test.s
+
+# target to generate assembly for a file
+editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.s:
+	$(MAKE) -f CMakeFiles/searchInRotatedSortedArrayIi-81-test.cpp-test.dir/build.make CMakeFiles/searchInRotatedSortedArrayIi-81-test.cpp-test.dir/editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.s
+.PHONY : editor/cn/searchInRotatedSortedArrayIi-81-test.cpp.s
+
+editor/cn/searchInsertPosition-35-test.o: editor/cn/searchInsertPosition-35-test.cpp.o
+
+.PHONY : editor/cn/searchInsertPosition-35-test.o
+
+# target to build an object file
+editor/cn/searchInsertPosition-35-test.cpp.o:
+	$(MAKE) -f CMakeFiles/searchInsertPosition-35-test.cpp-test.dir/build.make CMakeFiles/searchInsertPosition-35-test.cpp-test.dir/editor/cn/searchInsertPosition-35-test.cpp.o
+.PHONY : editor/cn/searchInsertPosition-35-test.cpp.o
+
+editor/cn/searchInsertPosition-35-test.i: editor/cn/searchInsertPosition-35-test.cpp.i
+
+.PHONY : editor/cn/searchInsertPosition-35-test.i
+
+# target to preprocess a source file
+editor/cn/searchInsertPosition-35-test.cpp.i:
+	$(MAKE) -f CMakeFiles/searchInsertPosition-35-test.cpp-test.dir/build.make CMakeFiles/searchInsertPosition-35-test.cpp-test.dir/editor/cn/searchInsertPosition-35-test.cpp.i
+.PHONY : editor/cn/searchInsertPosition-35-test.cpp.i
+
+editor/cn/searchInsertPosition-35-test.s: editor/cn/searchInsertPosition-35-test.cpp.s
+
+.PHONY : editor/cn/searchInsertPosition-35-test.s
+
+# target to generate assembly for a file
+editor/cn/searchInsertPosition-35-test.cpp.s:
+	$(MAKE) -f CMakeFiles/searchInsertPosition-35-test.cpp-test.dir/build.make CMakeFiles/searchInsertPosition-35-test.cpp-test.dir/editor/cn/searchInsertPosition-35-test.cpp.s
+.PHONY : editor/cn/searchInsertPosition-35-test.cpp.s
+
 editor/cn/seat-test.o: editor/cn/seat-test.cpp.o
 
 .PHONY : editor/cn/seat-test.o
@@ -2075,6 +3285,33 @@ editor/cn/shoppingOffers-638-test.cpp.s:
 	$(MAKE) -f CMakeFiles/shoppingOffers-638-test.cpp-test.dir/build.make CMakeFiles/shoppingOffers-638-test.cpp-test.dir/editor/cn/shoppingOffers-638-test.cpp.s
 .PHONY : editor/cn/shoppingOffers-638-test.cpp.s
 
+editor/cn/simplifyPath-71-test.o: editor/cn/simplifyPath-71-test.cpp.o
+
+.PHONY : editor/cn/simplifyPath-71-test.o
+
+# target to build an object file
+editor/cn/simplifyPath-71-test.cpp.o:
+	$(MAKE) -f CMakeFiles/simplifyPath-71-test.cpp-test.dir/build.make CMakeFiles/simplifyPath-71-test.cpp-test.dir/editor/cn/simplifyPath-71-test.cpp.o
+.PHONY : editor/cn/simplifyPath-71-test.cpp.o
+
+editor/cn/simplifyPath-71-test.i: editor/cn/simplifyPath-71-test.cpp.i
+
+.PHONY : editor/cn/simplifyPath-71-test.i
+
+# target to preprocess a source file
+editor/cn/simplifyPath-71-test.cpp.i:
+	$(MAKE) -f CMakeFiles/simplifyPath-71-test.cpp-test.dir/build.make CMakeFiles/simplifyPath-71-test.cpp-test.dir/editor/cn/simplifyPath-71-test.cpp.i
+.PHONY : editor/cn/simplifyPath-71-test.cpp.i
+
+editor/cn/simplifyPath-71-test.s: editor/cn/simplifyPath-71-test.cpp.s
+
+.PHONY : editor/cn/simplifyPath-71-test.s
+
+# target to generate assembly for a file
+editor/cn/simplifyPath-71-test.cpp.s:
+	$(MAKE) -f CMakeFiles/simplifyPath-71-test.cpp-test.dir/build.make CMakeFiles/simplifyPath-71-test.cpp-test.dir/editor/cn/simplifyPath-71-test.cpp.s
+.PHONY : editor/cn/simplifyPath-71-test.cpp.s
+
 editor/cn/singleNumberIii-260-test.o: editor/cn/singleNumberIii-260-test.cpp.o
 
 .PHONY : editor/cn/singleNumberIii-260-test.o
@@ -2129,6 +3366,33 @@ editor/cn/sortAnArray-912-test.cpp.s:
 	$(MAKE) -f CMakeFiles/sortAnArray-912-test.cpp-test.dir/build.make CMakeFiles/sortAnArray-912-test.cpp-test.dir/editor/cn/sortAnArray-912-test.cpp.s
 .PHONY : editor/cn/sortAnArray-912-test.cpp.s
 
+editor/cn/sqrtx-69-test.o: editor/cn/sqrtx-69-test.cpp.o
+
+.PHONY : editor/cn/sqrtx-69-test.o
+
+# target to build an object file
+editor/cn/sqrtx-69-test.cpp.o:
+	$(MAKE) -f CMakeFiles/sqrtx-69-test.cpp-test.dir/build.make CMakeFiles/sqrtx-69-test.cpp-test.dir/editor/cn/sqrtx-69-test.cpp.o
+.PHONY : editor/cn/sqrtx-69-test.cpp.o
+
+editor/cn/sqrtx-69-test.i: editor/cn/sqrtx-69-test.cpp.i
+
+.PHONY : editor/cn/sqrtx-69-test.i
+
+# target to preprocess a source file
+editor/cn/sqrtx-69-test.cpp.i:
+	$(MAKE) -f CMakeFiles/sqrtx-69-test.cpp-test.dir/build.make CMakeFiles/sqrtx-69-test.cpp-test.dir/editor/cn/sqrtx-69-test.cpp.i
+.PHONY : editor/cn/sqrtx-69-test.cpp.i
+
+editor/cn/sqrtx-69-test.s: editor/cn/sqrtx-69-test.cpp.s
+
+.PHONY : editor/cn/sqrtx-69-test.s
+
+# target to generate assembly for a file
+editor/cn/sqrtx-69-test.cpp.s:
+	$(MAKE) -f CMakeFiles/sqrtx-69-test.cpp-test.dir/build.make CMakeFiles/sqrtx-69-test.cpp-test.dir/editor/cn/sqrtx-69-test.cpp.s
+.PHONY : editor/cn/sqrtx-69-test.cpp.s
+
 editor/cn/substringWithConcatenationOfAllWords-30-test.o: editor/cn/substringWithConcatenationOfAllWords-30-test.cpp.o
 
 .PHONY : editor/cn/substringWithConcatenationOfAllWords-30-test.o
@@ -2182,6 +3446,33 @@ editor/cn/theTimeWhenTheNetworkBecomesIdle-2039-test.s: editor/cn/theTimeWhenThe
 editor/cn/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp.s:
 	$(MAKE) -f CMakeFiles/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test.dir/build.make CMakeFiles/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test.dir/editor/cn/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp.s
 .PHONY : editor/cn/theTimeWhenTheNetworkBecomesIdle-2039-test.cpp.s
+
+editor/cn/threeSumSmaller-259-test.o: editor/cn/threeSumSmaller-259-test.cpp.o
+
+.PHONY : editor/cn/threeSumSmaller-259-test.o
+
+# target to build an object file
+editor/cn/threeSumSmaller-259-test.cpp.o:
+	$(MAKE) -f CMakeFiles/threeSumSmaller-259-test.cpp-test.dir/build.make CMakeFiles/threeSumSmaller-259-test.cpp-test.dir/editor/cn/threeSumSmaller-259-test.cpp.o
+.PHONY : editor/cn/threeSumSmaller-259-test.cpp.o
+
+editor/cn/threeSumSmaller-259-test.i: editor/cn/threeSumSmaller-259-test.cpp.i
+
+.PHONY : editor/cn/threeSumSmaller-259-test.i
+
+# target to preprocess a source file
+editor/cn/threeSumSmaller-259-test.cpp.i:
+	$(MAKE) -f CMakeFiles/threeSumSmaller-259-test.cpp-test.dir/build.make CMakeFiles/threeSumSmaller-259-test.cpp-test.dir/editor/cn/threeSumSmaller-259-test.cpp.i
+.PHONY : editor/cn/threeSumSmaller-259-test.cpp.i
+
+editor/cn/threeSumSmaller-259-test.s: editor/cn/threeSumSmaller-259-test.cpp.s
+
+.PHONY : editor/cn/threeSumSmaller-259-test.s
+
+# target to generate assembly for a file
+editor/cn/threeSumSmaller-259-test.cpp.s:
+	$(MAKE) -f CMakeFiles/threeSumSmaller-259-test.cpp-test.dir/build.make CMakeFiles/threeSumSmaller-259-test.cpp-test.dir/editor/cn/threeSumSmaller-259-test.cpp.s
+.PHONY : editor/cn/threeSumSmaller-259-test.cpp.s
 
 editor/cn/trappingRainWaterIi-407-test.o: editor/cn/trappingRainWaterIi-407-test.cpp.o
 
@@ -2318,6 +3609,33 @@ editor/cn/week262-test.cpp.s:
 	$(MAKE) -f CMakeFiles/week262-test.cpp-test.dir/build.make CMakeFiles/week262-test.cpp-test.dir/editor/cn/week262-test.cpp.s
 .PHONY : editor/cn/week262-test.cpp.s
 
+editor/cn/week264-test.o: editor/cn/week264-test.cpp.o
+
+.PHONY : editor/cn/week264-test.o
+
+# target to build an object file
+editor/cn/week264-test.cpp.o:
+	$(MAKE) -f CMakeFiles/week264-test.cpp-test.dir/build.make CMakeFiles/week264-test.cpp-test.dir/editor/cn/week264-test.cpp.o
+.PHONY : editor/cn/week264-test.cpp.o
+
+editor/cn/week264-test.i: editor/cn/week264-test.cpp.i
+
+.PHONY : editor/cn/week264-test.i
+
+# target to preprocess a source file
+editor/cn/week264-test.cpp.i:
+	$(MAKE) -f CMakeFiles/week264-test.cpp-test.dir/build.make CMakeFiles/week264-test.cpp-test.dir/editor/cn/week264-test.cpp.i
+.PHONY : editor/cn/week264-test.cpp.i
+
+editor/cn/week264-test.s: editor/cn/week264-test.cpp.s
+
+.PHONY : editor/cn/week264-test.s
+
+# target to generate assembly for a file
+editor/cn/week264-test.cpp.s:
+	$(MAKE) -f CMakeFiles/week264-test.cpp-test.dir/build.make CMakeFiles/week264-test.cpp-test.dir/editor/cn/week264-test.cpp.s
+.PHONY : editor/cn/week264-test.cpp.s
+
 editor/cn/week266-test.o: editor/cn/week266-test.cpp.o
 
 .PHONY : editor/cn/week266-test.o
@@ -2344,6 +3662,33 @@ editor/cn/week266-test.s: editor/cn/week266-test.cpp.s
 editor/cn/week266-test.cpp.s:
 	$(MAKE) -f CMakeFiles/week266-test.cpp-test.dir/build.make CMakeFiles/week266-test.cpp-test.dir/editor/cn/week266-test.cpp.s
 .PHONY : editor/cn/week266-test.cpp.s
+
+editor/cn/week267-test.o: editor/cn/week267-test.cpp.o
+
+.PHONY : editor/cn/week267-test.o
+
+# target to build an object file
+editor/cn/week267-test.cpp.o:
+	$(MAKE) -f CMakeFiles/week267-test.cpp-test.dir/build.make CMakeFiles/week267-test.cpp-test.dir/editor/cn/week267-test.cpp.o
+.PHONY : editor/cn/week267-test.cpp.o
+
+editor/cn/week267-test.i: editor/cn/week267-test.cpp.i
+
+.PHONY : editor/cn/week267-test.i
+
+# target to preprocess a source file
+editor/cn/week267-test.cpp.i:
+	$(MAKE) -f CMakeFiles/week267-test.cpp-test.dir/build.make CMakeFiles/week267-test.cpp-test.dir/editor/cn/week267-test.cpp.i
+.PHONY : editor/cn/week267-test.cpp.i
+
+editor/cn/week267-test.s: editor/cn/week267-test.cpp.s
+
+.PHONY : editor/cn/week267-test.s
+
+# target to generate assembly for a file
+editor/cn/week267-test.cpp.s:
+	$(MAKE) -f CMakeFiles/week267-test.cpp-test.dir/build.make CMakeFiles/week267-test.cpp-test.dir/editor/cn/week267-test.cpp.s
+.PHONY : editor/cn/week267-test.cpp.s
 
 editor/cn/week268-test.o: editor/cn/week268-test.cpp.o
 
@@ -2425,6 +3770,141 @@ editor/cn/week270-test.s: editor/cn/week270-test.cpp.s
 editor/cn/week270-test.cpp.s:
 	$(MAKE) -f CMakeFiles/week270-test.cpp-test.dir/build.make CMakeFiles/week270-test.cpp-test.dir/editor/cn/week270-test.cpp.s
 .PHONY : editor/cn/week270-test.cpp.s
+
+editor/cn/week271-test.o: editor/cn/week271-test.cpp.o
+
+.PHONY : editor/cn/week271-test.o
+
+# target to build an object file
+editor/cn/week271-test.cpp.o:
+	$(MAKE) -f CMakeFiles/week271-test.cpp-test.dir/build.make CMakeFiles/week271-test.cpp-test.dir/editor/cn/week271-test.cpp.o
+.PHONY : editor/cn/week271-test.cpp.o
+
+editor/cn/week271-test.i: editor/cn/week271-test.cpp.i
+
+.PHONY : editor/cn/week271-test.i
+
+# target to preprocess a source file
+editor/cn/week271-test.cpp.i:
+	$(MAKE) -f CMakeFiles/week271-test.cpp-test.dir/build.make CMakeFiles/week271-test.cpp-test.dir/editor/cn/week271-test.cpp.i
+.PHONY : editor/cn/week271-test.cpp.i
+
+editor/cn/week271-test.s: editor/cn/week271-test.cpp.s
+
+.PHONY : editor/cn/week271-test.s
+
+# target to generate assembly for a file
+editor/cn/week271-test.cpp.s:
+	$(MAKE) -f CMakeFiles/week271-test.cpp-test.dir/build.make CMakeFiles/week271-test.cpp-test.dir/editor/cn/week271-test.cpp.s
+.PHONY : editor/cn/week271-test.cpp.s
+
+editor/cn/week272-test.o: editor/cn/week272-test.cpp.o
+
+.PHONY : editor/cn/week272-test.o
+
+# target to build an object file
+editor/cn/week272-test.cpp.o:
+	$(MAKE) -f CMakeFiles/week272-test.cpp-test.dir/build.make CMakeFiles/week272-test.cpp-test.dir/editor/cn/week272-test.cpp.o
+.PHONY : editor/cn/week272-test.cpp.o
+
+editor/cn/week272-test.i: editor/cn/week272-test.cpp.i
+
+.PHONY : editor/cn/week272-test.i
+
+# target to preprocess a source file
+editor/cn/week272-test.cpp.i:
+	$(MAKE) -f CMakeFiles/week272-test.cpp-test.dir/build.make CMakeFiles/week272-test.cpp-test.dir/editor/cn/week272-test.cpp.i
+.PHONY : editor/cn/week272-test.cpp.i
+
+editor/cn/week272-test.s: editor/cn/week272-test.cpp.s
+
+.PHONY : editor/cn/week272-test.s
+
+# target to generate assembly for a file
+editor/cn/week272-test.cpp.s:
+	$(MAKE) -f CMakeFiles/week272-test.cpp-test.dir/build.make CMakeFiles/week272-test.cpp-test.dir/editor/cn/week272-test.cpp.s
+.PHONY : editor/cn/week272-test.cpp.s
+
+editor/cn/week273-test.o: editor/cn/week273-test.cpp.o
+
+.PHONY : editor/cn/week273-test.o
+
+# target to build an object file
+editor/cn/week273-test.cpp.o:
+	$(MAKE) -f CMakeFiles/week273-test.cpp-test.dir/build.make CMakeFiles/week273-test.cpp-test.dir/editor/cn/week273-test.cpp.o
+.PHONY : editor/cn/week273-test.cpp.o
+
+editor/cn/week273-test.i: editor/cn/week273-test.cpp.i
+
+.PHONY : editor/cn/week273-test.i
+
+# target to preprocess a source file
+editor/cn/week273-test.cpp.i:
+	$(MAKE) -f CMakeFiles/week273-test.cpp-test.dir/build.make CMakeFiles/week273-test.cpp-test.dir/editor/cn/week273-test.cpp.i
+.PHONY : editor/cn/week273-test.cpp.i
+
+editor/cn/week273-test.s: editor/cn/week273-test.cpp.s
+
+.PHONY : editor/cn/week273-test.s
+
+# target to generate assembly for a file
+editor/cn/week273-test.cpp.s:
+	$(MAKE) -f CMakeFiles/week273-test.cpp-test.dir/build.make CMakeFiles/week273-test.cpp-test.dir/editor/cn/week273-test.cpp.s
+.PHONY : editor/cn/week273-test.cpp.s
+
+editor/cn/week274-test.o: editor/cn/week274-test.cpp.o
+
+.PHONY : editor/cn/week274-test.o
+
+# target to build an object file
+editor/cn/week274-test.cpp.o:
+	$(MAKE) -f CMakeFiles/week274-test.cpp-test.dir/build.make CMakeFiles/week274-test.cpp-test.dir/editor/cn/week274-test.cpp.o
+.PHONY : editor/cn/week274-test.cpp.o
+
+editor/cn/week274-test.i: editor/cn/week274-test.cpp.i
+
+.PHONY : editor/cn/week274-test.i
+
+# target to preprocess a source file
+editor/cn/week274-test.cpp.i:
+	$(MAKE) -f CMakeFiles/week274-test.cpp-test.dir/build.make CMakeFiles/week274-test.cpp-test.dir/editor/cn/week274-test.cpp.i
+.PHONY : editor/cn/week274-test.cpp.i
+
+editor/cn/week274-test.s: editor/cn/week274-test.cpp.s
+
+.PHONY : editor/cn/week274-test.s
+
+# target to generate assembly for a file
+editor/cn/week274-test.cpp.s:
+	$(MAKE) -f CMakeFiles/week274-test.cpp-test.dir/build.make CMakeFiles/week274-test.cpp-test.dir/editor/cn/week274-test.cpp.s
+.PHONY : editor/cn/week274-test.cpp.s
+
+editor/cn/week275-test.o: editor/cn/week275-test.cpp.o
+
+.PHONY : editor/cn/week275-test.o
+
+# target to build an object file
+editor/cn/week275-test.cpp.o:
+	$(MAKE) -f CMakeFiles/week275-test.cpp-test.dir/build.make CMakeFiles/week275-test.cpp-test.dir/editor/cn/week275-test.cpp.o
+.PHONY : editor/cn/week275-test.cpp.o
+
+editor/cn/week275-test.i: editor/cn/week275-test.cpp.i
+
+.PHONY : editor/cn/week275-test.i
+
+# target to preprocess a source file
+editor/cn/week275-test.cpp.i:
+	$(MAKE) -f CMakeFiles/week275-test.cpp-test.dir/build.make CMakeFiles/week275-test.cpp-test.dir/editor/cn/week275-test.cpp.i
+.PHONY : editor/cn/week275-test.cpp.i
+
+editor/cn/week275-test.s: editor/cn/week275-test.cpp.s
+
+.PHONY : editor/cn/week275-test.s
+
+# target to generate assembly for a file
+editor/cn/week275-test.cpp.s:
+	$(MAKE) -f CMakeFiles/week275-test.cpp-test.dir/build.make CMakeFiles/week275-test.cpp-test.dir/editor/cn/week275-test.cpp.s
+.PHONY : editor/cn/week275-test.cpp.s
 
 editor/cn/week65-test.o: editor/cn/week65-test.cpp.o
 
@@ -2541,68 +4021,105 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... zumaGame-488-test.cpp-test"
-	@echo "... heaters-475-test.cpp-test"
-	@echo "... reorderedPowerOf2-869-test.cpp-test"
-	@echo "... selfCrossing-335-test.cpp-test"
+	@echo "... week65-test.cpp-test"
+	@echo "... week274-test.cpp-test"
+	@echo "... week273-test.cpp-test"
+	@echo "... week272-test.cpp-test"
+	@echo "... week271-test.cpp-test"
+	@echo "... rebuild_cache"
+	@echo "... week269-test.cpp-test"
+	@echo "... week266-test.cpp-test"
+	@echo "... twoSum-1-test.cpp-test"
+	@echo "... trappingRainWaterIi-407-test.cpp-test"
+	@echo "... threeSumSmaller-259-test.cpp-test"
+	@echo "... theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test"
+	@echo "... simplifyPath-71-test.cpp-test"
 	@echo "... shoppingOffers-638-test.cpp-test"
-	@echo "... longestIncreasingSubsequence-300-test.cpp-test"
-	@echo "... longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test"
-	@echo "... minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test"
-	@echo "... maximumProductOfWordLengths-318-test.cpp-test"
-	@echo "... implementRand10UsingRand7-470-test.cpp-test"
-	@echo "... majorityElementIi-229-test.cpp-test"
-	@echo "... guessNumberHigherOrLowerIi-375-test.cpp-test"
+	@echo "... seat-test.cpp-test"
+	@echo "... week267-test.cpp-test"
+	@echo "... searchInsertPosition-35-test.cpp-test"
+	@echo "... xoh6Oh-001-test.cpp-test"
+	@echo "... searchInRotatedSortedArrayIi-81-test.cpp-test"
+	@echo "... searchInRotatedSortedArray-33-test.cpp-test"
+	@echo "... searchA2dMatrixIi-240-test.cpp-test"
+	@echo "... searchA2dMatrix-74-test.cpp-test"
+	@echo "... sameTree-100-test.cpp-test"
+	@echo "... repeatedStringMatch-686-test.cpp-test"
 	@echo "... findTheTownJudge-997-test.cpp-test"
+	@echo "... week270-test.cpp-test"
+	@echo "... WGki4K004-test.cpp-test"
+	@echo "... findRightInterval-436-test.cpp-test"
+	@echo "... biweek64-test.cpp-test"
+	@echo "... findMinimumInRotatedSortedArrayIi-154-test.cpp-test"
+	@echo "... findTheDuplicateNumber-287-test.cpp-test"
+	@echo "... longestIncreasingSubsequence-300-test.cpp-test"
+	@echo "... selfCrossing-335-test.cpp-test"
+	@echo "... findMinimumInRotatedSortedArray-153-test.cpp-test"
+	@echo "... distributeCandies-575-test.cpp-test"
+	@echo "... week264-test.cpp-test"
+	@echo "... minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test"
+	@echo "... guessNumberHigherOrLowerIi-375-test.cpp-test"
 	@echo "... minimumMovesToEqualArrayElements-453-test.cpp-test"
 	@echo "... nextGreaterElementI-496-test.cpp-test"
-	@echo "... JFETK5002-test.cpp-test"
-	@echo "... bullsAndCows-299-test.cpp-test"
-	@echo "... minimumOperationsToMakeTheArrayKIncreasing-5959-test.cpp-test"
-	@echo "... biweek64-test.cpp-test"
-	@echo "... addTwoNumbers-2-test.cpp-test"
-	@echo "... minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test"
-	@echo "... battleshipsInABoard-419-test.cpp-test"
-	@echo "... minimumSizeSubarraySum-209-test.cpp-test"
+	@echo "... replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.cpp-test"
+	@echo "... findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test"
+	@echo "... week268-test.cpp-test"
+	@echo "... dayOfTheWeek-1185-test.cpp-test"
+	@echo "... buddyStrings-859-test.cpp-test"
 	@echo "... test"
 	@echo "... expressionAddOperators-282-test.cpp-test"
 	@echo "... crackingTheSafe-753-test.cpp-test"
-	@echo "... WGki4K004-test.cpp-test"
-	@echo "... week270-test.cpp-test"
-	@echo "... substringWithConcatenationOfAllWords-30-test.cpp-test"
-	@echo "... sortAnArray-912-test.cpp-test"
-	@echo "... biweek65-test.cpp-test"
-	@echo "... theTimeWhenTheNetworkBecomesIdle-2039-test.cpp-test"
-	@echo "... distributeCandies-575-test.cpp-test"
-	@echo "... xoh6Oh-001-test.cpp-test"
-	@echo "... countAndSay-38-test.cpp-test"
-	@echo "... trappingRainWaterIi-407-test.cpp-test"
-	@echo "... kthSmallestElementInABst-230-test.cpp-test"
-	@echo "... buddyStrings-859-test.cpp-test"
-	@echo "... week268-test.cpp-test"
+	@echo "... bullsAndCows-299-test.cpp-test"
 	@echo "... xoh6OhOffer001-test.cpp-test"
-	@echo "... plusOne-66-test.cpp-test"
-	@echo "... designAddAndSearchWordsDataStructure-211-test.cpp-test"
-	@echo "... missingNumber-268-test.cpp-test"
-	@echo "... twoSum-1-test.cpp-test"
-	@echo "... nextGreaterElementIi-503-test.cpp-test"
+	@echo "... eliminationGame-390-test.cpp-test"
 	@echo "... deleteNodeInALinkedList-237-test.cpp-test"
 	@echo "... nthDigit-400-test.cpp-test"
 	@echo "... rangeAdditionIi-598-test.cpp-test"
+	@echo "... addTwoNumbers-2-test.cpp-test"
+	@echo "... handOfStraights-846-test.cpp-test"
+	@echo "... substringWithConcatenationOfAllWords-30-test.cpp-test"
+	@echo "... sortAnArray-912-test.cpp-test"
+	@echo "... biweek65-test.cpp-test"
+	@echo "... longestArithmeticSubsequenceOfGivenDifference-1218-test.cpp-test"
+	@echo "... grayCode-89-test.cpp-test"
+	@echo "... biweek69-test.cpp-test"
+	@echo "... biweek67-test.cpp-test"
+	@echo "... maximumNumberOfVisiblePoints-1610-test.cpp-test"
+	@echo "... JFETK5002-test.cpp-test"
+	@echo "... convert1dArrayInto2dArray-2022-test.cpp-test"
 	@echo "... singleNumberIii-260-test.cpp-test"
 	@echo "... numberComplement-476-test.cpp-test"
-	@echo "... week266-test.cpp-test"
-	@echo "... reconstructItinerary-332-test.cpp-test"
-	@echo "... reconstructOriginalDigitsFromEnglish-423-test.cpp-test"
-	@echo "... seat-test.cpp-test"
-	@echo "... edit_cache"
-	@echo "... removeInvalidParentheses-301-test.cpp-test"
-	@echo "... validPerfectSquare-367-test.cpp-test"
-	@echo "... maximizeSumOfArrayAfterKNegations-1005-test.cpp-test"
-	@echo "... twoBestNonOverlappingEvents-5899-test.cpp-test"
+	@echo "... countAndSay-38-test.cpp-test"
+	@echo "... divideTwoIntegers-29-test.cpp-test"
+	@echo "... findPeakElement-162-test.cpp-test"
+	@echo "... countSpecialQuadruplets-1995-test.cpp-test"
+	@echo "... majorityElementIi-229-test.cpp-test"
+	@echo "... heaters-475-test.cpp-test"
+	@echo "... battleshipsInABoard-419-test.cpp-test"
+	@echo "... minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test"
+	@echo "... reorderedPowerOf2-869-test.cpp-test"
+	@echo "... implementRand10UsingRand7-470-test.cpp-test"
+	@echo "... perfectNumber-507-test.cpp-test"
+	@echo "... kthSmallestElementInABst-230-test.cpp-test"
 	@echo "... week262-test.cpp-test"
-	@echo "... rebuild_cache"
-	@echo "... week269-test.cpp-test"
-	@echo "... week65-test.cpp-test"
+	@echo "... twoBestNonOverlappingEvents-5899-test.cpp-test"
+	@echo "... maximizeSumOfArrayAfterKNegations-1005-test.cpp-test"
+	@echo "... dayOfTheYear-1154-test.cpp-test"
+	@echo "... maximumProductOfWordLengths-318-test.cpp-test"
+	@echo "... minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp-test"
+	@echo "... sqrtx-69-test.cpp-test"
+	@echo "... minimumSizeSubarraySum-209-test.cpp-test"
+	@echo "... designAddAndSearchWordsDataStructure-211-test.cpp-test"
+	@echo "... plusOne-66-test.cpp-test"
+	@echo "... missingNumber-268-test.cpp-test"
+	@echo "... nextGreaterElementIi-503-test.cpp-test"
+	@echo "... reconstructItinerary-332-test.cpp-test"
+	@echo "... week275-test.cpp-test"
+	@echo "... firstBadVersion-278-test.cpp-test"
+	@echo "... reconstructOriginalDigitsFromEnglish-423-test.cpp-test"
+	@echo "... edit_cache"
+	@echo "... validPerfectSquare-367-test.cpp-test"
+	@echo "... removeInvalidParentheses-301-test.cpp-test"
 	@echo "... built-in"
 	@echo "... editor/cn/JFETK5002-test.o"
 	@echo "... editor/cn/JFETK5002-test.i"
@@ -2622,18 +4139,36 @@ help:
 	@echo "... editor/cn/biweek65-test.o"
 	@echo "... editor/cn/biweek65-test.i"
 	@echo "... editor/cn/biweek65-test.s"
+	@echo "... editor/cn/biweek67-test.o"
+	@echo "... editor/cn/biweek67-test.i"
+	@echo "... editor/cn/biweek67-test.s"
+	@echo "... editor/cn/biweek69-test.o"
+	@echo "... editor/cn/biweek69-test.i"
+	@echo "... editor/cn/biweek69-test.s"
 	@echo "... editor/cn/buddyStrings-859-test.o"
 	@echo "... editor/cn/buddyStrings-859-test.i"
 	@echo "... editor/cn/buddyStrings-859-test.s"
 	@echo "... editor/cn/bullsAndCows-299-test.o"
 	@echo "... editor/cn/bullsAndCows-299-test.i"
 	@echo "... editor/cn/bullsAndCows-299-test.s"
+	@echo "... editor/cn/convert1dArrayInto2dArray-2022-test.o"
+	@echo "... editor/cn/convert1dArrayInto2dArray-2022-test.i"
+	@echo "... editor/cn/convert1dArrayInto2dArray-2022-test.s"
 	@echo "... editor/cn/countAndSay-38-test.o"
 	@echo "... editor/cn/countAndSay-38-test.i"
 	@echo "... editor/cn/countAndSay-38-test.s"
+	@echo "... editor/cn/countSpecialQuadruplets-1995-test.o"
+	@echo "... editor/cn/countSpecialQuadruplets-1995-test.i"
+	@echo "... editor/cn/countSpecialQuadruplets-1995-test.s"
 	@echo "... editor/cn/crackingTheSafe-753-test.o"
 	@echo "... editor/cn/crackingTheSafe-753-test.i"
 	@echo "... editor/cn/crackingTheSafe-753-test.s"
+	@echo "... editor/cn/dayOfTheWeek-1185-test.o"
+	@echo "... editor/cn/dayOfTheWeek-1185-test.i"
+	@echo "... editor/cn/dayOfTheWeek-1185-test.s"
+	@echo "... editor/cn/dayOfTheYear-1154-test.o"
+	@echo "... editor/cn/dayOfTheYear-1154-test.i"
+	@echo "... editor/cn/dayOfTheYear-1154-test.s"
 	@echo "... editor/cn/deleteNodeInALinkedList-237-test.o"
 	@echo "... editor/cn/deleteNodeInALinkedList-237-test.i"
 	@echo "... editor/cn/deleteNodeInALinkedList-237-test.s"
@@ -2643,15 +4178,48 @@ help:
 	@echo "... editor/cn/distributeCandies-575-test.o"
 	@echo "... editor/cn/distributeCandies-575-test.i"
 	@echo "... editor/cn/distributeCandies-575-test.s"
+	@echo "... editor/cn/divideTwoIntegers-29-test.o"
+	@echo "... editor/cn/divideTwoIntegers-29-test.i"
+	@echo "... editor/cn/divideTwoIntegers-29-test.s"
+	@echo "... editor/cn/eliminationGame-390-test.o"
+	@echo "... editor/cn/eliminationGame-390-test.i"
+	@echo "... editor/cn/eliminationGame-390-test.s"
 	@echo "... editor/cn/expressionAddOperators-282-test.o"
 	@echo "... editor/cn/expressionAddOperators-282-test.i"
 	@echo "... editor/cn/expressionAddOperators-282-test.s"
+	@echo "... editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.o"
+	@echo "... editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.i"
+	@echo "... editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.s"
+	@echo "... editor/cn/findMinimumInRotatedSortedArray-153-test.o"
+	@echo "... editor/cn/findMinimumInRotatedSortedArray-153-test.i"
+	@echo "... editor/cn/findMinimumInRotatedSortedArray-153-test.s"
+	@echo "... editor/cn/findMinimumInRotatedSortedArrayIi-154-test.o"
+	@echo "... editor/cn/findMinimumInRotatedSortedArrayIi-154-test.i"
+	@echo "... editor/cn/findMinimumInRotatedSortedArrayIi-154-test.s"
+	@echo "... editor/cn/findPeakElement-162-test.o"
+	@echo "... editor/cn/findPeakElement-162-test.i"
+	@echo "... editor/cn/findPeakElement-162-test.s"
+	@echo "... editor/cn/findRightInterval-436-test.o"
+	@echo "... editor/cn/findRightInterval-436-test.i"
+	@echo "... editor/cn/findRightInterval-436-test.s"
+	@echo "... editor/cn/findTheDuplicateNumber-287-test.o"
+	@echo "... editor/cn/findTheDuplicateNumber-287-test.i"
+	@echo "... editor/cn/findTheDuplicateNumber-287-test.s"
 	@echo "... editor/cn/findTheTownJudge-997-test.o"
 	@echo "... editor/cn/findTheTownJudge-997-test.i"
 	@echo "... editor/cn/findTheTownJudge-997-test.s"
+	@echo "... editor/cn/firstBadVersion-278-test.o"
+	@echo "... editor/cn/firstBadVersion-278-test.i"
+	@echo "... editor/cn/firstBadVersion-278-test.s"
+	@echo "... editor/cn/grayCode-89-test.o"
+	@echo "... editor/cn/grayCode-89-test.i"
+	@echo "... editor/cn/grayCode-89-test.s"
 	@echo "... editor/cn/guessNumberHigherOrLowerIi-375-test.o"
 	@echo "... editor/cn/guessNumberHigherOrLowerIi-375-test.i"
 	@echo "... editor/cn/guessNumberHigherOrLowerIi-375-test.s"
+	@echo "... editor/cn/handOfStraights-846-test.o"
+	@echo "... editor/cn/handOfStraights-846-test.i"
+	@echo "... editor/cn/handOfStraights-846-test.s"
 	@echo "... editor/cn/heaters-475-test.o"
 	@echo "... editor/cn/heaters-475-test.i"
 	@echo "... editor/cn/heaters-475-test.s"
@@ -2673,6 +4241,9 @@ help:
 	@echo "... editor/cn/maximizeSumOfArrayAfterKNegations-1005-test.o"
 	@echo "... editor/cn/maximizeSumOfArrayAfterKNegations-1005-test.i"
 	@echo "... editor/cn/maximizeSumOfArrayAfterKNegations-1005-test.s"
+	@echo "... editor/cn/maximumNumberOfVisiblePoints-1610-test.o"
+	@echo "... editor/cn/maximumNumberOfVisiblePoints-1610-test.i"
+	@echo "... editor/cn/maximumNumberOfVisiblePoints-1610-test.s"
 	@echo "... editor/cn/maximumProductOfWordLengths-318-test.o"
 	@echo "... editor/cn/maximumProductOfWordLengths-318-test.i"
 	@echo "... editor/cn/maximumProductOfWordLengths-318-test.s"
@@ -2706,6 +4277,9 @@ help:
 	@echo "... editor/cn/numberComplement-476-test.o"
 	@echo "... editor/cn/numberComplement-476-test.i"
 	@echo "... editor/cn/numberComplement-476-test.s"
+	@echo "... editor/cn/perfectNumber-507-test.o"
+	@echo "... editor/cn/perfectNumber-507-test.i"
+	@echo "... editor/cn/perfectNumber-507-test.s"
 	@echo "... editor/cn/plusOne-66-test.o"
 	@echo "... editor/cn/plusOne-66-test.i"
 	@echo "... editor/cn/plusOne-66-test.s"
@@ -2724,6 +4298,30 @@ help:
 	@echo "... editor/cn/reorderedPowerOf2-869-test.o"
 	@echo "... editor/cn/reorderedPowerOf2-869-test.i"
 	@echo "... editor/cn/reorderedPowerOf2-869-test.s"
+	@echo "... editor/cn/repeatedStringMatch-686-test.o"
+	@echo "... editor/cn/repeatedStringMatch-686-test.i"
+	@echo "... editor/cn/repeatedStringMatch-686-test.s"
+	@echo "... editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.o"
+	@echo "... editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.i"
+	@echo "... editor/cn/replaceAllSToAvoidConsecutiveRepeatingCharacters-1576-test.s"
+	@echo "... editor/cn/sameTree-100-test.o"
+	@echo "... editor/cn/sameTree-100-test.i"
+	@echo "... editor/cn/sameTree-100-test.s"
+	@echo "... editor/cn/searchA2dMatrix-74-test.o"
+	@echo "... editor/cn/searchA2dMatrix-74-test.i"
+	@echo "... editor/cn/searchA2dMatrix-74-test.s"
+	@echo "... editor/cn/searchA2dMatrixIi-240-test.o"
+	@echo "... editor/cn/searchA2dMatrixIi-240-test.i"
+	@echo "... editor/cn/searchA2dMatrixIi-240-test.s"
+	@echo "... editor/cn/searchInRotatedSortedArray-33-test.o"
+	@echo "... editor/cn/searchInRotatedSortedArray-33-test.i"
+	@echo "... editor/cn/searchInRotatedSortedArray-33-test.s"
+	@echo "... editor/cn/searchInRotatedSortedArrayIi-81-test.o"
+	@echo "... editor/cn/searchInRotatedSortedArrayIi-81-test.i"
+	@echo "... editor/cn/searchInRotatedSortedArrayIi-81-test.s"
+	@echo "... editor/cn/searchInsertPosition-35-test.o"
+	@echo "... editor/cn/searchInsertPosition-35-test.i"
+	@echo "... editor/cn/searchInsertPosition-35-test.s"
 	@echo "... editor/cn/seat-test.o"
 	@echo "... editor/cn/seat-test.i"
 	@echo "... editor/cn/seat-test.s"
@@ -2733,18 +4331,27 @@ help:
 	@echo "... editor/cn/shoppingOffers-638-test.o"
 	@echo "... editor/cn/shoppingOffers-638-test.i"
 	@echo "... editor/cn/shoppingOffers-638-test.s"
+	@echo "... editor/cn/simplifyPath-71-test.o"
+	@echo "... editor/cn/simplifyPath-71-test.i"
+	@echo "... editor/cn/simplifyPath-71-test.s"
 	@echo "... editor/cn/singleNumberIii-260-test.o"
 	@echo "... editor/cn/singleNumberIii-260-test.i"
 	@echo "... editor/cn/singleNumberIii-260-test.s"
 	@echo "... editor/cn/sortAnArray-912-test.o"
 	@echo "... editor/cn/sortAnArray-912-test.i"
 	@echo "... editor/cn/sortAnArray-912-test.s"
+	@echo "... editor/cn/sqrtx-69-test.o"
+	@echo "... editor/cn/sqrtx-69-test.i"
+	@echo "... editor/cn/sqrtx-69-test.s"
 	@echo "... editor/cn/substringWithConcatenationOfAllWords-30-test.o"
 	@echo "... editor/cn/substringWithConcatenationOfAllWords-30-test.i"
 	@echo "... editor/cn/substringWithConcatenationOfAllWords-30-test.s"
 	@echo "... editor/cn/theTimeWhenTheNetworkBecomesIdle-2039-test.o"
 	@echo "... editor/cn/theTimeWhenTheNetworkBecomesIdle-2039-test.i"
 	@echo "... editor/cn/theTimeWhenTheNetworkBecomesIdle-2039-test.s"
+	@echo "... editor/cn/threeSumSmaller-259-test.o"
+	@echo "... editor/cn/threeSumSmaller-259-test.i"
+	@echo "... editor/cn/threeSumSmaller-259-test.s"
 	@echo "... editor/cn/trappingRainWaterIi-407-test.o"
 	@echo "... editor/cn/trappingRainWaterIi-407-test.i"
 	@echo "... editor/cn/trappingRainWaterIi-407-test.s"
@@ -2760,9 +4367,15 @@ help:
 	@echo "... editor/cn/week262-test.o"
 	@echo "... editor/cn/week262-test.i"
 	@echo "... editor/cn/week262-test.s"
+	@echo "... editor/cn/week264-test.o"
+	@echo "... editor/cn/week264-test.i"
+	@echo "... editor/cn/week264-test.s"
 	@echo "... editor/cn/week266-test.o"
 	@echo "... editor/cn/week266-test.i"
 	@echo "... editor/cn/week266-test.s"
+	@echo "... editor/cn/week267-test.o"
+	@echo "... editor/cn/week267-test.i"
+	@echo "... editor/cn/week267-test.s"
 	@echo "... editor/cn/week268-test.o"
 	@echo "... editor/cn/week268-test.i"
 	@echo "... editor/cn/week268-test.s"
@@ -2772,6 +4385,21 @@ help:
 	@echo "... editor/cn/week270-test.o"
 	@echo "... editor/cn/week270-test.i"
 	@echo "... editor/cn/week270-test.s"
+	@echo "... editor/cn/week271-test.o"
+	@echo "... editor/cn/week271-test.i"
+	@echo "... editor/cn/week271-test.s"
+	@echo "... editor/cn/week272-test.o"
+	@echo "... editor/cn/week272-test.i"
+	@echo "... editor/cn/week272-test.s"
+	@echo "... editor/cn/week273-test.o"
+	@echo "... editor/cn/week273-test.i"
+	@echo "... editor/cn/week273-test.s"
+	@echo "... editor/cn/week274-test.o"
+	@echo "... editor/cn/week274-test.i"
+	@echo "... editor/cn/week274-test.s"
+	@echo "... editor/cn/week275-test.o"
+	@echo "... editor/cn/week275-test.i"
+	@echo "... editor/cn/week275-test.s"
 	@echo "... editor/cn/week65-test.o"
 	@echo "... editor/cn/week65-test.i"
 	@echo "... editor/cn/week65-test.s"

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/d/code/c-code/leetcode/editor/cn/numberComplement-476-test.cpp" "/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.o"
+  "/mnt/d/code/leetcode/editor/cn/numberComplement-476-test.cpp" "/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/CMakeFiles/built-in.dir/DependInfo.cmake"
+  "/mnt/d/code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/CMakeFiles/built-in.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

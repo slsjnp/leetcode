@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/code/c-code/leetcode
+CMAKE_SOURCE_DIR = /mnt/d/code/leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl
+CMAKE_BINARY_DIR = /mnt/d/code/leetcode/cmake-build-debug-wsl
 
 # Include any dependencies generated for this target.
 include CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/f
 
 CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.o: CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/flags.make
 CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.o: ../editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.o -c /mnt/d/code/c-code/leetcode/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp
 
 CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/c-code/leetcode/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp > CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp > CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.i
 
 CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/c-code/leetcode/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp -o CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp -o CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/editor/cn/minimumOperationsToMakeAUniValueGrid-2033-test.cpp.s
 
 # Object files for target minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test
 minimumOperationsToMakeAUniValueGrid__2033__test_cpp__test_OBJECTS = \
@@ -81,7 +81,7 @@ minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test: CMakeFiles/minimumOpera
 minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test: CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/build.make
 minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test: editor/cn/build-in/libbuilt-in.a
 minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test: CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/clean:
 .PHONY : CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/clean
 
 CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/depend:
-	cd /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/code/c-code/leetcode /mnt/d/code/c-code/leetcode /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl /mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/code/leetcode /mnt/d/code/leetcode /mnt/d/code/leetcode/cmake-build-debug-wsl /mnt/d/code/leetcode/cmake-build-debug-wsl /mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/minimumOperationsToMakeAUniValueGrid-2033-test.cpp-test.dir/depend
 

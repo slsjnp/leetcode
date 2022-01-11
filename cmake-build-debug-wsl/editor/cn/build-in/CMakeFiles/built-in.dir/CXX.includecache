@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/code/c-code/leetcode/editor/cn/build-in/ListNode.cpp
+/mnt/d/code/leetcode/editor/cn/build-in/ListNode.cpp
 ListNode.h
-/mnt/d/code/c-code/leetcode/editor/cn/build-in/ListNode.h
+/mnt/d/code/leetcode/editor/cn/build-in/ListNode.h
 
-/mnt/d/code/c-code/leetcode/editor/cn/build-in/ListNode.h
+/mnt/d/code/leetcode/editor/cn/build-in/ListNode.h
 iostream
 -
 vector

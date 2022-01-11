@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/code/c-code/leetcode
+# Install script for directory: /mnt/d/code/leetcode
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/cmake_install.cmake")
+  include("/mnt/d/code/leetcode/cmake-build-debug-wsl/editor/cn/build-in/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/code/c-code/leetcode/cmake-build-debug-wsl/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/d/code/leetcode/cmake-build-debug-wsl/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

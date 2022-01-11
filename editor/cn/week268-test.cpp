@@ -11,85 +11,141 @@
 
 using namespace std;
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-public:
-    long long nextInt(long long n) {
-        string s = to_string(n);
-        int s_size = s.size();
-
-        for (int i = (s_size - 1) / 2; i >= 0; --i) {
-            if (s[i] != '9') {
-                s[i]++;
-
-                // 是否有对称位置
-                if (i != s_size - 1 - i) {
-                    s[s_size - 1 - i]++;
-                }
-                for (int j = i + 1; j < s_size - 1 - i; ++j) {
-                    s[j] = '0';
-                }
-                return stoll(s);
-            }
-        }
-        long long res = 1;
-        for (int i = 0; i < s_size; ++i) {
-            res *= 10;
-        }
-        return res + 1;
-    }
-
-    long long strtolong(string x, int k) {
-        long long res = 0;
-        int x_size = x.size();
-        long long now = 1;
-        for (int i = x_size - 1; i >= 0; --i) {
-            res += (x[i] - '0') * now;
-            now *= k;
-        }
-        return res;
-    }
-
-    string tentokstr(long long n, int k) {
-        string res = "";
-        while (n > 0) {
-            res += char(n % k + '0');
-            n = n / k;
-        }
-        return res;
-    }
-
-    bool isTrue(string x){
-        int _size = x.size();
-        for (int i = 0; i < _size / 2; ++i) {
-            if (x[i] != x[_size - 1 - i]){
-                return false;
-            }
-        }
-        return true;
-    }
-    long long kMirror(int k, int n) {
-        long long sum = 0;
-        int times = 0;
-        long long i = 0;
-        while (times < n) {
-            // 下一个回文字符数
-            i = nextInt(i);
-            // 十进制转k进制
-            string x = tentokstr(i, k);
-            if (isTrue(x))
-            {
-                // printf("%llu, ", stoll(x, nullptr, 3));
-                sum += i;
-                times++;
-            }
-            // string cpx = x;
-            // reverse(x.begin(), x.end());
-
-        }
-        return sum;
-    }
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
+//leetcode submit region begin(Prohibit modification and deletion)
+typedef int Elemtype;
+// 树的迭代遍历
+// int sum = 0;
+// void traverse(TreeNode *root) {
+//     if (root == NULL){
+//         return;
+//     }
+//     // 遍历时的操作，根据题目改, 比如记录值为X的个数
+//     if (root->val == 'X'){
+//         sum++;
+//     }
+//     traverse(root->left);
+//     traverse(root->right);
+// }
+typedef struct SqList{
+    Elemtype *data;
+    int length;
+} Sq;
+// int 可以用Elemtype替代
+void deleteElem(SqList& L, int n, Elemtype k){
+    int l = 0; // 左指针
+    for (int i = 0; i < n; ++i) {
+        if (L.data[i] != k){ // 相当于把有效值保存起来
+            L.data[l] = L.data[i];
+            l++;
+        }
+    }
+    L.length = l; // 更新有效值长度，相当于间接删除了其他不在范围内的元素
+}
+ListNode* deleteElem(ListNode* head, Elemtype k){
+    ListNode* h = head; // 找个变量保存起来
+    while (head->val == k) { // 头结点特殊处理
+        ListNode* tmp = head; // 要删除的元素
+        head = head->next; // 更新新的头结点
+        free(tmp); // 删除
+    }
+    while (h != NULL){ // 不空就继续遍历
+        // 记得要在删除的前一个位置
+        if (h->next->val == k){ // 找到要删除的目标
+            ListNode* tmp = h->next;
+            h->next = h->next->next; // 更新下一个
+            free(tmp) // 手起刀落人抬走
+        }
+        h = h->next; // 往后走
+    }
+    return head;
+}
+
+
+
+// class Solution {
+// public:
+//     long long nextInt(long long n) {
+//         string s = to_string(n);
+//         int s_size = s.size();
+//
+//         for (int i = (s_size - 1) / 2; i >= 0; --i) {
+//             if (s[i] != '9') {
+//                 s[i]++;
+//                 // 是否有对称位置
+//                 if (i != s_size - 1 - i) {
+//                     s[s_size - 1 - i]++;
+//                 }
+//                 for (int j = i + 1; j < s_size - 1 - i; ++j) {
+//                     s[j] = '0';
+//                 }
+//                 return stoll(s);
+//             }
+//         }
+//         long long res = 1;
+//         for (int i = 0; i < s_size; ++i) {
+//             res *= 10;
+//         }
+//         return res + 1;
+//     }
+//
+//     long long strtolong(string x, int k) {
+//         long long res = 0;
+//         int x_size = x.size();
+//         long long now = 1;
+//         for (int i = x_size - 1; i >= 0; --i) {
+//             res += (x[i] - '0') * now;
+//             now *= k;
+//         }
+//         return res;
+//     }
+//
+//     string tentokstr(long long n, int k) {
+//         string res = "";
+//         while (n > 0) {
+//             res += char(n % k + '0');
+//             n = n / k;
+//         }
+//         return res;
+//     }
+//
+//     bool isTrue(string x){
+//         int _size = x.size();
+//         for (int i = 0; i < _size / 2; ++i) {
+//             if (x[i] != x[_size - 1 - i]){
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+//     long long kMirror(int k, int n) {
+//         long long sum = 0;
+//         int times = 0;
+//         long long i = 0;
+//         while (times < n) {
+//             // 下一个回文字符数
+//             i = nextInt(i);
+//             // 十进制转k进制
+//             string x = tentokstr(i, k);
+//             if (isTrue(x))
+//             {
+//                 // printf("%llu, ", stoll(x, nullptr, 3));
+//                 sum += i;
+//                 times++;
+//             }
+//             // string cpx = x;
+//             // reverse(x.begin(), x.end());
+//         }
+//         return sum;
+//     }
+// };
 // class Solution {
 // public:
 //     long long sum = 0;

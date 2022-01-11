@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/searchInsertPosition-35-test.cpp-test.dir/editor/cn/searchInsertPosition-35-test.cpp.o  -o searchInsertPosition-35-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

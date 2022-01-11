@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -fsanitize=address -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/d/code/c-code/leetcode/editor/cn/build-in 
+CXX_INCLUDES = -I/mnt/d/code/leetcode/editor/cn/build-in 
 

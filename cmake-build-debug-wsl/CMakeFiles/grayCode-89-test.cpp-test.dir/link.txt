@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -fsanitize=address CMakeFiles/grayCode-89-test.cpp-test.dir/editor/cn/grayCode-89-test.cpp.o  -o grayCode-89-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 
