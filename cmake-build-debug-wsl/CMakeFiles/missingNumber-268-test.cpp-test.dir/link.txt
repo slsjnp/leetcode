@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -fsanitize=address CMakeFiles/missingNumber-268-test.cpp-test.dir/editor/cn/missingNumber-268-test.cpp.o  -o missingNumber-268-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/missingNumber-268-test.cpp-test.dir/editor/cn/missingNumber-268-test.cpp.o  -o missingNumber-268-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -fsanitize=address CMakeFiles/addTwoNumbers-2-test.cpp-test.dir/editor/cn/addTwoNumbers-2-test.cpp.o  -o addTwoNumbers-2-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/addTwoNumbers-2-test.cpp-test.dir/editor/cn/addTwoNumbers-2-test.cpp.o  -o addTwoNumbers-2-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

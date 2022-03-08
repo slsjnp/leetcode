@@ -60,15 +60,15 @@ include CMakeFiles/selfCrossing-335-test.cpp-test.dir/flags.make
 CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.o: CMakeFiles/selfCrossing-335-test.cpp-test.dir/flags.make
 CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.o: ../editor/cn/selfCrossing-335-test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/selfCrossing-335-test.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/selfCrossing-335-test.cpp
 
 CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/selfCrossing-335-test.cpp > CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/selfCrossing-335-test.cpp > CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.i
 
 CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/selfCrossing-335-test.cpp -o CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/selfCrossing-335-test.cpp -o CMakeFiles/selfCrossing-335-test.cpp-test.dir/editor/cn/selfCrossing-335-test.cpp.s
 
 # Object files for target selfCrossing-335-test.cpp-test
 selfCrossing__335__test_cpp__test_OBJECTS = \

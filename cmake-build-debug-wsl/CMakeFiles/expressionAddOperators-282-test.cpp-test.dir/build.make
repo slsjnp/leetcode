@@ -60,15 +60,15 @@ include CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/flags.make
 CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.o: CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/flags.make
 CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.o: ../editor/cn/expressionAddOperators-282-test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/expressionAddOperators-282-test.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/expressionAddOperators-282-test.cpp
 
 CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/expressionAddOperators-282-test.cpp > CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/expressionAddOperators-282-test.cpp > CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.i
 
 CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/expressionAddOperators-282-test.cpp -o CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/expressionAddOperators-282-test.cpp -o CMakeFiles/expressionAddOperators-282-test.cpp-test.dir/editor/cn/expressionAddOperators-282-test.cpp.s
 
 # Object files for target expressionAddOperators-282-test.cpp-test
 expressionAddOperators__282__test_cpp__test_OBJECTS = \

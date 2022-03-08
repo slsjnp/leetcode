@@ -60,15 +60,15 @@ include CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/flags.make
 CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.o: CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/flags.make
 CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.o: ../editor/cn/kthSmallestElementInABst-230-test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/kthSmallestElementInABst-230-test.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/kthSmallestElementInABst-230-test.cpp
 
 CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/kthSmallestElementInABst-230-test.cpp > CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/kthSmallestElementInABst-230-test.cpp > CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.i
 
 CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/kthSmallestElementInABst-230-test.cpp -o CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/kthSmallestElementInABst-230-test.cpp -o CMakeFiles/kthSmallestElementInABst-230-test.cpp-test.dir/editor/cn/kthSmallestElementInABst-230-test.cpp.s
 
 # Object files for target kthSmallestElementInABst-230-test.cpp-test
 kthSmallestElementInABst__230__test_cpp__test_OBJECTS = \

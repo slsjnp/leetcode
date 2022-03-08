@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -fsanitize=address CMakeFiles/convert1dArrayInto2dArray-2022-test.cpp-test.dir/editor/cn/convert1dArrayInto2dArray-2022-test.cpp.o  -o convert1dArrayInto2dArray-2022-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/convert1dArrayInto2dArray-2022-test.cpp-test.dir/editor/cn/convert1dArrayInto2dArray-2022-test.cpp.o  -o convert1dArrayInto2dArray-2022-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

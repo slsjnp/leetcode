@@ -60,15 +60,15 @@ include CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-te
 CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.o: CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/flags.make
 CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.o: ../editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp
 
 CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp > CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp > CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.i
 
 CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp -o CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp -o CMakeFiles/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test.dir/editor/cn/findFirstAndLastPositionOfElementInSortedArray-34-test.cpp.s
 
 # Object files for target findFirstAndLastPositionOfElementInSortedArray-34-test.cpp-test
 findFirstAndLastPositionOfElementInSortedArray__34__test_cpp__test_OBJECTS = \

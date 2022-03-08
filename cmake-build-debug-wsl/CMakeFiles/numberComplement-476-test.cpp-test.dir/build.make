@@ -60,15 +60,15 @@ include CMakeFiles/numberComplement-476-test.cpp-test.dir/flags.make
 CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.o: CMakeFiles/numberComplement-476-test.cpp-test.dir/flags.make
 CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.o: ../editor/cn/numberComplement-476-test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/numberComplement-476-test.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.o -c /mnt/d/code/leetcode/editor/cn/numberComplement-476-test.cpp
 
 CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/numberComplement-476-test.cpp > CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/numberComplement-476-test.cpp > CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.i
 
 CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/numberComplement-476-test.cpp -o CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/numberComplement-476-test.cpp -o CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.s
 
 # Object files for target numberComplement-476-test.cpp-test
 numberComplement__476__test_cpp__test_OBJECTS = \

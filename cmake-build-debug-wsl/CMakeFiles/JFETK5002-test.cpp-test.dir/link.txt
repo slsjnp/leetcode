@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -fsanitize=address CMakeFiles/JFETK5002-test.cpp-test.dir/editor/cn/JFETK5002-test.cpp.o  -o JFETK5002-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/JFETK5002-test.cpp-test.dir/editor/cn/JFETK5002-test.cpp.o  -o JFETK5002-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

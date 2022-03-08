@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/permutations-46-test.cpp-test.dir/editor/cn/permutations-46-test.cpp.o  -o permutations-46-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

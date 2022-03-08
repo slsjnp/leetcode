@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/uglyNumberIi-264-test.cpp-test.dir/editor/cn/uglyNumberIi-264-test.cpp.o  -o uglyNumberIi-264-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

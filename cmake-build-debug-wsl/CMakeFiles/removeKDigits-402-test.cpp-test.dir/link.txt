@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/removeKDigits-402-test.cpp-test.dir/editor/cn/removeKDigits-402-test.cpp.o  -o removeKDigits-402-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

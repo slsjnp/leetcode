@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/nQueens-51-test.cpp-test.dir/editor/cn/nQueens-51-test.cpp.o  -o nQueens-51-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

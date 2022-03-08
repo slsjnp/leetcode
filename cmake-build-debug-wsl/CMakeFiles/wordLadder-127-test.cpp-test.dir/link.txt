@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/wordLadder-127-test.cpp-test.dir/editor/cn/wordLadder-127-test.cpp.o  -o wordLadder-127-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

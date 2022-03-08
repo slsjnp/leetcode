@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/subsets-78-test.cpp-test.dir/editor/cn/subsets-78-test.cpp.o  -o subsets-78-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

@@ -60,15 +60,15 @@ include editor/cn/build-in/CMakeFiles/built-in.dir/flags.make
 editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.o: editor/cn/build-in/CMakeFiles/built-in.dir/flags.make
 editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.o: ../editor/cn/build-in/ListNode.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/code/leetcode/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.o"
-	cd /mnt/d/code/leetcode/cmake-build-debug-wsl/editor/cn/build-in && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/built-in.dir/ListNode.cpp.o -c /mnt/d/code/leetcode/editor/cn/build-in/ListNode.cpp
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl/editor/cn/build-in && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/built-in.dir/ListNode.cpp.o -c /mnt/d/code/leetcode/editor/cn/build-in/ListNode.cpp
 
 editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/built-in.dir/ListNode.cpp.i"
-	cd /mnt/d/code/leetcode/cmake-build-debug-wsl/editor/cn/build-in && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/build-in/ListNode.cpp > CMakeFiles/built-in.dir/ListNode.cpp.i
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl/editor/cn/build-in && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/code/leetcode/editor/cn/build-in/ListNode.cpp > CMakeFiles/built-in.dir/ListNode.cpp.i
 
 editor/cn/build-in/CMakeFiles/built-in.dir/ListNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/built-in.dir/ListNode.cpp.s"
-	cd /mnt/d/code/leetcode/cmake-build-debug-wsl/editor/cn/build-in && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/build-in/ListNode.cpp -o CMakeFiles/built-in.dir/ListNode.cpp.s
+	cd /mnt/d/code/leetcode/cmake-build-debug-wsl/editor/cn/build-in && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/code/leetcode/editor/cn/build-in/ListNode.cpp -o CMakeFiles/built-in.dir/ListNode.cpp.s
 
 # Object files for target built-in
 built__in_OBJECTS = \
