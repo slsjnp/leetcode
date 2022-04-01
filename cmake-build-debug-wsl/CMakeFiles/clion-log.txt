@@ -4,6 +4,24 @@ C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "expor
 -- 3rd-party: fetch GoogleTest success!
 -- 3rd-party: start fetch Google benchmark...
 -- 3rd-party: fetch Google benchmark success!
+-- found target: 1035-uncrossedLines-test.cpp
+-- found target: 1143-longestCommonSubsequence-test.cpp
+-- found target: 115-distinctSubsequences-test.cpp
+-- found target: 146-lruCache-test.cpp
+-- found target: 206-reverseLinkedList-test.cpp
+-- found target: 215-kthLargestElementInAnArray-test.cpp
+-- found target: 3-longestSubstringWithoutRepeatingCharacters-test.cpp
+-- found target: 300-longestIncreasingSubsequence-test.cpp
+-- found target: 392-isSubsequence-test.cpp
+-- found target: 4-medianOfTwoSortedArrays-test.cpp
+-- found target: 438-findAllAnagramsInAString-test.cpp
+-- found target: 53-maximumSubarray-test.cpp
+-- found target: 567-permutationInString-test.cpp
+-- found target: 647-palindromicSubstrings-test.cpp
+-- found target: 674-longestContinuousIncreasingSubsequence-test.cpp
+-- found target: 718-maximumLengthOfRepeatedSubarray-test.cpp
+-- found target: 76-minimumWindowSubstring-test.cpp
+-- found target: 877-stoneGame-test.cpp
 -- found target: JFETK5002-test.cpp
 -- found target: WGki4K004-test.cpp
 -- found target: addTwoNumbers-2-test.cpp
@@ -64,7 +82,6 @@ C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "expor
 -- found target: longestIncreasingSubsequence-300-test.cpp
 -- found target: longestNiceSubstring-1763-test.cpp
 -- found target: longestSubstringWithAtLeastKRepeatingCharacters-395-test.cpp
--- found target: longestSubstringWithoutRepeatingCharacters-3-test.cpp
 -- found target: lruCache-146-test.cpp
 -- found target: luckyNumbersInAMatrix-1380-test.cpp
 -- found target: majorityElementIi-229-test.cpp
@@ -72,6 +89,7 @@ C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "expor
 -- found target: maximizeSumOfArrayAfterKNegations-1005-test.cpp
 -- found target: maximumNumberOfVisiblePoints-1610-test.cpp
 -- found target: maximumProductOfWordLengths-318-test.cpp
+-- found target: meituan-test.cpp
 -- found target: minimizedMaximumOfProductsDistributedToAnyStore-5920-test.cpp
 -- found target: minimumDifferenceBetweenHighestAndLowestOfKScores-1984-test.cpp
 -- found target: minimumMovesToEqualArrayElements-453-test.cpp
@@ -137,6 +155,7 @@ C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "expor
 -- found target: uniqueBinarySearchTreesIi-95-test.cpp
 -- found target: validPerfectSquare-367-test.cpp
 -- found target: validateBinarySearchTree-98-test.cpp
+-- found target: wangyi-test.cpp
 -- found target: week259-test.cpp
 -- found target: week260-test.cpp
 -- found target: week261-test.cpp
@@ -160,6 +179,10 @@ C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "expor
 -- found target: week279-test.cpp
 -- found target: week280-test.cpp
 -- found target: week283-test.cpp
+-- found target: week284-test.cpp
+-- found target: week284v1-test.cpp
+-- found target: week285-test.cpp
+-- found target: week286-test.cpp
 -- found target: week65-test.cpp
 -- found target: whereWillTheBallFall-1706-test.cpp
 -- found target: wordLadder-127-test.cpp

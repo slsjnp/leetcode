@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/wangyi-test.cpp-test.dir/editor/cn/wangyi-test.cpp.o  -o wangyi-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

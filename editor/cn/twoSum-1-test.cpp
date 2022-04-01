@@ -10,39 +10,15 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        std::unordered_map<int, vector<int>> hash_map;
-        std::unordered_map<int, vector<int>>::iterator it;
-        for (int i = 0; i < nums.size(); ++i) {
-            vector<int> tmp;
-            auto it = hash_map.find(nums[i]);
-            if (it==hash_map.end()){
-                tmp.push_back(i);
-                hash_map.insert(std::pair<int, vector<int>>(nums[i], tmp));
+        int _size = nums.size();
+        unordered_map<int, int> ma;
+        for (int i = 0; i < _size; ++i) {
+            if(ma.count(target - nums[i])){
+                return {ma[target-nums[i]], i};
             }
-            else{
-                it->second.push_back(i);
-            }
+            else ma[nums[i]] = i;
         }
-        vector<int> res;
-
-        for (int i = 0; i < nums.size(); ++i) {
-            auto it = hash_map.find(target - nums[i]);
-            if (it != hash_map.end()){
-                if (it->second[0] == i){
-                    if (it->second.size() > 1){
-                        res = vector<int> {i, it->second[1]};
-                        break;
-                    }
-                    else{
-                        continue;
-                    }
-                }
-                res = vector<int> {i, it->second[0]};
-                break;
-            }
-
-        }
-        return res;
+        return {};
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)

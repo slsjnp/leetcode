@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/53-maximumSubarray-test.cpp-test.dir/editor/cn/53-maximumSubarray-test.cpp.o  -o 53-maximumSubarray-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

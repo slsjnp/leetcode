@@ -11,6 +11,7 @@
 #include <algorithm>
 #include <map>
 #include <set>
+#include <stdlib.h>
 #include <unordered_set>
 #include <unordered_map>
 #include <stack>
@@ -20,7 +21,6 @@
 #include <climits>
 #include <cmath>
 #include <cstring>
-
 // // file output
 // #include <iostream>
 #include <fstream>
@@ -32,7 +32,6 @@
 // }
 // fout << flush;
 // fout.close();
-
 
 // listnode
 // #include "listnode.h"

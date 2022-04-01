@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/meituan-test.cpp-test.dir/editor/cn/meituan-test.cpp.o  -o meituan-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

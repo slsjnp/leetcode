@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/week286-test.cpp-test.dir/editor/cn/week286-test.cpp.o  -o week286-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

@@ -8,7 +8,27 @@ using namespace std;
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-
+        unordered_map<char, int> ma, vis;
+        int l = 0, r = 0;
+        int _size = s.size();
+        int res = 0, sum = 0;
+        while( r < _size){
+            char c = s[r];
+            if (ma.count(c) == 0 || ma[c] == 0){
+                res++;
+            }
+            ma[c]++;
+            r++;
+            while(r - l > res){
+                ma[s[l]]--;
+                if (ma[s[l]] == 0){
+                    res--;
+                }
+                l++;
+            }
+            sum = max(sum, res);
+        }
+        return sum;
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)

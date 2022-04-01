@@ -18,70 +18,41 @@ using namespace std;
 class Solution {
 public:
     ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
+        ListNode *res = new ListNode();
+        ListNode *head = res;
+        int tmp;
         int flag = 0;
-        ListNode *head = new ListNode();
-        ListNode *ans = head;
-        int sum;
-        while (l1 and l2) {
-            sum = l1->val + l2->val + flag;
-            if (sum > 9) {
-                head->val = sum % 10;
-                flag = 1;
-            } else {
-                head->val = sum;
-                flag = 0;
+        while(l1 || l2){
+            if (l1 && l2){
+                tmp = l1->val + l2->val + flag;
+                if (tmp > 9) flag = 1;
+                else flag = 0;
+                res->next = new ListNode(tmp % 10);
+                res = res->next;
+                l1 = l1->next;
+                l2 = l2->next;
             }
-            l1 = l1->next;
-            l2 = l2->next;
-            if(l1 or l2){
-                head->next = new ListNode();
-                head = head->next;
+            else if (l1){
+                tmp = l1->val + flag;
+                if (tmp > 9) flag = 1;
+                else flag = 0;
+                res->next = new ListNode(tmp % 10);
+                res = res->next;
+                l1 = l1->next;
             }
-
+            else if (l2){
+                tmp = l2->val + flag;
+                if (tmp > 9) flag = 1;
+                else flag = 0;
+                res->next = new ListNode(tmp % 10);
+                res = res->next;
+                l2 = l2->next;
+            }
         }
-        while (l1) {
-            sum = l1->val + flag;
-            if (sum > 9) {
-                head->val = sum % 10;
-                flag = 1;
-            } else {
-                head->val = sum;
-                flag = 0;
-            }
-            l1 = l1->next;
-            // l2 = l2->next;
-            if(l1){
-                head->next = new ListNode();
-                head = head->next;
-            }
-
+        if (flag){
+            res->next = new ListNode(1);
         }
-        while (l2) {
-            sum = l2->val + flag;
-            if (sum > 9) {
-                head->val = sum % 10;
-                flag = 1;
-            } else {
-                head->val = sum;
-                flag = 0;
-            }
-            l2 = l2->next;
-            // l2 = l2->next;
-            if(l2){
-                head->next = new ListNode();
-                head = head->next;
-            }
-
-        }
-        if(flag){
-            head->next = new ListNode();
-            head = head->next;
-            head->val = 1;
-        }
-        // else{
-        // delete head;
-        // }
-        return ans;
+        return head->next;
     }
 };
 

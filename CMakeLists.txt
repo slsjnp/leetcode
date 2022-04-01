@@ -77,7 +77,7 @@ foreach (SUBDIR ${SUBDIRS})
     # 检测benchmark代码
     if (EXISTS ${CMAKE_CURRENT_LIST_DIR}/${SUBDIR}/${SUBDIR}-benchmark.cpp)
         # 编译benchmark代码
-        add_executable(${SUBDIR}-benchmark ${CMAKE_CURRENT_LIST_DIR}/${SUBDIR}/${SUBDIR}-benchmark.cpp editor/cn/header.h editor/cn/seat-test.cpp editor/cn/biweek64-test.cpp editor/cn/week65-test.cpp editor/cn/week266-test.cpp editor/cn/biweek65-test.cpp)
+        add_executable(${SUBDIR}-benchmark ${CMAKE_CURRENT_LIST_DIR}/${SUBDIR}/${SUBDIR}-benchmark.cpp editor/cn/header.h editor/cn/seat-test.cpp editor/cn/biweek64-test.cpp editor/cn/week65-test.cpp editor/cn/week266-test.cpp editor/cn/biweek65-test.cpp editor/cn/meituan-test.cpp)
         # 链接built-in库
 #        target_link_libraries(${SUBDIR}-benchmark built-in)
         # 链接benchmark库

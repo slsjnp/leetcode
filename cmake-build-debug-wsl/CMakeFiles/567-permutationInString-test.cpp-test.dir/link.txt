@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -fsanitize=address CMakeFiles/567-permutationInString-test.cpp-test.dir/editor/cn/567-permutationInString-test.cpp.o  -o 567-permutationInString-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 
