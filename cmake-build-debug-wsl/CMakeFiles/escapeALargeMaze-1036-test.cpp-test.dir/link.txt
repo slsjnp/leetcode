@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/escapeALargeMaze-1036-test.cpp-test.dir/editor/cn/escapeALargeMaze-1036-test.cpp.o  -o escapeALargeMaze-1036-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

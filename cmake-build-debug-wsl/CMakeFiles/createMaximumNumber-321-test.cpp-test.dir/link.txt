@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/createMaximumNumber-321-test.cpp-test.dir/editor/cn/createMaximumNumber-321-test.cpp.o  -o createMaximumNumber-321-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

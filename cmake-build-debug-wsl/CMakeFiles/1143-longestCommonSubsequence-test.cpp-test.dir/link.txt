@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/1143-longestCommonSubsequence-test.cpp-test.dir/editor/cn/1143-longestCommonSubsequence-test.cpp.o  -o 1143-longestCommonSubsequence-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

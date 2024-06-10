@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/lruCache-146-test.cpp-test.dir/editor/cn/lruCache-146-test.cpp.o  -o lruCache-146-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

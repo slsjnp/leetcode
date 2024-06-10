@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/647-palindromicSubstrings-test.cpp-test.dir/editor/cn/647-palindromicSubstrings-test.cpp.o  -o 647-palindromicSubstrings-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

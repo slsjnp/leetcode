@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/pancakeSorting-969-test.cpp-test.dir/editor/cn/pancakeSorting-969-test.cpp.o  -o pancakeSorting-969-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

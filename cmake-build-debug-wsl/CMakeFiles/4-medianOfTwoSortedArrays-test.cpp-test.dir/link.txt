@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/4-medianOfTwoSortedArrays-test.cpp-test.dir/editor/cn/4-medianOfTwoSortedArrays-test.cpp.o  -o 4-medianOfTwoSortedArrays-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

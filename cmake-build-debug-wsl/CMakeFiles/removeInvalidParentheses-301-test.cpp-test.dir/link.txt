@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/removeInvalidParentheses-301-test.cpp-test.dir/editor/cn/removeInvalidParentheses-301-test.cpp.o  -o removeInvalidParentheses-301-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

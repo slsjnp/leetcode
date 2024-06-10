@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/simplifyPath-71-test.cpp-test.dir/editor/cn/simplifyPath-71-test.cpp.o  -o simplifyPath-71-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

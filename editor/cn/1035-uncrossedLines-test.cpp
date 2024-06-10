@@ -21,13 +21,28 @@ public:
 };
 //leetcode submit region end(Prohibit modification and deletion)
 
+union task {
+    int32_t i;
+    struct task_t{
+        int8_t lock;
+        int8_t pending;
+    } a;
+    struct test{
+        int16_t lock_pending;
+        int16_t tail;
+    } b;
+};
 
 namespace {
     TEST(UncrossedLines, Example1) {      // NOLINT
-        std::vector<int> nums = {  };
-        auto ans = Solution().uncrossedLines(nums);
-        decltype(ans) rightAns = ;
-        ASSERT_EQ(ans, rightAns);
+        task c{};
+        c.a.lock = 1;
+        printf("%d", c.i);
+
+        // std::vector<int> nums = {  };
+        // auto ans = Solution().uncrossedLines(nums);
+        // decltype(ans) rightAns = ;
+        // ASSERT_EQ(ans, rightAns);
     }
 
 }

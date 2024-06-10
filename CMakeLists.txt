@@ -30,23 +30,23 @@ endif ()
 enable_testing()
 
 # 启动自下载
-#include(FetchContent)
-#set(GOOGLETEST "/home/sj/googletest/build/lib")
-#link_directories(GOOGLETEST)
-#include_directories("/home/sj/googletest/googletest/include")
+include(FetchContent)
+set(GOOGLETEST "/home/sj/googletest/build/lib")
+link_directories(GOOGLETEST)
+include_directories("/home/sj/googletest/googletest/include")
 # FetchContent获取GTest
 message(STATUS "3rd-party: start fetch GoogleTest...")
-#FetchContent_Declare(googletest GIT_REPOSITORY https://hub.fastgit.org/google/googletest.git)   # 镜像站加速
-set(INSTALL_GTEST OFF)       # 不安装GTest
-#FetchContent_MakeAvailable(googletest)
+FetchContent_Declare(googletest GIT_REPOSITORY https://hub.fastgit.org/google/googletest.git)   # 镜像站加速
+set(INSTALL_GTEST ON)       # 不安装GTest
+FetchContent_MakeAvailable(googletest)
 message(STATUS "3rd-party: fetch GoogleTest success!")
 
 # git获取Google benchmark
 message(STATUS "3rd-party: start fetch Google benchmark...")
-#FetchContent_Declare(benchmark GIT_REPOSITORY https://hub.fastgit.org/google/benchmark.git)     # 镜像站加速
+FetchContent_Declare(benchmark GIT_REPOSITORY https://hub.fastgit.org/google/benchmark.git)     # 镜像站加速
 set(BENCHMARK_ENABLE_TESTING OFF)       # 不编译benchmark测试项
 set(BENCHMARK_ENABLE_INSTALL OFF)       # 不安装benchmark
-#FetchContent_MakeAvailable(benchmark)
+FetchContent_MakeAvailable(benchmark)
 message(STATUS "3rd-party: fetch Google benchmark success!")
 
 # 引入build-in依赖
@@ -54,14 +54,14 @@ include_directories(editor/cn/build-in)
 add_subdirectory(editor/cn/build-in)
 
 # 生成所有子目录到变量 SUBDIRS
-file(GLOB SUBDIRS RELATIVE ${CMAKE_CURRENT_LIST_DIR}/editor/cn ${CMAKE_CURRENT_LIST_DIR}/editor/cn/*-test.cpp)
+file(GLOB SUBDIRS RELATIVE ${CMAKE_CURRENT_LIST_DIR}/editor/cn ${CMAKE_CURRENT_LIST_DIR}/editor/cn/*-test)
 # 遍历所有子目录，如果子目录下存在 CMakeLists.txt 文件，add_subdirectory
 foreach (SUBDIR ${SUBDIRS})
     # 检测test代码
-    if (EXISTS ${CMAKE_CURRENT_LIST_DIR}/editor/cn/${SUBDIR})
+    if (EXISTS ${CMAKE_CURRENT_LIST_DIR}/editor/cn/${SUBDIR}/${SUBDIR}.cpp)
         message(STATUS "found target: ${SUBDIR}")
         # 编译test代码
-        add_executable(${SUBDIR}-test ${CMAKE_CURRENT_LIST_DIR}/editor/cn/${SUBDIR})
+        add_executable(${SUBDIR}-test ${CMAKE_CURRENT_LIST_DIR}/editor/cn/${SUBDIR}/${SUBDIR}.cpp)
         # 链接ASan库
         target_compile_options(${SUBDIR}-test PRIVATE -fsanitize=address)
         target_link_options(${SUBDIR}-test PRIVATE -fsanitize=address)
@@ -77,7 +77,9 @@ foreach (SUBDIR ${SUBDIRS})
     # 检测benchmark代码
     if (EXISTS ${CMAKE_CURRENT_LIST_DIR}/${SUBDIR}/${SUBDIR}-benchmark.cpp)
         # 编译benchmark代码
-        add_executable(${SUBDIR}-benchmark ${CMAKE_CURRENT_LIST_DIR}/${SUBDIR}/${SUBDIR}-benchmark.cpp editor/cn/header.h editor/cn/seat-test.cpp editor/cn/biweek64-test.cpp editor/cn/week65-test.cpp editor/cn/week266-test.cpp editor/cn/biweek65-test.cpp editor/cn/meituan-test.cpp)
+        add_executable(${SUBDIR}-benchmark ${CMAKE_CURRENT_LIST_DIR}/${SUBDIR}/${SUBDIR}-benchmark.cpp editor/cn/header.h editor/cn/seat-test.cpp editor/cn/biweek64-test.cpp editor/cn/week65-test.cpp editor/cn/week266-test.cpp editor/cn/biweek65-test.cpp editor/cn/meituan-test.cpp
+                editor/cigen.cpp
+                editor/cigen.h)
         # 链接built-in库
 #        target_link_libraries(${SUBDIR}-benchmark built-in)
         # 链接benchmark库

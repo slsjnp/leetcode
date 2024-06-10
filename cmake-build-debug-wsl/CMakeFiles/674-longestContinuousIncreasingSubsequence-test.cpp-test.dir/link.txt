@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/674-longestContinuousIncreasingSubsequence-test.cpp-test.dir/editor/cn/674-longestContinuousIncreasingSubsequence-test.cpp.o  -o 674-longestContinuousIncreasingSubsequence-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

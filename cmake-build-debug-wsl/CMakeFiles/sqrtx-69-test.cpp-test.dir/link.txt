@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/sqrtx-69-test.cpp-test.dir/editor/cn/sqrtx-69-test.cpp.o  -o sqrtx-69-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

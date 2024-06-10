@@ -1,3 +1,0 @@
-repository='https://hub.fastgit.org/google/benchmark.git'
-module=''
-tag='origin'

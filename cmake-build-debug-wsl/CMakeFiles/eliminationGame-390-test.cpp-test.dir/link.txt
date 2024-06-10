@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/eliminationGame-390-test.cpp-test.dir/editor/cn/eliminationGame-390-test.cpp.o  -o eliminationGame-390-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

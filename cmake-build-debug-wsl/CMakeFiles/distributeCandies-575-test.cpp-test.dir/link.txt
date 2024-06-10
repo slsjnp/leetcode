@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/distributeCandies-575-test.cpp-test.dir/editor/cn/distributeCandies-575-test.cpp.o  -o distributeCandies-575-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

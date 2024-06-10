@@ -12,8 +12,8 @@ project(googletest-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://hub.fastgit.org/google/googletest.git"
-                    SOURCE_DIR          "/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-src"
-                    BINARY_DIR          "/mnt/d/code/c-code/leetcode/cmake-build-debug/_deps/googletest-build"
+                    SOURCE_DIR          "/mnt/f/leetcode/cmake-build-debug/_deps/googletest-src"
+                    BINARY_DIR          "/mnt/f/leetcode/cmake-build-debug/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

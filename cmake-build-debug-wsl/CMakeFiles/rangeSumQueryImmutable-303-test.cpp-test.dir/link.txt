@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/rangeSumQueryImmutable-303-test.cpp-test.dir/editor/cn/rangeSumQueryImmutable-303-test.cpp.o  -o rangeSumQueryImmutable-303-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

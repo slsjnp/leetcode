@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/substringWithConcatenationOfAllWords-30-test.cpp-test.dir/editor/cn/substringWithConcatenationOfAllWords-30-test.cpp.o  -o substringWithConcatenationOfAllWords-30-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

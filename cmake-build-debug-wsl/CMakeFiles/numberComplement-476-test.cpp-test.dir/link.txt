@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/numberComplement-476-test.cpp-test.dir/editor/cn/numberComplement-476-test.cpp.o  -o numberComplement-476-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

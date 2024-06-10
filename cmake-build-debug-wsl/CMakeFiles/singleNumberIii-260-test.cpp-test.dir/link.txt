@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/singleNumberIii-260-test.cpp-test.dir/editor/cn/singleNumberIii-260-test.cpp.o  -o singleNumberIii-260-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

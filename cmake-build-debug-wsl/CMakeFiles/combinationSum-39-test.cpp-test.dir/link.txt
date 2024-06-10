@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/combinationSum-39-test.cpp-test.dir/editor/cn/combinationSum-39-test.cpp.o  -o combinationSum-39-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

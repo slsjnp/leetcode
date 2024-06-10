@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/crackingTheSafe-753-test.cpp-test.dir/editor/cn/crackingTheSafe-753-test.cpp.o  -o crackingTheSafe-753-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

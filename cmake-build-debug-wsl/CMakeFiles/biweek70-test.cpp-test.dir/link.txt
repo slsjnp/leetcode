@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/biweek70-test.cpp-test.dir/editor/cn/biweek70-test.cpp.o  -o biweek70-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/houseRobberIii-337-test.cpp-test.dir/editor/cn/houseRobberIii-337-test.cpp.o  -o houseRobberIii-337-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

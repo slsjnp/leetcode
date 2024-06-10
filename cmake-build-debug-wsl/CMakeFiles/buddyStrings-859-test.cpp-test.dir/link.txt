@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/buddyStrings-859-test.cpp-test.dir/editor/cn/buddyStrings-859-test.cpp.o  -o buddyStrings-859-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

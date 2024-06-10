@@ -1,3 +1,0 @@
-repository='https://hub.fastgit.org/google/googletest.git'
-module=''
-tag='origin'

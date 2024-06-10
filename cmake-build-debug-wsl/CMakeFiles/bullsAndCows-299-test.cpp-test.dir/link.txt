@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/bullsAndCows-299-test.cpp-test.dir/editor/cn/bullsAndCows-299-test.cpp.o  -o bullsAndCows-299-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 

@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -fsanitize=address CMakeFiles/wordSearch-79-test.cpp-test.dir/editor/cn/wordSearch-79-test.cpp.o  -o wordSearch-79-test.cpp-test  editor/cn/build-in/libbuilt-in.a -lgtest_main -lgtest -lpthread 
